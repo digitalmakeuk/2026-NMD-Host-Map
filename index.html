@@ -1,0 +1,299 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Participation Map</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <style>
+    :root { --sidebar-w: 360px; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+
+    .app { display:flex; height:100vh; width:100vw; }
+
+    .sidebar {
+      width: var(--sidebar-w);
+      min-width: 260px;
+      border-right: 1px solid #e6e6e6;
+      background:#fff;
+      display:flex;
+      flex-direction:column;
+    }
+
+    .topbar {
+      padding: 14px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .title {
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .controls {
+      display:flex;
+      gap:8px;
+    }
+
+    .controls input,
+    .controls select {
+      width:100%;
+      padding:10px;
+      border:1px solid #ddd;
+      border-radius:10px;
+      font-size:14px;
+    }
+
+    .list {
+      overflow:auto;
+      padding:12px;
+    }
+
+    .item {
+      display:flex;
+      gap:10px;
+      align-items:center;
+      padding:10px;
+      border:1px solid #eee;
+      border-radius:12px;
+      margin-bottom:10px;
+      cursor:pointer;
+      transition: transform 0.08s ease;
+    }
+
+    .item:hover {
+      transform: translateY(-1px);
+    }
+
+    .logo {
+      width:42px;
+      height:42px;
+      border-radius:10px;
+      object-fit:cover;
+      border:1px solid #eee;
+      background:#fafafa;
+      flex:0 0 auto;
+    }
+
+    .name {
+      font-weight:600;
+      font-size:14px;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+
+    .sub {
+      font-size:12px;
+      color:#666;
+      margin-top:4px;
+    }
+
+    .badge {
+      display:inline-block;
+      font-size:11px;
+      padding:3px 8px;
+      border:1px solid #eee;
+      border-radius:999px;
+      margin-left:6px;
+      color:#444;
+    }
+
+    .map {
+      flex:1;
+    }
+
+    #map {
+      height:100%;
+      width:100%;
+    }
+
+    @media (max-width: 900px) {
+      .app { flex-direction:column; }
+      .sidebar {
+        width:100%;
+        height:45%;
+        border-right:none;
+        border-bottom:1px solid #e6e6e6;
+      }
+      .map { height:55%; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="topbar">
+        <div class="title">Participation Map</div>
+        <div class="controls">
+          <input id="search" type="search" placeholder="Search…" />
+          <select id="year">
+            <option value="all">All</option>
+          </select>
+        </div>
+      </div>
+      <div class="list" id="list"></div>
+    </aside>
+
+    <main class="map">
+      <div id="map"></div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <script>
+    const GEOJSON_ENDPOINT = "YOUR_GEOJSON_ENDPOINT_HERE";
+
+    const map = L.map("map").setView([54.5, -3.0], 6);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: "&copy; OpenStreetMap contributors"
+    }).addTo(map);
+
+    let allFeatures = [];
+    let geoLayer = null;
+    const markerById = new Map();
+
+    function esc(s) {
+      return String(s ?? "").replace(/[&<>"']/g, c => ({
+        "&":"&amp;",
+        "<":"&lt;",
+        ">":"&gt;",
+        '"':"&quot;",
+        "'":"&#039;"
+      }[c]));
+    }
+
+    function popupHtml(p) {
+      const img = p.logo_url
+        ? `<img src="${esc(p.logo_url)}" style="max-width:240px;border-radius:10px;display:block;margin:8px 0;border:1px solid #eee" />`
+        : "";
+
+      const link = p.page_url
+        ? `<div style="margin-top:6px;"><a href="${esc(p.page_url)}" target="_blank" rel="noopener">View details</a></div>`
+        : "";
+
+      const notes = p.notes
+        ? `<div style="margin-top:6px;">${esc(p.notes)}</div>`
+        : "";
+
+      return `
+        <div style="min-width:220px;font-family:system-ui;">
+          <div style="font-weight:700;">${esc(p.name)}</div>
+          <div style="font-size:12px;color:#666;">Year: ${esc(p.year)}</div>
+          ${img}
+          ${link}
+          ${notes}
+        </div>
+      `;
+    }
+
+    function render(features) {
+      markerById.clear();
+      if (geoLayer) map.removeLayer(geoLayer);
+
+      geoLayer = L.geoJSON({type:"FeatureCollection", features}, {
+        pointToLayer: (f, latlng) => {
+          const m = L.marker(latlng);
+          m.bindPopup(popupHtml(f.properties || {}));
+          return m;
+        },
+        onEachFeature: (f, layer) => {
+          markerById.set(f.__id, layer);
+        }
+      }).addTo(map);
+
+      if (features.length) {
+        map.fitBounds(geoLayer.getBounds().pad(0.12));
+      }
+
+      renderList(features);
+    }
+
+    function renderList(features) {
+      const list = document.getElementById("list");
+      list.innerHTML = "";
+
+      if (!features.length) {
+        list.innerHTML = `<div style="padding:12px;color:#666;">No matches.</div>`;
+        return;
+      }
+
+      for (const f of features) {
+        const p = f.properties || {};
+        const div = document.createElement("div");
+        div.className = "item";
+
+        div.innerHTML = `
+          <img class="logo" src="${esc(p.logo_url)}" onerror="this.style.display='none'" />
+          <div>
+            <div class="name">${esc(p.name)} <span class="badge">${esc(p.year)}</div></span>
+            <div class="sub">${esc(p.notes || "")}</div>
+          </div>
+        `;
+
+        div.onclick = () => {
+          const m = markerById.get(f.__id);
+          if (!m) return;
+          map.flyTo(m.getLatLng(), 14, { duration: 0.6 });
+          setTimeout(() => m.openPopup(), 250);
+        };
+
+        list.appendChild(div);
+      }
+    }
+
+    function applyFilters() {
+      const q = document.getElementById("search").value.toLowerCase();
+      const y = document.getElementById("year").value;
+
+      const filtered = allFeatures.filter(f => {
+        const p = f.properties || {};
+        const matchText = !q || String(p.name).toLowerCase().includes(q);
+        const matchYear = (y === "all") || String(p.year) === y;
+        return matchText && matchYear;
+      });
+
+      render(filtered);
+    }
+
+    function populateYears() {
+      const years = [...new Set(allFeatures.map(f => String(f.properties.year)).filter(Boolean))]
+        .sort((a,b)=>Number(b)-Number(a));
+
+      const sel = document.getElementById("year");
+
+      for (const y of years) {
+        const opt = document.createElement("option");
+        opt.value = y;
+        opt.textContent = y;
+        sel.appendChild(opt);
+      }
+    }
+
+    async function init() {
+      const res = await fetch(GEOJSON_ENDPOINT);
+      const data = await res.json();
+
+      allFeatures = (data.features || []).map((f, idx) => {
+        f.__id = `${f.properties.year}-${f.properties.name}-${idx}`.toLowerCase();
+        return f;
+      });
+
+      populateYears();
+      applyFilters();
+    }
+
+    document.getElementById("search").addEventListener("input", applyFilters);
+    document.getElementById("year").addEventListener("change", applyFilters);
+
+    init();
+  </script>
+</body>
+</html>
