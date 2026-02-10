@@ -1,390 +1,284 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Participation Map</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Participation Map</title>
 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 
-  <style>
-    :root { --sidebar-w: 390px; }
-    * { box-sizing: border-box; }
-    body { margin:0; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+<style>
+:root { --sidebar-w: 390px; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
 
-    .app { display:flex; height:100vh; width:100vw; }
+.app { display:flex; height:100vh; width:100vw; }
 
-    .sidebar {
-      width: var(--sidebar-w);
-      min-width: 280px;
-      border-right: 1px solid #e6e6e6;
-      background:#fff;
-      display:flex;
-      flex-direction:column;
-    }
+.sidebar {
+  width: var(--sidebar-w);
+  min-width: 280px;
+  border-right: 1px solid #e6e6e6;
+  background:#fff;
+  display:flex;
+  flex-direction:column;
+}
 
-    .topbar { padding: 14px; border-bottom: 1px solid #eee; }
-    .title { font-weight: 800; margin-bottom: 10px; font-size: 15px; }
+.topbar { padding:14px; border-bottom:1px solid #eee; }
+.title { font-weight:800; margin-bottom:10px; font-size:15px; }
 
-    .controls { display:flex; gap:8px; }
-    .controls input {
-      width:100%;
-      padding:10px;
-      border:1px solid #ddd;
-      border-radius:10px;
-      font-size:14px;
-    }
+.controls input {
+  width:100%;
+  padding:10px;
+  border:1px solid #ddd;
+  border-radius:10px;
+  font-size:14px;
+}
 
-    .list { overflow:auto; padding:12px; }
+.list { overflow:auto; padding:12px; }
 
-    .item {
-      display:flex;
-      gap:10px;
-      align-items:flex-start;
-      padding:12px;
-      border:1px solid #eee;
-      border-radius:12px;
-      margin-bottom:10px;
-      cursor:pointer;
-      transition: transform 0.08s ease;
-    }
-    .item:hover { transform: translateY(-1px); }
+.item {
+  display:flex;
+  gap:10px;
+  padding:12px;
+  border:1px solid #eee;
+  border-radius:12px;
+  margin-bottom:10px;
+  cursor:pointer;
+}
 
-    .logo {
-      width:44px;
-      height:44px;
-      border-radius:10px;
-      object-fit:cover;
-      border:1px solid #eee;
-      background:#fafafa;
-      flex:0 0 auto;
-      margin-top: 2px;
-    }
+.logo {
+  width:44px;
+  height:44px;
+  border-radius:10px;
+  object-fit:cover;
+  border:1px solid #eee;
+  background:#fafafa;
+}
 
-    .name {
-      font-weight:700;
-      font-size:14px;
-      white-space:nowrap;
-      overflow:hidden;
-      text-overflow:ellipsis;
-      max-width: 260px;
-    }
+.name { font-weight:700; font-size:14px; }
+.sub { font-size:12px; color:#666; margin-top:6px; }
 
-    .sub {
-      font-size:12px;
-      color:#666;
-      margin-top:6px;
-      line-height: 1.25rem;
-    }
+.map { flex:1; }
+#map { height:100%; width:100%; }
 
-    .map { flex:1; }
-    #map { height:100%; width:100%; }
+.details { overflow:auto; padding:12px; display:none; }
+.details.active { display:block; }
 
-    /* Details panel */
-    .details { overflow:auto; padding:12px; }
-    .details.hidden { display:none; }
+.backbtn{
+  border:1px solid #ddd;
+  padding:8px 10px;
+  border-radius:10px;
+  background:#fff;
+  cursor:pointer;
+  margin-bottom:10px;
+}
 
-    .backbtn{
-      display:inline-flex; align-items:center; gap:8px;
-      border:1px solid #ddd; background:#fff; color:#111;
-      padding:8px 10px; border-radius:10px; cursor:pointer;
-      font-size:14px;
-    }
-    .backbtn:hover { background:#fafafa; }
-
-    .details h2 { margin:12px 0 6px 0; font-size:16px; }
-    .kv { margin-top:10px; font-size:13px; color:#222; }
-    .kv div { margin:8px 0; }
-    .kv b { color:#000; }
-
-    .details .hero {
-      width:100%; max-height:180px; object-fit:cover;
-      border-radius:12px; border:1px solid #eee; background:#fafafa;
-      margin-top:12px;
-    }
-
-    .details a { word-break: break-word; }
-
-    @media (max-width: 900px) {
-      .app { flex-direction:column; }
-      .sidebar {
-        width:100%;
-        height:50%;
-        border-right:none;
-        border-bottom:1px solid #e6e6e6;
-      }
-      .map { height:50%; }
-    }
-  </style>
+.details img {
+  width:100%;
+  max-height:180px;
+  object-fit:cover;
+  border-radius:12px;
+  border:1px solid #eee;
+  margin-top:10px;
+}
+</style>
 </head>
 
 <body>
-  <div class="app">
-    <aside class="sidebar">
-      <div class="topbar">
-        <div class="title">Participation Map</div>
-        <div class="controls">
-          <input id="search" type="search" placeholder="Type a county (prefix) or postcode (prefix)…" />
-        </div>
-      </div>
+<div class="app">
 
-      <div class="list" id="list"></div>
-      <div class="details hidden" id="details"></div>
-    </aside>
+  <aside class="sidebar">
+    <div class="topbar">
+      <div class="title">Participation Map</div>
+      <input id="search" type="search" placeholder="Type county or postcode prefix…" />
+    </div>
 
-    <main class="map">
-      <div id="map"></div>
-    </main>
-  </div>
+    <div id="list" class="list"></div>
+    <div id="details" class="details"></div>
+  </aside>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <main class="map">
+    <div id="map"></div>
+  </main>
 
-  <script>
-    const GEOJSON_ENDPOINT = "https://script.google.com/macros/s/AKfycbzvn-aL9-198YzDTCGl10sj2brAcoGRR7EYk5IoArX90CroRBUhO8qppLFqcWhUU4rz/exec";
+</div>
 
-    const map = L.map("map").setView([54.5, -3.0], 6);
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 19,
-      attribution: "&copy; OpenStreetMap contributors"
-    }).addTo(map);
+<script>
+const GEOJSON_ENDPOINT = "https://script.google.com/macros/s/AKfycbzvn-aL9-198YzDTCGl10sj2brAcoGRR7EYk5IoArX90CroRBUhO8qppLFqcWhUU4rz/exec";
 
-    let allFeatures = [];
-    let geoLayer = null;
-    const markerById = new Map();
+const map = L.map("map").setView([54.5, -3.0], 6);
 
-    const listEl = document.getElementById("list");
-    const detailsEl = document.getElementById("details");
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution: "&copy; OpenStreetMap contributors"
+}).addTo(map);
 
-    let prevView = null;
+let allFeatures = [];
+let geoLayer = null;
+let markerById = new Map();
+let prevView = null;
 
-    function esc(s) {
-      return String(s ?? "").replace(/[&<>"']/g, c => ({
-        "&":"&amp;",
-        "<":"&lt;",
-        ">":"&gt;",
-        '"':"&quot;",
-        "'":"&#039;"
-      }[c]));
-    }
+const listEl = document.getElementById("list");
+const detailsEl = document.getElementById("details");
 
-    function cleanUrl(u) {
-      const s = String(u || "").trim();
-      if (!s) return "";
-      return s.startsWith("http://") || s.startsWith("https://") ? s : ("https://" + s);
-    }
+function esc(s) {
+  return String(s || "").replace(/[&<>"']/g, c => ({
+    "&":"&amp;",
+    "<":"&lt;",
+    ">":"&gt;",
+    '"':"&quot;",
+    "'":"&#039;"
+  }[c]));
+}
 
-    function norm(s) { return String(s || "").trim().toLowerCase(); }
-    function normPostcode(s) { return norm(s).replace(/\s+/g, ""); }
+function cleanUrl(u) {
+  const s = String(u || "").trim();
+  if (!s) return "";
+  return s.startsWith("http") ? s : "https://" + s;
+}
 
-    function getLogo(p) { return p.image_url || ""; }
+function norm(s){ return String(s || "").toLowerCase().trim(); }
+function normPostcode(s){ return norm(s).replace(/\s+/g,""); }
 
-    // POPUP: Name + Image + Address + Website ONLY
-    function popupHtml(p) {
-      const logo = getLogo(p);
-      const addressLine = [p.address, p.suite].filter(Boolean).join(", ");
-      const website = p.website ? cleanUrl(p.website) : "";
+function popupHtml(p){
+  const img = p.image_url ? `<img src="${esc(p.image_url)}" style="max-width:240px;max-height:160px;object-fit:cover;border-radius:10px;border:1px solid #eee;margin:8px 0;">` : "";
+  const address = [p.address, p.suite].filter(Boolean).join(", ");
+  const website = p.website ? `<div><a href="${esc(cleanUrl(p.website))}" target="_blank">Visit website</a></div>` : "";
 
-      const img = logo
-        ? `<img src="${esc(logo)}" style="max-width:240px;max-height:160px;object-fit:cover;border-radius:10px;display:block;margin:8px 0;border:1px solid #eee" onerror="this.style.display='none'">`
-        : "";
+  return `
+    <div style="min-width:220px;">
+      <div style="font-weight:700;">${esc(p.name)}</div>
+      ${img}
+      ${address ? `<div style="font-size:12px;color:#666;">${esc(address)}</div>` : ""}
+      ${website}
+    </div>
+  `;
+}
 
-      const web = website
-        ? `<div style="margin-top:6px;"><a href="${esc(website)}" target="_blank" rel="noopener">${esc(website)}</a></div>`
-        : "";
+function showList(){
+  detailsEl.classList.remove("active");
+  listEl.style.display = "";
+  if(prevView){
+    map.flyTo(prevView.center, prevView.zoom, {duration:0.6});
+  }
+}
 
-      return `
-        <div style="min-width:220px;font-family:system-ui;">
-          <div style="font-weight:700;">${esc(p.name || "")}</div>
-          ${img}
-          ${addressLine ? `<div style="font-size:12px;color:#666;">${esc(addressLine)}</div>` : ``}
-          ${web}
-        </div>
-      `;
-    }
+function showDetails(feature){
+  const p = feature.properties;
+  const address = [p.address, p.suite].filter(Boolean).join(", ");
 
-    function showList() {
-      detailsEl.classList.add("hidden");
-      listEl.style.display = "";
+  listEl.style.display = "none";
+  detailsEl.classList.add("active");
 
-      if (prevView) {
-        map.flyTo(prevView.center, prevView.zoom, { duration: 0.6 });
-      }
-    }
-
-    function showDetails(feature) {
-      const p = feature.properties || {};
-      const logo = getLogo(p);
-      const addressLine = [p.address, p.suite].filter(Boolean).join(", ");
-      const website = p.website ? cleanUrl(p.website) : "";
-
-      listEl.style.display = "none";
-      detailsEl.classList.remove("hidden");
-
-      detailsEl.innerHTML = `
-        <button class="backbtn" type="button" id="backBtn">← Back</button>
-
-        <h2>${esc(p.name || "")}</h2>
-
-        ${logo ? `<img class="hero" src="${esc(logo)}" onerror="this.style.display='none'">` : ""}
-
-        <div class="kv">
-          ${addressLine ? `<div><b>Address:</b> ${esc(addressLine)}</div>` : ""}
-          ${p.county ? `<div><b>County:</b> ${esc(p.county)}</div>` : ""}
-          ${p.postcode ? `<div><b>Postcode:</b> ${esc(p.postcode)}</div>` : ""}
-          ${p.telephone ? `<div><b>Telephone:</b> ${esc(p.telephone)}</div>` : ""}
-          ${p.email ? `<div><b>Email:</b> <a href="mailto:${esc(p.email)}">${esc(p.email)}</a></div>` : ""}
-          ${p.category ? `<div><b>Category:</b> ${esc(p.category)}</div>` : ""}
-          ${website ? `<div><b>Website:</b> <a href="${esc(website)}" target="_blank" rel="noopener">${esc(website)}</a></div>` : ""}
-          ${p.description ? `<div style="margin-top:10px;"><b>Description:</b>
+  detailsEl.innerHTML = `
+    <button class="backbtn">← Back</button>
+    <h2>${esc(p.name)}</h2>
+    ${p.image_url ? `<img src="${esc(p.image_url)}">` : ""}
+    ${address ? `<div><b>Address:</b> ${esc(address)}</div>` : ""}
+    ${p.county ? `<div><b>County:</b> ${esc(p.county)}</div>` : ""}
+    ${p.postcode ? `<div><b>Postcode:</b> ${esc(p.postcode)}</div>` : ""}
+    ${p.telephone ? `<div><b>Telephone:</b> ${esc(p.telephone)}</div>` : ""}
+    ${p.website ? `<div><b>Website:</b> <a href="${esc(cleanUrl(p.website))}" target="_blank">${esc(p.website)}</a></div>` : ""}
+    ${p.description ? `<div><b>Description:</b>
 ${esc(p.description)}</div>` : ""}
-        </div>
-      `;
+  `;
 
-      detailsEl.querySelector("#backBtn").addEventListener("click", (ev) => {
-        ev.preventDefault();
-        showList();
-      });
-    }
+  detailsEl.querySelector(".backbtn").onclick = showList;
+}
 
-    function selectFeature(feature) {
-      prevView = { center: map.getCenter(), zoom: map.getZoom() };
+function selectFeature(f){
+  prevView = { center: map.getCenter(), zoom: map.getZoom() };
+  const marker = markerById.get(f.__id);
+  if(marker){
+    map.flyTo(marker.getLatLng(), 14, {duration:0.6});
+    setTimeout(()=>marker.openPopup(),250);
+  }
+  showDetails(f);
+}
 
-      const m = markerById.get(feature.__id);
-      if (m) {
-        map.flyTo(m.getLatLng(), 14, { duration: 0.6 });
-        setTimeout(() => m.openPopup(), 250);
-      }
-      showDetails(feature);
-    }
+function render(features){
+  if(geoLayer) map.removeLayer(geoLayer);
+  markerById.clear();
 
-    function render(features) {
-      markerById.clear();
-      if (geoLayer) map.removeLayer(geoLayer);
+  geoLayer = L.geoJSON({type:"FeatureCollection", features}, {
+    pointToLayer: (f,latlng)=>{
+      const m = L.marker(latlng);
+      m.bindPopup(popupHtml(f.properties));
+      m.on("click", ()=>selectFeature(f));
+      return m;
+    },
+    onEachFeature:(f,layer)=>markerById.set(f.__id,layer)
+  }).addTo(map);
 
-      geoLayer = L.geoJSON({type:"FeatureCollection", features}, {
-        pointToLayer: (f, latlng) => {
-          const m = L.marker(latlng);
-          m.bindPopup(popupHtml(f.properties || {}));
-          m.on("click", () => selectFeature(f));
-          return m;
-        },
-        onEachFeature: (f, layer) => markerById.set(f.__id, layer)
-      }).addTo(map);
+  if(features.length){
+    map.fitBounds(geoLayer.getBounds().pad(0.12));
+  }
 
-      if (features.length) {
-        map.fitBounds(geoLayer.getBounds().pad(0.12));
-      }
+  renderList(features);
+}
 
-      renderList(features);
-    }
+function renderList(features){
+  listEl.innerHTML = "";
 
-    function renderList(features) {
-      listEl.innerHTML = "";
+  if(!features.length){
+    listEl.innerHTML = "<div>No matches.</div>";
+    return;
+  }
 
-      if (!features.length) {
-        listEl.innerHTML = `<div style="padding:12px;color:#666;">No matches.</div>`;
-        return;
-      }
+  features.forEach(f=>{
+    const p = f.properties;
+    const address = [p.address, p.suite].filter(Boolean).join(", ");
 
-      for (const f of features) {
-        const p = f.properties || {};
-        const logo = getLogo(p);
-        const addressLine = [p.address, p.suite].filter(Boolean).join(", ");
-        const tel = p.telephone ? String(p.telephone).trim() : "";
-        const web = p.website ? cleanUrl(p.website) : "";
+    const div = document.createElement("div");
+    div.className = "item";
+    div.innerHTML = `
+      ${p.image_url ? `<img class="logo" src="${esc(p.image_url)}">` : ""}
+      <div>
+        <div class="name">${esc(p.name)}</div>
+        ${address ? `<div class="sub">${esc(address)}</div>` : ""}
+        ${p.county ? `<div class="sub">${esc(p.county)}</div>` : ""}
+        ${p.postcode ? `<div class="sub">${esc(p.postcode)}</div>` : ""}
+      </div>
+    `;
+    div.onclick = ()=>selectFeature(f);
+    listEl.appendChild(div);
+  });
+}
 
-        const div = document.createElement("div");
-        div.className = "item";
+function applyFilters(){
+  const qRaw = norm(document.getElementById("search").value);
+  const qPc = normPostcode(qRaw);
+  const isPostcode = /\d/.test(qRaw);
 
-        div.innerHTML = `
-          <img class="logo" src="${esc(logo)}" onerror="this.style.display='none'">
-          <div style="min-width:0; width:100%;">
-            <div class="name">${esc(p.name || "")}</div>
+  const filtered = allFeatures.filter(f=>{
+    if(!qRaw) return true;
+    const county = norm(f.properties.county);
+    const postcode = normPostcode(f.properties.postcode);
+    return isPostcode ? postcode.startsWith(qPc) : county.startsWith(qRaw);
+  });
 
-            ${addressLine ? `<div class="sub">${esc(addressLine)}</div>` : ``}
+  render(filtered);
+}
 
-            <div class="sub" style="display:flex; gap:10px; flex-wrap:wrap;">
-              ${p.county ? `<span>📍 ${esc(p.county)}`</span> : ``}
-              ${p.postcode ? `<span>🏷️ ${esc(p.postcode)}`</span> : ``}
-              ${tel ? `<span>📞 ${esc(tel)}`</span> : ``}
-            </div>
+async function init(){
+  const res = await fetch(GEOJSON_ENDPOINT,{cache:"no-store"});
+  const data = await res.json();
 
-            ${web ? `<div class="sub">
-              <a href="${esc(web)}" target="_blank" rel="noopener" onclick="event.stopPropagation();">Visit website</a>
-            </div>` : ``}
-          </div>
-        `;
+  allFeatures = (data.features||[]).map((f,i)=>{
+    f.__id = (f.properties.name||"item")+"-"+i;
+    return f;
+  });
 
-        div.onclick = () => selectFeature(f);
-        listEl.appendChild(div);
-      }
-    }
+  applyFilters();
+}
 
-    // PREFIX matching only:
-    // - if query contains a digit => postcode prefix match (ignoring spaces)
-    // - else => county prefix match
-    function applyFilters() {
-      const qRaw = norm(document.getElementById("search").value);
-      const qPc = normPostcode(qRaw);
-      const looksLikePostcode = /\d/.test(qRaw);
+document.getElementById("search").addEventListener("input", ()=>{
+  showList();
+  applyFilters();
+});
 
-      const filtered = allFeatures.filter(f => {
-        const p = f.properties || {};
-        if (!qRaw) return true;
-
-        const county = norm(p.county);
-        const postcode = normPostcode(p.postcode);
-
-        if (looksLikePostcode) return postcode.startsWith(qPc);
-        return county.startsWith(qRaw);
-      });
-
-      render(filtered);
-    }
-
-    async function init() {
-      const debug = document.createElement("div");
-      debug.style.position = "fixed";
-      debug.style.bottom = "10px";
-      debug.style.left = "10px";
-      debug.style.background = "rgba(0,0,0,.75)";
-      debug.style.color = "white";
-      debug.style.padding = "8px 10px";
-      debug.style.borderRadius = "10px";
-      debug.style.zIndex = "9999";
-      debug.style.fontSize = "12px";
-      debug.textContent = "Loading data…";
-      document.body.appendChild(debug);
-
-      try {
-        const res = await fetch(GEOJSON_ENDPOINT, { cache: "no-store" });
-        debug.textContent = "Fetch status: " + res.status;
-
-        const data = await res.json();
-        const count = (data.features && data.features.length) ? data.features.length : 0;
-        debug.textContent = "Features loaded: " + count;
-
-        allFeatures = (data.features || []).map((f, idx) => {
-          const p = f.properties || {};
-          f.__id = `${(p.name || "item")}-${idx}`.toLowerCase();
-          return f;
-        });
-
-        applyFilters();
-        setTimeout(() => debug.remove(), 2500);
-      } catch (err) {
-        debug.textContent = "ERROR: " + err.message;
-        console.error(err);
-      }
-    }
-
-    document.getElementById("search").addEventListener("input", () => {
-      showList();
-      applyFilters();
-    });
-
-    init();
-  </script>
+init();
+</script>
 </body>
 </html>
