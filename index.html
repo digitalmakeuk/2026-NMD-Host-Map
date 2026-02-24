@@ -1,284 +1,411 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Participation Map</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Participation Map</title>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 
-<style>
-:root { --sidebar-w: 390px; }
-* { box-sizing: border-box; }
-body { margin:0; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+  <style>
+    :root { --sidebar-w: 460px; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+    .app { display:flex; height:100vh; width:100vw; }
 
-.app { display:flex; height:100vh; width:100vw; }
+    .sidebar{
+      width: var(--sidebar-w);
+      min-width: 280px;
+      border-right: 1px solid #e6e6e6;
+      background:#fff;
+      display:flex;
+      flex-direction:column;
+    }
 
-.sidebar {
-  width: var(--sidebar-w);
-  min-width: 280px;
-  border-right: 1px solid #e6e6e6;
-  background:#fff;
-  display:flex;
-  flex-direction:column;
-}
+    .topbar{ padding:14px; border-bottom:1px solid #eee; }
+    .title{ font-weight:800; margin-bottom:16px; font-size:22px; }
 
-.topbar { padding:14px; border-bottom:1px solid #eee; }
-.title { font-weight:800; margin-bottom:10px; font-size:15px; }
+    .controls input{
+      width:100%;
+      padding:10px;
+      border:1px solid #ddd;
+      border-radius:10px;
+      font-size:14px;
+    }
 
-.controls input {
-  width:100%;
-  padding:10px;
-  border:1px solid #ddd;
-  border-radius:10px;
-  font-size:14px;
-}
+    .meta{
+      margin-top:8px;
+      font-size:12px;
+      color:#666;
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+    }
 
-.list { overflow:auto; padding:12px; }
+    .list{ overflow:auto; padding:12px; }
+    .item{
+      display:flex;
+      gap:10px;
+      padding:12px;
+      border:1px solid #eee;
+      border-radius:12px;
+      margin-bottom:10px;
+      cursor:pointer;
+    }
 
-.item {
-  display:flex;
-  gap:10px;
-  padding:12px;
-  border:1px solid #eee;
-  border-radius:12px;
-  margin-bottom:10px;
-  cursor:pointer;
-}
+    .item.text{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;            /* space between lines */
+        min-width: 0;
+    }
 
-.logo {
-  width:44px;
-  height:44px;
-  border-radius:10px;
-  object-fit:cover;
-  border:1px solid #eee;
-  background:#fafafa;
-}
+    .item.sub{
+        margin-top: 0;       /* gap handles spacing now */
+    }
 
-.name { font-weight:700; font-size:14px; }
-.sub { font-size:12px; color:#666; margin-top:6px; }
+    .logo{
+      width:44px;
+      height:44px;
+      border-radius:10px;
+      object-fit:cover;
+      border:1px solid #eee;
+      background:#fafafa;
+      flex:0 0 auto;
+    }
 
-.map { flex:1; }
-#map { height:100%; width:100%; }
+    .name{ font-weight:700; font-size:16px; }
+    .sub{ font-size:14px; color:#666; margin-top:6px; line-height:1.35rem; }
 
-.details { overflow:auto; padding:12px; display:none; }
-.details.active { display:block; }
+    .map{ flex:1; }
+    #map{ height:100%; width:100%; }
 
-.backbtn{
-  border:1px solid #ddd;
-  padding:8px 10px;
-  border-radius:10px;
-  background:#fff;
-  cursor:pointer;
-  margin-bottom:10px;
-}
+    .details{ overflow:auto; padding:12px; display:none; }
+    .details.active{ display:block; }
+    .backbtn{
+      border:1px solid #ddd;
+      padding:8px 10px;
+      font-size: 18px;
+      font-weight: 800;
+      color: #fff;
+      border-radius:10px;
+      background:rgb(12, 12, 136);
+      cursor:pointer;
+      margin-bottom:10px;
+    }
 
-.details img {
-  width:100%;
-  max-height:180px;
-  object-fit:cover;
-  border-radius:12px;
-  border:1px solid #eee;
-  margin-top:10px;
-}
-</style>
+    .details img{
+      width:100%;
+      max-height:180px;
+      object-fit:cover;
+      border-radius:12px;
+      border:1px solid #eee;
+      margin-top:10px;
+      background:#fafafa;
+    }
+
+    @media (max-width: 900px) {
+      .app { flex-direction:column; }
+      .sidebar{
+        width:100%;
+        height:50%;
+        border-right:none;
+        border-bottom:1px solid #e6e6e6;
+      }
+      .map{ height:50%; }
+    }
+  </style>
 </head>
 
 <body>
-<div class="app">
+  <div class="app">
 
-  <aside class="sidebar">
-    <div class="topbar">
-      <div class="title">Participation Map</div>
-      <input id="search" type="search" placeholder="Type county or postcode prefix…" />
-    </div>
+    <aside class="sidebar">
+      <div class="topbar">
+        <div class="title">Participation Map</div>
 
-    <div id="list" class="list"></div>
-    <div id="details" class="details"></div>
-  </aside>
+        <div class="controls">
+          <input id="search" type="search" placeholder="Type county or postcode prefix…" />
+        </div>
 
-  <main class="map">
-    <div id="map"></div>
-  </main>
-
-</div>
-
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
-<script>
-const GEOJSON_ENDPOINT = "https://script.google.com/macros/s/AKfycbzvn-aL9-198YzDTCGl10sj2brAcoGRR7EYk5IoArX90CroRBUhO8qppLFqcWhUU4rz/exec";
-
-const map = L.map("map").setView([54.5, -3.0], 6);
-
-L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  attribution: "&copy; OpenStreetMap contributors"
-}).addTo(map);
-
-let allFeatures = [];
-let geoLayer = null;
-let markerById = new Map();
-let prevView = null;
-
-const listEl = document.getElementById("list");
-const detailsEl = document.getElementById("details");
-
-function esc(s) {
-  return String(s || "").replace(/[&<>"']/g, c => ({
-    "&":"&amp;",
-    "<":"&lt;",
-    ">":"&gt;",
-    '"':"&quot;",
-    "'":"&#039;"
-  }[c]));
-}
-
-function cleanUrl(u) {
-  const s = String(u || "").trim();
-  if (!s) return "";
-  return s.startsWith("http") ? s : "https://" + s;
-}
-
-function norm(s){ return String(s || "").toLowerCase().trim(); }
-function normPostcode(s){ return norm(s).replace(/\s+/g,""); }
-
-function popupHtml(p){
-  const img = p.image_url ? `<img src="${esc(p.image_url)}" style="max-width:240px;max-height:160px;object-fit:cover;border-radius:10px;border:1px solid #eee;margin:8px 0;">` : "";
-  const address = [p.address, p.suite].filter(Boolean).join(", ");
-  const website = p.website ? `<div><a href="${esc(cleanUrl(p.website))}" target="_blank">Visit website</a></div>` : "";
-
-  return `
-    <div style="min-width:220px;">
-      <div style="font-weight:700;">${esc(p.name)}</div>
-      ${img}
-      ${address ? `<div style="font-size:12px;color:#666;">${esc(address)}</div>` : ""}
-      ${website}
-    </div>
-  `;
-}
-
-function showList(){
-  detailsEl.classList.remove("active");
-  listEl.style.display = "";
-  if(prevView){
-    map.flyTo(prevView.center, prevView.zoom, {duration:0.6});
-  }
-}
-
-function showDetails(feature){
-  const p = feature.properties;
-  const address = [p.address, p.suite].filter(Boolean).join(", ");
-
-  listEl.style.display = "none";
-  detailsEl.classList.add("active");
-
-  detailsEl.innerHTML = `
-    <button class="backbtn">← Back</button>
-    <h2>${esc(p.name)}</h2>
-    ${p.image_url ? `<img src="${esc(p.image_url)}">` : ""}
-    ${address ? `<div><b>Address:</b> ${esc(address)}</div>` : ""}
-    ${p.county ? `<div><b>County:</b> ${esc(p.county)}</div>` : ""}
-    ${p.postcode ? `<div><b>Postcode:</b> ${esc(p.postcode)}</div>` : ""}
-    ${p.telephone ? `<div><b>Telephone:</b> ${esc(p.telephone)}</div>` : ""}
-    ${p.website ? `<div><b>Website:</b> <a href="${esc(cleanUrl(p.website))}" target="_blank">${esc(p.website)}</a></div>` : ""}
-    ${p.description ? `<div><b>Description:</b>
-${esc(p.description)}</div>` : ""}
-  `;
-
-  detailsEl.querySelector(".backbtn").onclick = showList;
-}
-
-function selectFeature(f){
-  prevView = { center: map.getCenter(), zoom: map.getZoom() };
-  const marker = markerById.get(f.__id);
-  if(marker){
-    map.flyTo(marker.getLatLng(), 14, {duration:0.6});
-    setTimeout(()=>marker.openPopup(),250);
-  }
-  showDetails(f);
-}
-
-function render(features){
-  if(geoLayer) map.removeLayer(geoLayer);
-  markerById.clear();
-
-  geoLayer = L.geoJSON({type:"FeatureCollection", features}, {
-    pointToLayer: (f,latlng)=>{
-      const m = L.marker(latlng);
-      m.bindPopup(popupHtml(f.properties));
-      m.on("click", ()=>selectFeature(f));
-      return m;
-    },
-    onEachFeature:(f,layer)=>markerById.set(f.__id,layer)
-  }).addTo(map);
-
-  if(features.length){
-    map.fitBounds(geoLayer.getBounds().pad(0.12));
-  }
-
-  renderList(features);
-}
-
-function renderList(features){
-  listEl.innerHTML = "";
-
-  if(!features.length){
-    listEl.innerHTML = "<div>No matches.</div>";
-    return;
-  }
-
-  features.forEach(f=>{
-    const p = f.properties;
-    const address = [p.address, p.suite].filter(Boolean).join(", ");
-
-    const div = document.createElement("div");
-    div.className = "item";
-    div.innerHTML = `
-      ${p.image_url ? `<img class="logo" src="${esc(p.image_url)}">` : ""}
-      <div>
-        <div class="name">${esc(p.name)}</div>
-        ${address ? `<div class="sub">${esc(address)}</div>` : ""}
-        ${p.county ? `<div class="sub">${esc(p.county)}</div>` : ""}
-        ${p.postcode ? `<div class="sub">${esc(p.postcode)}</div>` : ""}
+        <div class="meta">
+          <div id="lastUpdated">Last updated: —</div>
+          <div id="status">Status: idle</div>
+        </div>
       </div>
-    `;
-    div.onclick = ()=>selectFeature(f);
-    listEl.appendChild(div);
-  });
-}
 
-function applyFilters(){
-  const qRaw = norm(document.getElementById("search").value);
-  const qPc = normPostcode(qRaw);
-  const isPostcode = /\d/.test(qRaw);
+      <div id="list" class="list"></div>
+      <div id="details" class="details"></div>
+    </aside>
 
-  const filtered = allFeatures.filter(f=>{
-    if(!qRaw) return true;
-    const county = norm(f.properties.county);
-    const postcode = normPostcode(f.properties.postcode);
-    return isPostcode ? postcode.startsWith(qPc) : county.startsWith(qRaw);
-  });
+    <main class="map">
+      <div id="map"></div>
+    </main>
 
-  render(filtered);
-}
+  </div>
 
-async function init(){
-  const res = await fetch(GEOJSON_ENDPOINT,{cache:"no-store"});
-  const data = await res.json();
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-  allFeatures = (data.features||[]).map((f,i)=>{
-    f.__id = (f.properties.name||"item")+"-"+i;
-    return f;
-  });
+  <script>
+    // === CONFIG ===
+    const GEOJSON_ENDPOINT = "https://script.google.com/macros/s/AKfycbzvn-aL9-198YzDTCGl10sj2brAcoGRR7EYk5IoArX90CroRBUhO8qppLFqcWhUU4rz/exec";
+    const POLL_MS = 30000; // 30s (use 15000 for 15s)
 
-  applyFilters();
-}
+    // === MAP ===
+    const map = L.map("map").setView([54.5, -3.0], 6);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: "&copy; OpenStreetMap contributors",
+      maxZoom: 19
+    }).addTo(map);
 
-document.getElementById("search").addEventListener("input", ()=>{
-  showList();
-  applyFilters();
-});
+    // === STATE ===
+    let allFeatures = [];
+    let geoLayer = null;
+    const markerById = new Map();
+    let prevView = null;
 
-init();
-</script>
+    let lastSignature = null; // used to avoid re-rendering identical payloads
+
+    // === DOM ===
+    const listEl = document.getElementById("list");
+    const detailsEl = document.getElementById("details");
+    const lastUpdatedEl = document.getElementById("lastUpdated");
+    const statusEl = document.getElementById("status");
+    const searchEl = document.getElementById("search");
+
+    // === HELPERS ===
+    function esc(s) {
+      return String(s || "").replace(/[&<>"']/g, c => ({
+        "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
+      }[c]));
+    }
+
+    function cleanUrl(u) {
+      const s = String(u || "").trim();
+      if (!s) return "";
+      return s.startsWith("http://") || s.startsWith("https://") ? s : ("https://" + s);
+    }
+
+    function norm(s){ return String(s || "").toLowerCase().trim(); }
+    function normPostcode(s){ return norm(s).replace(/\s+/g,""); }
+
+    function popupHtml(p){
+      const name = esc(p.name || "");
+      const address = esc([p.address, p.suite].filter(Boolean).join(", "));
+      const img = p.image_url
+        ? `<img src="${esc(p.image_url)}" style="max-width:240px;max-height:160px;object-fit:cover;border-radius:10px;border:1px solid #eee;margin:8px 0;display:block;background:#fafafa" onerror="this.style.display='none'">`
+        : "";
+      const website = p.website ? cleanUrl(p.website) : "";
+      const web = website
+        ? `<div style="margin-top:6px;"><a href="${esc(website)}" target="_blank" rel="noopener">Visit website</a></div>`
+        : "";
+
+      return `
+        <div style="min-width:220px;">
+          <div style="font-size:18px;font-weight:700;">${name}</div>
+          ${img}
+          ${address ? `<div style="font-size:16px;color:#666;">${address}</div>` : ``}
+          <div style="font-size:16px;color:#666;">${web}</div>
+        </div>
+      `;
+    }
+
+    function showList(){
+      detailsEl.classList.remove("active");
+      listEl.style.display = "";
+      if(prevView){
+        map.flyTo(prevView.center, prevView.zoom, { duration: 0.6 });
+      }
+    }
+
+    function showDetails(feature){
+      const p = feature.properties || {};
+      const address = [p.address, p.suite].filter(Boolean).join(", ");
+
+      listEl.style.display = "none";
+      detailsEl.classList.add("active");
+
+      detailsEl.innerHTML = `
+        <button class="backbtn" type="button">← Back</button>
+        <h2 style="margin:6px 0 0 0;">${esc(p.name || "")}</h2>
+
+        ${p.image_url ? `<img src="${esc(p.image_url)}" onerror="this.style.display='none'">` : ""}
+
+        <div style="margin-top:10px; font-size:16px; line-height:1.4;">
+          ${address ? `<div style="margin-top:10px;"><b>Address:</b> ${esc(address)}</div>` : ""}
+          ${p.county ? `<div style="margin-top:10px;"><b>County:</b> ${esc(p.county)}</div>` : ""}
+          ${p.postcode ? `<div style="margin-top:10px;"><b>Postcode:</b> ${esc(p.postcode)}</div>` : ""}
+          ${p.telephone ? `<div style="margin-top:10px;"><b>Telephone:</b> ${esc(p.telephone)}</div>` : ""}
+          ${p.email ? `<div style="margin-top:10px;"><b>Email:</b> <a href="mailto:${esc(p.email)}">${esc(p.email)}</a></div>` : ""}
+          ${p.year ? `<div style="margin-top:10px;"><b>Year:</b> ${esc(p.year)}</div>` : ""}
+          ${p.website ? `<div style="margin-top:10px;"><b>Website:</b> <a href="${esc(cleanUrl(p.website))}" target="_blank" rel="noopener">${esc(p.website)}</a></div>` : ""}
+          ${p.description ? `<div style="margin-top:10px;"><b>Description:</b>
+${esc(p.description)}</div>` : ""}
+        </div>
+      `;
+
+      detailsEl.querySelector(".backbtn").onclick = showList;
+    }
+
+    function selectFeature(f){
+      prevView = { center: map.getCenter(), zoom: map.getZoom() };
+      const marker = markerById.get(f.__id);
+      if(marker){
+        map.flyTo(marker.getLatLng(), 14, { duration: 0.6 });
+        setTimeout(() => marker.openPopup(), 200);
+      }
+      showDetails(f);
+    }
+
+    function render(features){
+      if(geoLayer) map.removeLayer(geoLayer);
+      markerById.clear();
+
+      geoLayer = L.geoJSON({ type:"FeatureCollection", features: features }, {
+        pointToLayer: (f, latlng) => {
+          const m = L.marker(latlng);
+          m.bindPopup(popupHtml(f.properties || {}));
+          m.on("click", () => selectFeature(f));
+          return m;
+        },
+        onEachFeature: (f, layer) => markerById.set(f.__id, layer)
+      }).addTo(map);
+
+      if(features.length){
+        map.fitBounds(geoLayer.getBounds().pad(0.12));
+      }
+
+      renderList(features);
+    }
+
+    function renderList(features){
+      listEl.innerHTML = "";
+
+      if(!features.length){
+        listEl.innerHTML = `<div style="padding:8px;color:#666;">No matches.</div>`;
+        return;
+      }
+
+      for(const f of features){
+        const p = f.properties || {};
+        const address = [p.address, p.suite].filter(Boolean).join(", ");
+
+        const countyLine = p.county ? `📍 ${esc(p.county)}` : "";
+        const postcodeLine = p.postcode ? `🏷️ ${esc(p.postcode)}` : "";
+        const telLine = p.telephone ? `📞 ${esc(p.telephone)}` : "";
+
+        const tags = [countyLine, postcodeLine, telLine].filter(Boolean).join(" &nbsp; ");
+
+        const div = document.createElement("div");
+        div.className = "item";
+
+        div.innerHTML = `
+          ${p.image_url ? `<img class="logo" src="${esc(p.image_url)}" onerror="this.style.display='none'">` : ""}
+          <div class="text">
+            <div class="name">${esc(p.name || "")}</div>
+            ${address ? `<div class="sub">${esc(address)}</div>` : ""}
+            ${tags ? `<div class="sub">${tags}</div>` : ""}
+          </div>
+        `;
+
+        div.onclick = () => selectFeature(f);
+        listEl.appendChild(div);
+      }
+    }
+
+    function applyFilters(){
+      const qRaw = norm(searchEl.value);
+      const qPc = normPostcode(qRaw);
+      const isPostcode = /\d/.test(qRaw);
+
+      const filtered = allFeatures.filter(f => {
+        if(!qRaw) return true;
+        const p = f.properties || {};
+        const county = norm(p.county);
+        const postcode = normPostcode(p.postcode);
+        return isPostcode ? postcode.startsWith(qPc) : county.startsWith(qRaw);
+      });
+
+      render(filtered);
+    }
+
+    async function fetchGeoJsonFresh(){
+      const url = GEOJSON_ENDPOINT + (GEOJSON_ENDPOINT.includes("?") ? "&" : "?") + "t=" + Date.now();
+      const res = await fetch(url, { cache: "no-store" });
+
+      if(!res.ok){
+        // try to show response text to debug Apps Script HTML errors
+        const txt = await res.text().catch(() => "");
+        throw new Error("Fetch failed: " + res.status + (txt ? (" | " + txt.slice(0,120)) : ""));
+      }
+
+      // Apps Script sometimes returns HTML on error; this will throw
+      return await res.json();
+    }
+
+    function signatureOf(features){
+      // lightweight signature so we only re-render if data changes
+      // (count + first/last name + first/last coords)
+      if(!features || !features.length) return "0";
+      const first = features[0];
+      const last = features[features.length - 1];
+      const fName = (first.properties && first.properties.name) ? first.properties.name : "";
+      const lName = (last.properties && last.properties.name) ? last.properties.name : "";
+      const fC = first.geometry && first.geometry.coordinates ? first.geometry.coordinates.join(",") : "";
+      const lC = last.geometry && last.geometry.coordinates ? last.geometry.coordinates.join(",") : "";
+      return features.length + "|" + fName + "|" + lName + "|" + fC + "|" + lC;
+    }
+
+    async function refreshData(){
+      statusEl.textContent = "Status: refreshing…";
+
+      const data = await fetchGeoJsonFresh();
+      const features = Array.isArray(data.features) ? data.features : [];
+
+      const sig = signatureOf(features);
+      if(sig === lastSignature){
+        statusEl.textContent = "Status: up to date";
+        return;
+      }
+      lastSignature = sig;
+
+      allFeatures = features.map((f, i) => {
+        // ensure stable internal ids for marker lookup
+        const p = f.properties || {};
+        f.__id = (p.name || "item") + "-" + i;
+        return f;
+      });
+
+      // update UI
+      lastUpdatedEl.textContent = "Last updated: " + new Date().toISOString() + " UTC";
+      showList();
+      applyFilters();
+      statusEl.textContent = "Status: updated (" + allFeatures.length + ")";
+    }
+
+    async function init(){
+      try{
+        await refreshData();
+      } catch(err){
+        console.error(err);
+        statusEl.textContent = "Status: error";
+        lastUpdatedEl.textContent = "Last updated: failed";
+      }
+
+      setInterval(() => {
+        refreshData().catch(err => {
+          console.error("Auto-refresh failed:", err);
+          statusEl.textContent = "Status: error";
+        });
+      }, POLL_MS);
+    }
+
+    searchEl.addEventListener("input", () => {
+      showList();
+      applyFilters();
+    });
+
+    init();
+  </script>
 </body>
 </html>
