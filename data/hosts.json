@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-03-27T22:10:32.200Z",
+  "updated_utc": "2026-03-27T22:19:11.536Z",
   "features": [
     {
       "type": "Feature",
@@ -256,7 +256,7 @@
         "category": "",
         "county": "",
         "postcode": "",
-        "area": "Midlands"
+        "area": "Midlands & East"
       },
       "geometry": {
         "type": "Point",
