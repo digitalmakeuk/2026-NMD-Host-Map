@@ -1,5 +1,510 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "",
-  "features": []
+  "updated_utc": "2026-03-27T22:09:55.957Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alderman Tooling Ltd",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_53b5adfb8b5949b2824d46ae5044b359~mv2.jpg",
+        "address": "Bell Close, Newnham Industrial Estate, Plymouth, PL7 4JH",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/alderman-tooling-ltd",
+        "description": "Aldermans is one of the South West’s leading sheet metal fabricators. We’ve been in business for over 50 years and specialise in the contract manufacturing of metal parts and assemblies. We can laser cut, punch, fold, weld, paint and assemble all kinds of products.",
+        "email": "karen.friendship@aldermantooling.co.uk",
+        "category": "",
+        "county": "",
+        "postcode": "PL7 4JH",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.04175002,
+          50.39600999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A&M EDM",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_83f8af6d52304d9898be1d5886cb4e05~mv2.jpg",
+        "address": "Middlemore Road, Saint. Pauls, Smethwick, West Bromwich, Birmingham, West Midlands, England, B66 2DZ",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/am-edm",
+        "description": "A&M EDM provide precision engineered solutions by combing EDM spark and wire erosion, CNC milling and turning and toolmaking. Our agility and innovation enable us to design and manufacture components for customers in the aerospace, automotive, formula 1, food production, marine, production assembly and space sectors.",
+        "email": "philcalcutt@amedm.co.uk",
+        "category": "",
+        "county": "",
+        "postcode": "B66 2DZ",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9636391019,
+          52.5020999985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boneham & Turner Ltd",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_348c6949e0b349bb8d9c2054b64142f1~mv2.jpg",
+        "address": "Sutton in Ashfield, Sutton-in-Ashfield, Nottinghamshire, England, NG17 5FB",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/boneham-turner-ltd",
+        "description": "Boneham & Turner Ltd is a leading manufacturer and supplier of precision engineered tooling components in the UK. With over 100 years’ experience in the manufacture and supply of Jig Bushes, Drill Bushes, Dowel Pins, Jig & Fixture Parts, Press Tool Components, Shims, Koenig Sealing Plugs, Engineered Pins, Clevis Pins and special components to customer specific drawings. We strongly believe in fostering the next generation of talent and developing their specific skills. It’s important to us to show students different pathways into engineering and manufacturing, other than University.",
+        "email": "Stacy.db@boneham.co.uk",
+        "category": "",
+        "county": "Surrey",
+        "postcode": "",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2477960723,
+          53.1174132894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cerulean",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_694e15cc55f5406bbe0f1ac542b89530~mv2.jpg",
+        "address": "Rockingham Drive, Milton Keynes. MK14 6LY",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/cerulean",
+        "description": "For more than 75 years, Cerulean has been proud to be the market leader of test and measurement solutions to the tobacco, food and packaging industries.",
+        "email": "Claire.millsop@coesia.com",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75806192,
+          52.0560206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Expo Technologies",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-03/nmd-expo-technologies.png.webp",
+        "address": "Unit 2, The Summit, Hanworth Road, Sunbury on Thames, Surrey, TW16 5DB",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/expo-technologies",
+        "description": "We are a world leading company in the design and manufacture of hazardous area protection systems. We are celebrating our 70th anniversary this year and are proud of the work we have done for our customers over the years.",
+        "email": "rachelclark-raee@expoworldwide.com",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.41303999,
+          51.42043002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flann Microwave Ltd",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_daa4366839d543efbd121be1fcdc1e6f~mv2.jpg",
+        "address": "Dunmere Road, Bodmin, Cornwall, PL31 2QL",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/flann-microwave-ltd",
+        "description": "Flann is a global market-leading designer and manufacturer of precision passive RF, Microwave and Millimetric products, producing critical components and sub-systems required to deliver, test, measure and calibrate systems operating from 300MHz to 1.1THz. Our components range from: antennas, diplexers, adaptors, switches, couplers, terminations, through custom waveguide assemblies to integrated networks.",
+        "email": "sarah.deacon@flann.com",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.74631998,
+          50.47219001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Groupe Atlantic (Ideal Heating)",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-03/nmd-groupe-atlantic.png.webp",
+        "address": "National Avenue Hull HU5 4JB",
+        "suite": "",
+        "telephone": "07884 340271",
+        "website": "https://www.nationalmanufacturingday.org/event-details/groupe-atlantic-ideal-heating",
+        "description": "Our goal at GROUPE ATLANTIC is the advancement of thermal comfort.\n\nWe achieve this by always responding positively to the vital well-being, health and hygiene needs of our millions of customers in the housing and wide variety of other markets we serve.\n\nWhile striving to satisfy demands for well-being, we also do our utmost to reconcile the economic and ecological challenges that the world faces.",
+        "email": "John.Cook@groupe-atlantic.co.uk",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "North East Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.38232174,
+          53.75704491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Husco",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_c1f2bf0b0c1741fbba8a2b4994b2d11f~mv2.jpg",
+        "address": "6 Rivington Rd, Preston Brook, Runcorn WA7 3DT",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/husco-1",
+        "description": "Husco is a privately-owned company specializing in hydraulic and electro-mechanical control systems. We have over 70 years of experience designing and manufacturing components for Automotive and Off-Highway equipment. Our collaborative customer relationships are driven by three essential values: intelligent risk-taking, high performance, and practical innovation.",
+        "email": "vicky.dunbar@husco.com",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "North West"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.65395002,
+          53.31128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jointine Products (Lincoln) Ltd",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_e4c679710f334f3fb822eab7eddc994d~mv2.jpg",
+        "address": "Lindum Business Park, Station Rd, North Hykeham Lincoln. LN6 9AU",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/jointine-products-lincoln-ltd",
+        "description": "At Jointine Products (Lincoln) Ltd we manufacture and distribute a variety of high quality paper gasket materials in roll format. Our papers are impregnated with glue/glycerine and dried in a special way to produce a finished material which provides excellent compression and recovery with resistance to fuel, oil and water. This provides a cost effective sealing solution used widely throughout the automotive industry in low heat applications such as pumps and filters. Our manufacturing process has remained largely unchanged over the years and relies on naturally sourced products (paper, gelatine, glycerine) requiring minimal chemical intervention, which provides a relatively environmentally friendly product free of heavy metals. With proper storage conditions, our papers have a shelf life of around five years.",
+        "email": "jane@jointine.co.uk",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.59817259,
+          53.19738888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KNDS UK",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-03/nmd-knds.png.webp",
+        "address": "Sir Richard Fairey Road, Heaton Chapel, Stockport SK4 5DY",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/knds-uk",
+        "description": "With over a century of engineering expertise and innovation, KNDS UK is a renowned world leader in rapidly deployable bridging systems providing infrastructure relief for military and humanitarian purposes and a key partner in the UK MoD’s Boxer programme. Together, we pioneer and support engineering excellence, made in Manchester, trusted around the world.",
+        "email": "emma.livingstone@knds.co.uk",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "North West"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.18981998,
+          53.43301001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lisi Aerospace",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_22180f37c9244462b099974b0dd93b79~mv2.jpg",
+        "address": "38 Butlers Leap, Rugby CV21 3RQ",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/lisi-aerospace",
+        "description": "A global leader in high-technology aeronautical parts, LISI Aerospace produces assembly solutions as well as engine and structural components for the major players in the sector. LISI Aerospace is in the top 100 in the global aerospace value chain and specializes in the design and manufacture of high-tech metal components to enhance aircraft safety and performance. Active since 1950 in the fastener market (no. 3 worldwide), LISI Aerospace has been a recognized player in metal components for aircraft engines and airframes since 2011. Our products feature in a majority of the world’s aircraft and at every stage in their life cycles. Serving more than 300 customers in 30 countries, our teams excel through their capacity to innovate and ensure exceptional operational performance.",
+        "email": "kirstie.kennedy@lisi-group.com",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "Midlands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.23818999,
+          52.37992999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Make UK",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_406ac4500dd64ef2905c25fc445ed922~mv2.jpg",
+        "address": "Saint. James's, Westminster, London, England, SW1H 9NQ",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/make-uk",
+        "description": "Make UK represents manufacturers in the United Kingdom. We enable manufacturers to connect, share, solve problems and create opportunities together. We do this through regional and national meetings, groups, events and advisory boards. We work at every level to ensure UK Manufacturing performs and grows, now and in the future. Make UK provides businesses with advice, guidance and support in employment law, employee relations, health, safety, climate and environment, information and research and occupational health. Through offices in London and Brussels, Make UK provides political representation on behalf of UK business in the engineering, manufacturing and technology-based sectors: lobbying government, MPs, regional development agencies, MEPs and European institutions.",
+        "email": "",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1324862056,
+          51.4998392069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Make UK Technology Hub",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_406ac4500dd64ef2905c25fc445ed922~mv2.jpg",
+        "address": "6 Nobel Way, Birmingham B6 7EU",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/apprenticeship",
+        "description": "Our state-of-the-art Technology Hub in Aston, Birmingham, provides industry with the electrical, mechanical and engineering apprenticeships it needs. Make UK teaches hundreds of manufacturing apprentices each year. Our experts know how to get the very best out of apprentices for the benefit of them and their employers.",
+        "email": "enquiries@makeuk.org",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.88411,
+          52.514185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Motion Control Products Ltd",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_397a3dd83d6b4a41aa4ff4e3a5f85e48~mv2.jpg",
+        "address": "11-15 Francis Avenue, Bournemouth, Dorset, BH11 8NX",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/motion-control-products-ltd",
+        "description": "At Motion Control Products Ltd, we’re not just a technology company; we’re your partners in delivering exceptional motion solutions. With over two decades of engineering expertise, we bring innovation to life through a wide range of motion and automation products. Since our start in 1994, we’ve earned a reputation as a trusted provider of high-power density, precision, compact design, and extreme environment applications.",
+        "email": "IsabelleKearnan@motioncontrolproducts.com",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.93415458,
+          50.75600909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NAAME",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_c5722c0a6bb943aab1277671c242a7e4~mv2.jpg",
+        "address": "Centrum, Colney Ln, Norwich NR4 7UG",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/naame-newangliaadvancedmanufacturingandengineering",
+        "description": "Membership organisation supporting over 300 manufacturing and engineering firms across Norfolk and Suffolk (and wider East of England).",
+        "email": "james.williamson2@norfolk.gov.uk",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.21992004,
+          52.62301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Petra Jewellery",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_c5722c0a6bb943aab1277671c242a7e4~mv2.jpg",
+        "address": "The Cottage, Unit 19, Viables Craft Centre, The Harrow Way, Basingstoke, Hampshire, RG22 4BJ",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/petra-jewellery",
+        "description": "We design and make bespoke jewellery as well as carrying out repairs, restorations and remodelling existing pieces of jewellery.  We involve our customers with much of the deisgn and manufacture process including offering workshop experiences (getting hands on with rolling, drawing, working and polishing metal), memorial experiences (customer’s adding ashes into gold whilst it’s being melted down) and group events.",
+        "email": "mitch@petrajewellery.com",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.09712432,
+          51.2479297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yunex Traffic UK",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_5ef0b157ea0a4cc5b10898536d8a9cc8~mv2.jpg",
+        "address": "Sopers Ln, Poole BH17 7ER",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/yunex-traffic-uk",
+        "description": "Yunex Traffic are a UK based manufacturer with over 50 years of manufacturing heritage, delivering high quality, innovative manufacturing solutions and expertise to businesses across the UK and around the world. In 2023 we were named Manufacturer of the Year, by The Manufacturer. Our Poole manufacturing facility is where our products are made, including the PCBs and traffic lights we are known for, and shipped to over 40 countries across the world.",
+        "email": "simon-martin@yunextraffic.com",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.99493042,
+          50.7466931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stelrad Radiator Group",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-03/nmd-stelrad-ltd.png.webp",
+        "address": "Stelrad House, Marriott Road, Mexborough, S64 8BN",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/stelrad",
+        "description": "It's easy to see why Stelrad Radiators is the UK's number one radiator brand. With a rich heritage in manufacturing high quality, stylish modern radiators since 1936, it's safe to say we know a thing or two about warming homes. Innovation, quality and customer service are the key to Stelrad's business.",
+        "email": "debbie.ward@stelrad.com",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "North East Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.30089216,
+          53.4908837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PLP",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-03/nmd-plp.png.webp",
+        "address": "East Portway, Andover, Hampshire, SP10 3LH",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/plp",
+        "description": "PLP is a global company, designing and manufacturing equipment for electricity transmission and distribution, telecoms and renewables industries. PLP GB utilises a diverse range of technology including our robot called Stan, Injection Moulding, Metal Casting and 5 axis CNC machining. Our factory uses AI- Machine Vision, Advanced Scanning, 3D modelling, 3D Prototyping and simulation processes.",
+        "email": "dfazackerley@preformed.com",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.51099018,
+          51.21394489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Direct Roofing Systems Ltd",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_0689fd8c6f9647ecbee18abdd28faa5e~mv2.jpg",
+        "address": "Unit B1, Concorde Way, Millennium Business Park, Mansfield, Nottinghamshire NG19 7JZ",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/direct-roofing-systems-ltd",
+        "description": "Direct Roofing Systems are manufacturers, fabricators and trade suppliers of high quality aluminium doors, windows, conservatory roofs, commercial doors, rooflights and roof lanterns, with over 35 years experience, Independently owned and based in Mansfield we supply our products to customers using our own logistics team. \n\n\nAll products are manufactured from DRS's own factory using the latest production technology. Our expertly crafted products combine style with functionality, offering a variety of configurations and colours, designed to deliver the perfect blend of innovation, energy efficiency, security and modern design. All our products are individually tailored to exact requirements in our workshop.",
+        "email": "sarahc@directroofingsystems.co.uk",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.22052706,
+          53.16125789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Williams Refrigeration",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-03/nmd-williams-refrigeration_0.png.webp",
+        "address": "9 Bryggen Road, North Lynn Industrial Estate King's Lynn, Norfolk PE30 2HZ",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/williams-refrigeration",
+        "description": "Williams Refrigeration is a world-leading manufacturer of commercial refrigeration, driven from our headquarters in King's Lynn. We manufacture an extensive range of refrigeration including cabinets and counters, blast chillers, coldrooms, bottle and wine coolers to specialist bakery and meat ageing units. Our products are trusted in some of the most iconic destinations across the globe - from Michelin-starred restaurants and luxury hotels to Premier League football clubs, NHS hospitals and major supermarkets. For over 40 years, we’ve set the standard in refrigeration, supporting various industries and people worldwide with equipment that combines reliability, innovation and high performance.",
+        "email": "hcroft@williams-refrigeration.co.uk",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4157263,
+          52.76934529
+        ]
+      }
+    }
+  ]
 }
