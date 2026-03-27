@@ -9,162 +9,109 @@
 
   <style>
     :root { --sidebar-w: 460px; }
-
     * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+    .app { display:flex; height:100vh; width:100vw; }
 
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-    }
-
-    .app {
-      display: flex;
-      height: 100vh;
-      width: 100vw;
-    }
-
-    .sidebar {
+    .sidebar{
       width: var(--sidebar-w);
       min-width: 280px;
       border-right: 1px solid #e6e6e6;
-      background: #fff;
-      display: flex;
-      flex-direction: column;
+      background:#fff;
+      display:flex;
+      flex-direction:column;
     }
 
-    .topbar {
-      padding: 14px;
-      border-bottom: 1px solid #eee;
+    .topbar{ padding:14px; border-bottom:1px solid #eee; }
+    .title{ font-weight:800; margin-bottom:16px; font-size:22px; }
+
+    .controls select{
+      width:100%;
+      padding:10px;
+      border:1px solid #ddd;
+      border-radius:10px;
+      font-size:14px;
+      background:#fff;
     }
 
-    .title {
-      font-weight: 800;
-      margin-bottom: 16px;
-      font-size: 22px;
+    .meta{
+      margin-top:8px;
+      font-size:12px;
+      color:#666;
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
     }
 
-    .controls select {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      font-size: 14px;
-      background: #fff;
+    .list{ overflow:auto; padding:12px; }
+
+    .item{
+      display:flex;
+      gap:10px;
+      padding:12px;
+      border:1px solid #eee;
+      border-radius:12px;
+      margin-bottom:10px;
+      cursor:pointer;
     }
 
-    .meta {
-      margin-top: 8px;
-      font-size: 12px;
-      color: #666;
-      display: flex;
-      justify-content: space-between;
-      gap: 10px;
+    .item .text{
+      display:flex;
+      flex-direction:column;
+      gap:6px;
+      min-width:0;
     }
 
-    .list {
-      overflow: auto;
-      padding: 12px;
+    .logo{
+      width:44px;
+      height:44px;
+      border-radius:10px;
+      object-fit:cover;
+      border:1px solid #eee;
+      background:#fafafa;
+      flex:0 0 auto;
     }
 
-    .item {
-      display: flex;
-      gap: 10px;
-      padding: 12px;
-      border: 1px solid #eee;
-      border-radius: 12px;
-      margin-bottom: 10px;
-      cursor: pointer;
+    .name{ font-weight:700; font-size:16px; }
+    .sub{ font-size:14px; color:#666; line-height:1.35rem; }
+
+    .map{ flex:1; }
+    #map{ height:100%; width:100%; }
+
+    .details{ overflow:auto; padding:12px; display:none; }
+    .details.active{ display:block; }
+
+    .backbtn{
+      border:1px solid #ddd;
+      padding:8px 10px;
+      font-size:18px;
+      font-weight:800;
+      color:#fff;
+      border-radius:10px;
+      background:rgb(12, 12, 136);
+      cursor:pointer;
+      margin-bottom:10px;
     }
 
-    .item .text {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      min-width: 0;
-    }
-
-    .item .sub {
-      margin-top: 0;
-    }
-
-    .logo {
-      width: 44px;
-      height: 44px;
-      border-radius: 10px;
-      object-fit: cover;
-      border: 1px solid #eee;
-      background: #fafafa;
-      flex: 0 0 auto;
-    }
-
-    .name {
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 1.25;
-    }
-
-    .sub {
-      font-size: 14px;
-      color: #666;
-      line-height: 1.35rem;
-    }
-
-    .map {
-      flex: 1;
-    }
-
-    #map {
-      height: 100%;
-      width: 100%;
-    }
-
-    .details {
-      overflow: auto;
-      padding: 12px;
-      display: none;
-    }
-
-    .details.active {
-      display: block;
-    }
-
-    .backbtn {
-      border: 1px solid #ddd;
-      padding: 8px 10px;
-      font-size: 18px;
-      font-weight: 800;
-      color: #fff;
-      border-radius: 10px;
-      background: rgb(12, 12, 136);
-      cursor: pointer;
-      margin-bottom: 10px;
-    }
-
-    .details img {
-      width: 100%;
-      max-height: 180px;
-      object-fit: cover;
-      border-radius: 12px;
-      border: 1px solid #eee;
-      margin-top: 10px;
-      background: #fafafa;
+    .details img{
+      width:100%;
+      max-height:180px;
+      object-fit:cover;
+      border-radius:12px;
+      border:1px solid #eee;
+      margin-top:10px;
+      background:#fafafa;
     }
 
     @media (max-width: 900px) {
-      .app {
-        flex-direction: column;
+      .app { flex-direction:column; }
+      .sidebar{
+        width:100%;
+        height:50%;
+        border-right:none;
+        border-bottom:1px solid #e6e6e6;
       }
-
-      .sidebar {
-        width: 100%;
-        height: 50%;
-        border-right: none;
-        border-bottom: 1px solid #e6e6e6;
-      }
-
-      .map {
-        height: 50%;
-      }
+      .map{ height:50%; }
     }
   </style>
 </head>
@@ -212,7 +159,6 @@
     let geoLayer = null;
     const markerById = new Map();
     let prevView = null;
-    let lastSignature = null;
 
     const listEl = document.getElementById("list");
     const detailsEl = document.getElementById("details");
@@ -222,11 +168,7 @@
 
     function esc(s) {
       return String(s || "").replace(/[&<>"']/g, c => ({
-        "&": "&amp;",
-        "<": "&lt;",
-        ">": "&gt;",
-        '"': "&quot;",
-        "'": "&#039;"
+        "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
       }[c]));
     }
 
@@ -281,7 +223,6 @@
     function showList() {
       detailsEl.classList.remove("active");
       listEl.style.display = "";
-
       const selectedArea = (areaFilterEl.value || "").trim();
       setUrlParams(selectedArea, "");
 
@@ -331,9 +272,7 @@ ${esc(p.description)}</div>` : ""}
 
       if (updateUrl) {
         const p = f.properties || {};
-        const area = (p.area || "").trim();
-        const name = (p.name || "").trim();
-        setUrlParams(area, name);
+        setUrlParams((p.area || "").trim(), (p.name || "").trim());
       }
 
       showDetails(f);
@@ -343,7 +282,7 @@ ${esc(p.description)}</div>` : ""}
       if (geoLayer) map.removeLayer(geoLayer);
       markerById.clear();
 
-      geoLayer = L.geoJSON({ type: "FeatureCollection", features: features }, {
+      geoLayer = L.geoJSON({ type: "FeatureCollection", features }, {
         pointToLayer: (f, latlng) => {
           const m = L.marker(latlng);
           m.bindPopup(popupHtml(f.properties || {}));
@@ -373,9 +312,7 @@ ${esc(p.description)}</div>` : ""}
         const postcodeLine = p.postcode ? `🏷️ ${esc(p.postcode)}` : "";
         const telLine = p.telephone ? `📞 ${esc(p.telephone)}` : "";
 
-        const tags = [areaLine, countyLine, postcodeLine, telLine]
-          .filter(Boolean)
-          .join(" &nbsp; ");
+        const tags = [areaLine, countyLine, postcodeLine, telLine].filter(Boolean).join(" &nbsp; ");
 
         const div = document.createElement("div");
         div.className = "item";
@@ -397,7 +334,7 @@ ${esc(p.description)}</div>` : ""}
     function populateAreaDropdown() {
       const areas = [...new Set(
         allFeatures
-          .map(f => (f.properties && f.properties.area ? String(f.properties.area).trim() : ""))
+          .map(f => String((f.properties && f.properties.area) || "").trim())
           .filter(Boolean)
       )].sort((a, b) => a.localeCompare(b));
 
@@ -417,11 +354,10 @@ ${esc(p.description)}</div>` : ""}
     }
 
     function applyFilters() {
-      const selectedArea = (areaFilterEl.value || "").trim();
+      const selectedArea = String(areaFilterEl.value || "").trim();
 
       const filtered = allFeatures.filter(f => {
-        const p = f.properties || {};
-        const area = String(p.area || "").trim();
+        const area = String((f.properties && f.properties.area) || "").trim();
         if (!selectedArea) return true;
         return norm(area) === norm(selectedArea);
       });
@@ -460,34 +396,11 @@ ${esc(p.description)}</div>` : ""}
       return await res.json();
     }
 
-    function signatureOf(features) {
-      if (!features || !features.length) return "0";
-
-      return features.map(f => {
-        const p = f.properties || {};
-        const coords = f.geometry && f.geometry.coordinates ? f.geometry.coordinates.join(",") : "";
-        return [
-          p.name || "",
-          p.area || "",
-          p.county || "",
-          p.postcode || "",
-          coords
-        ].join("|");
-      }).join("||");
-    }
-
     async function refreshData() {
       statusEl.textContent = "Status: refreshing…";
 
       const data = await fetchGeoJsonFresh();
       const features = Array.isArray(data.features) ? data.features : [];
-
-      const sig = signatureOf(features);
-      if (sig === lastSignature) {
-        statusEl.textContent = "Status: up to date";
-        return;
-      }
-      lastSignature = sig;
 
       allFeatures = features.map((f, i) => {
         const p = f.properties || {};
@@ -525,8 +438,7 @@ ${esc(p.description)}</div>` : ""}
     areaFilterEl.addEventListener("change", () => {
       showList();
       applyFilters();
-      const selectedArea = (areaFilterEl.value || "").trim();
-      setUrlParams(selectedArea, "");
+      setUrlParams((areaFilterEl.value || "").trim(), "");
     });
 
     init();
