@@ -43,6 +43,17 @@
       gap:10px;
     }
 
+    .debug{
+      margin-top:8px;
+      font-size:12px;
+      color:#333;
+      background:#f7f7f7;
+      border:1px solid #e5e5e5;
+      border-radius:8px;
+      padding:8px;
+      line-height:1.35;
+    }
+
     .list{ overflow:auto; padding:12px; }
 
     .item{
@@ -132,6 +143,8 @@
           <div id="lastUpdated">Last updated: —</div>
           <div id="status">Status: idle</div>
         </div>
+
+        <div id="debug" class="debug">Debug: waiting for data…</div>
       </div>
 
       <div id="list" class="list"></div>
@@ -165,6 +178,7 @@
     const lastUpdatedEl = document.getElementById("lastUpdated");
     const statusEl = document.getElementById("status");
     const areaFilterEl = document.getElementById("areaFilter");
+    const debugEl = document.getElementById("debug");
 
     function esc(s) {
       return String(s || "").replace(/[&<>"']/g, c => ({
@@ -312,7 +326,9 @@ ${esc(p.description)}</div>` : ""}
         const postcodeLine = p.postcode ? `🏷️ ${esc(p.postcode)}` : "";
         const telLine = p.telephone ? `📞 ${esc(p.telephone)}` : "";
 
-        const tags = [areaLine, countyLine, postcodeLine, telLine].filter(Boolean).join(" &nbsp; ");
+        const tags = [areaLine, countyLine, postcodeLine, telLine]
+          .filter(Boolean)
+          .join(" &nbsp; ");
 
         const div = document.createElement("div");
         div.className = "item";
@@ -337,6 +353,8 @@ ${esc(p.description)}</div>` : ""}
           .map(f => String((f.properties && f.properties.area) || "").trim())
           .filter(Boolean)
       )].sort((a, b) => a.localeCompare(b));
+
+      debugEl.textContent = "Debug: " + areas.length + " areas found → " + areas.join(", ");
 
       areaFilterEl.innerHTML = '<option value="">All areas</option>';
 
@@ -425,12 +443,14 @@ ${esc(p.description)}</div>` : ""}
         console.error(err);
         statusEl.textContent = "Status: error";
         lastUpdatedEl.textContent = "Last updated: failed";
+        debugEl.textContent = "Debug: " + err.message;
       }
 
       setInterval(() => {
         refreshData().catch(err => {
           console.error("Auto-refresh failed:", err);
           statusEl.textContent = "Status: error";
+          debugEl.textContent = "Debug: " + err.message;
         });
       }, POLL_MS);
     }
