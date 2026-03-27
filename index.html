@@ -25,12 +25,13 @@
     .topbar{ padding:14px; border-bottom:1px solid #eee; }
     .title{ font-weight:800; margin-bottom:16px; font-size:22px; }
 
-    .controls input{
+    .controls select{
       width:100%;
       padding:10px;
       border:1px solid #ddd;
       border-radius:10px;
       font-size:14px;
+      background:#fff;
     }
 
     .meta{
@@ -53,15 +54,15 @@
       cursor:pointer;
     }
 
-    .item.text{
-        display: flex;
-        flex-direction: column;
-        gap: 6px;            /* space between lines */
-        min-width: 0;
+    .item .text{
+      display:flex;
+      flex-direction:column;
+      gap:6px;
+      min-width:0;
     }
 
-    .item.sub{
-        margin-top: 0;       /* gap handles spacing now */
+    .item .sub{
+      margin-top:0;
     }
 
     .logo{
@@ -75,19 +76,20 @@
     }
 
     .name{ font-weight:700; font-size:16px; }
-    .sub{ font-size:14px; color:#666; margin-top:6px; line-height:1.35rem; }
+    .sub{ font-size:14px; color:#666; line-height:1.35rem; }
 
     .map{ flex:1; }
     #map{ height:100%; width:100%; }
 
     .details{ overflow:auto; padding:12px; display:none; }
     .details.active{ display:block; }
+
     .backbtn{
       border:1px solid #ddd;
       padding:8px 10px;
-      font-size: 18px;
-      font-weight: 800;
-      color: #fff;
+      font-size:18px;
+      font-weight:800;
+      color:#fff;
       border-radius:10px;
       background:rgb(12, 12, 136);
       cursor:pointer;
@@ -122,10 +124,12 @@
 
     <aside class="sidebar">
       <div class="topbar">
-        <div class="title">Participation Map</div>
+        <div class="title">Open Day Hosts</div>
 
         <div class="controls">
-          <input id="search" type="search" placeholder="Type county or postcode prefix…" />
+          <select id="areaFilter">
+            <option value="">All areas</option>
+          </select>
         </div>
 
         <div class="meta">
@@ -147,33 +151,27 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
   <script>
-    // === CONFIG ===
     const GEOJSON_ENDPOINT = "https://script.google.com/macros/s/AKfycbzvn-aL9-198YzDTCGl10sj2brAcoGRR7EYk5IoArX90CroRBUhO8qppLFqcWhUU4rz/exec";
-    const POLL_MS = 30000; // 30s (use 15000 for 15s)
+    const POLL_MS = 30000;
 
-    // === MAP ===
     const map = L.map("map").setView([54.5, -3.0], 6);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: "&copy; OpenStreetMap contributors",
       maxZoom: 19
     }).addTo(map);
 
-    // === STATE ===
     let allFeatures = [];
     let geoLayer = null;
     const markerById = new Map();
     let prevView = null;
+    let lastSignature = null;
 
-    let lastSignature = null; // used to avoid re-rendering identical payloads
-
-    // === DOM ===
     const listEl = document.getElementById("list");
     const detailsEl = document.getElementById("details");
     const lastUpdatedEl = document.getElementById("lastUpdated");
     const statusEl = document.getElementById("status");
-    const searchEl = document.getElementById("search");
+    const areaFilterEl = document.getElementById("areaFilter");
 
-    // === HELPERS ===
     function esc(s) {
       return String(s || "").replace(/[&<>"']/g, c => ({
         "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
@@ -186,10 +184,28 @@
       return s.startsWith("http://") || s.startsWith("https://") ? s : ("https://" + s);
     }
 
-    function norm(s){ return String(s || "").toLowerCase().trim(); }
-    function normPostcode(s){ return norm(s).replace(/\s+/g,""); }
+    function norm(s) {
+      return String(s || "").trim().toLowerCase();
+    }
 
-    function popupHtml(p){
+    function getUrlParam(name) {
+      const params = new URLSearchParams(window.location.search);
+      return params.get(name) || "";
+    }
+
+    function setUrlParams(area, name) {
+      const url = new URL(window.location);
+
+      if (area) url.searchParams.set("area", area);
+      else url.searchParams.delete("area");
+
+      if (name) url.searchParams.set("name", name);
+      else url.searchParams.delete("name");
+
+      window.history.replaceState({}, "", url);
+    }
+
+    function popupHtml(p) {
       const name = esc(p.name || "");
       const address = esc([p.address, p.suite].filter(Boolean).join(", "));
       const img = p.image_url
@@ -205,20 +221,23 @@
           <div style="font-size:18px;font-weight:700;">${name}</div>
           ${img}
           ${address ? `<div style="font-size:16px;color:#666;">${address}</div>` : ``}
-          <div style="font-size:16px;color:#666;">${web}</div>
+          ${web ? `<div style="font-size:16px;color:#666;">${web}</div>` : ``}
         </div>
       `;
     }
 
-    function showList(){
+    function showList() {
       detailsEl.classList.remove("active");
       listEl.style.display = "";
-      if(prevView){
+      const selectedArea = (areaFilterEl.value || "").trim();
+      setUrlParams(selectedArea, "");
+
+      if (prevView) {
         map.flyTo(prevView.center, prevView.zoom, { duration: 0.6 });
       }
     }
 
-    function showDetails(feature){
+    function showDetails(feature) {
       const p = feature.properties || {};
       const address = [p.address, p.suite].filter(Boolean).join(", ");
 
@@ -232,12 +251,13 @@
         ${p.image_url ? `<img src="${esc(p.image_url)}" onerror="this.style.display='none'">` : ""}
 
         <div style="margin-top:10px; font-size:16px; line-height:1.4;">
+          ${p.area ? `<div style="margin-top:10px;"><b>Area:</b> ${esc(p.area)}</div>` : ""}
           ${address ? `<div style="margin-top:10px;"><b>Address:</b> ${esc(address)}</div>` : ""}
           ${p.county ? `<div style="margin-top:10px;"><b>County:</b> ${esc(p.county)}</div>` : ""}
           ${p.postcode ? `<div style="margin-top:10px;"><b>Postcode:</b> ${esc(p.postcode)}</div>` : ""}
           ${p.telephone ? `<div style="margin-top:10px;"><b>Telephone:</b> ${esc(p.telephone)}</div>` : ""}
           ${p.email ? `<div style="margin-top:10px;"><b>Email:</b> <a href="mailto:${esc(p.email)}">${esc(p.email)}</a></div>` : ""}
-          ${p.year ? `<div style="margin-top:10px;"><b>Year:</b> ${esc(p.year)}</div>` : ""}
+          ${p.category ? `<div style="margin-top:10px;"><b>Category:</b> ${esc(p.category)}</div>` : ""}
           ${p.website ? `<div style="margin-top:10px;"><b>Website:</b> <a href="${esc(cleanUrl(p.website))}" target="_blank" rel="noopener">${esc(p.website)}</a></div>` : ""}
           ${p.description ? `<div style="margin-top:10px;"><b>Description:</b>
 ${esc(p.description)}</div>` : ""}
@@ -247,18 +267,27 @@ ${esc(p.description)}</div>` : ""}
       detailsEl.querySelector(".backbtn").onclick = showList;
     }
 
-    function selectFeature(f){
+    function selectFeature(f, updateUrl = true) {
       prevView = { center: map.getCenter(), zoom: map.getZoom() };
       const marker = markerById.get(f.__id);
-      if(marker){
+
+      if (marker) {
         map.flyTo(marker.getLatLng(), 14, { duration: 0.6 });
         setTimeout(() => marker.openPopup(), 200);
       }
+
+      if (updateUrl) {
+        const p = f.properties || {};
+        const area = (p.area || "").trim();
+        const name = (p.name || "").trim();
+        setUrlParams(area, name);
+      }
+
       showDetails(f);
     }
 
-    function render(features){
-      if(geoLayer) map.removeLayer(geoLayer);
+    function render(features) {
+      if (geoLayer) map.removeLayer(geoLayer);
       markerById.clear();
 
       geoLayer = L.geoJSON({ type:"FeatureCollection", features: features }, {
@@ -271,30 +300,27 @@ ${esc(p.description)}</div>` : ""}
         onEachFeature: (f, layer) => markerById.set(f.__id, layer)
       }).addTo(map);
 
-      if(features.length){
-        map.fitBounds(geoLayer.getBounds().pad(0.12));
-      }
-
       renderList(features);
     }
 
-    function renderList(features){
+    function renderList(features) {
       listEl.innerHTML = "";
 
-      if(!features.length){
+      if (!features.length) {
         listEl.innerHTML = `<div style="padding:8px;color:#666;">No matches.</div>`;
         return;
       }
 
-      for(const f of features){
+      for (const f of features) {
         const p = f.properties || {};
         const address = [p.address, p.suite].filter(Boolean).join(", ");
 
+        const areaLine = p.area ? `📌 ${esc(p.area)}` : "";
         const countyLine = p.county ? `📍 ${esc(p.county)}` : "";
         const postcodeLine = p.postcode ? `🏷️ ${esc(p.postcode)}` : "";
         const telLine = p.telephone ? `📞 ${esc(p.telephone)}` : "";
 
-        const tags = [countyLine, postcodeLine, telLine].filter(Boolean).join(" &nbsp; ");
+        const tags = [areaLine, countyLine, postcodeLine, telLine].filter(Boolean).join(" &nbsp; ");
 
         const div = document.createElement("div");
         div.className = "item";
@@ -313,40 +339,73 @@ ${esc(p.description)}</div>` : ""}
       }
     }
 
-    function applyFilters(){
-      const qRaw = norm(searchEl.value);
-      const qPc = normPostcode(qRaw);
-      const isPostcode = /\d/.test(qRaw);
+    function populateAreaDropdown() {
+      const areas = [...new Set(
+        allFeatures
+          .map(f => (f.properties && f.properties.area ? String(f.properties.area).trim() : ""))
+          .filter(Boolean)
+      )].sort((a, b) => a.localeCompare(b));
+
+      areaFilterEl.innerHTML = '<option value="">All areas</option>';
+
+      for (const area of areas) {
+        const opt = document.createElement("option");
+        opt.value = area;
+        opt.textContent = area;
+        areaFilterEl.appendChild(opt);
+      }
+
+      const preloadArea = getUrlParam("area");
+      if (preloadArea) {
+        areaFilterEl.value = preloadArea;
+      }
+    }
+
+    function applyFilters() {
+      const selectedArea = (areaFilterEl.value || "").trim();
 
       const filtered = allFeatures.filter(f => {
-        if(!qRaw) return true;
         const p = f.properties || {};
-        const county = norm(p.county);
-        const postcode = normPostcode(p.postcode);
-        return isPostcode ? postcode.startsWith(qPc) : county.startsWith(qRaw);
+        const area = String(p.area || "").trim();
+        if (!selectedArea) return true;
+        return norm(area) === norm(selectedArea);
       });
 
       render(filtered);
+
+      if (filtered.length && geoLayer) {
+        map.fitBounds(geoLayer.getBounds().pad(0.12));
+      }
+
+      return filtered;
     }
 
-    async function fetchGeoJsonFresh(){
+    function applyUrlSelection(filteredFeatures) {
+      const nameParam = getUrlParam("name").trim();
+      if (!nameParam) return;
+
+      const exact = filteredFeatures.find(f => norm(f.properties?.name) === norm(nameParam))
+        || allFeatures.find(f => norm(f.properties?.name) === norm(nameParam));
+
+      if (exact) {
+        selectFeature(exact, false);
+      }
+    }
+
+    async function fetchGeoJsonFresh() {
       const url = GEOJSON_ENDPOINT + (GEOJSON_ENDPOINT.includes("?") ? "&" : "?") + "t=" + Date.now();
       const res = await fetch(url, { cache: "no-store" });
 
-      if(!res.ok){
-        // try to show response text to debug Apps Script HTML errors
+      if (!res.ok) {
         const txt = await res.text().catch(() => "");
         throw new Error("Fetch failed: " + res.status + (txt ? (" | " + txt.slice(0,120)) : ""));
       }
 
-      // Apps Script sometimes returns HTML on error; this will throw
       return await res.json();
     }
 
-    function signatureOf(features){
-      // lightweight signature so we only re-render if data changes
-      // (count + first/last name + first/last coords)
-      if(!features || !features.length) return "0";
+    function signatureOf(features) {
+      if (!features || !features.length) return "0";
       const first = features[0];
       const last = features[features.length - 1];
       const fName = (first.properties && first.properties.name) ? first.properties.name : "";
@@ -356,37 +415,39 @@ ${esc(p.description)}</div>` : ""}
       return features.length + "|" + fName + "|" + lName + "|" + fC + "|" + lC;
     }
 
-    async function refreshData(){
+    async function refreshData() {
       statusEl.textContent = "Status: refreshing…";
 
       const data = await fetchGeoJsonFresh();
       const features = Array.isArray(data.features) ? data.features : [];
 
       const sig = signatureOf(features);
-      if(sig === lastSignature){
+      if (sig === lastSignature) {
         statusEl.textContent = "Status: up to date";
         return;
       }
       lastSignature = sig;
 
       allFeatures = features.map((f, i) => {
-        // ensure stable internal ids for marker lookup
         const p = f.properties || {};
         f.__id = (p.name || "item") + "-" + i;
         return f;
       });
 
-      // update UI
-      lastUpdatedEl.textContent = "Last updated: " + new Date().toISOString() + " UTC";
+      populateAreaDropdown();
+      lastUpdatedEl.textContent = "Last updated: " + (data.updated_utc || new Date().toISOString()) + " UTC";
+
       showList();
-      applyFilters();
+      const filtered = applyFilters();
+      applyUrlSelection(filtered);
+
       statusEl.textContent = "Status: updated (" + allFeatures.length + ")";
     }
 
-    async function init(){
-      try{
+    async function init() {
+      try {
         await refreshData();
-      } catch(err){
+      } catch (err) {
         console.error(err);
         statusEl.textContent = "Status: error";
         lastUpdatedEl.textContent = "Last updated: failed";
@@ -400,9 +461,11 @@ ${esc(p.description)}</div>` : ""}
       }, POLL_MS);
     }
 
-    searchEl.addEventListener("input", () => {
+    areaFilterEl.addEventListener("change", () => {
       showList();
-      applyFilters();
+      const filtered = applyFilters();
+      const selectedArea = (areaFilterEl.value || "").trim();
+      setUrlParams(selectedArea, "");
     });
 
     init();
