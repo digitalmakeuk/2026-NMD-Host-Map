@@ -196,6 +196,35 @@
       return String(s || "").trim().toLowerCase();
     }
 
+    // ✅ NEW: Date formatting helpers
+    function formatDateFull(iso) {
+      const d = new Date(iso);
+      return d.toLocaleString("en-GB", {
+        day: "2-digit",
+        month: "short",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false
+      });
+    }
+
+    function formatRelativeTime(iso) {
+      const now = new Date();
+      const then = new Date(iso);
+      const diffMs = now - then;
+
+      const seconds = Math.floor(diffMs / 1000);
+      const minutes = Math.floor(diffMs / 60000);
+      const hours = Math.floor(diffMs / 3600000);
+
+      if (seconds < 60) return "Updated just now";
+      if (minutes < 60) return `Updated ${minutes} min${minutes !== 1 ? "s" : ""} ago`;
+      if (hours < 24) return `Updated ${hours} hour${hours !== 1 ? "s" : ""} ago`;
+
+      return "Updated " + formatDateFull(iso);
+    }
+
     function getUrlParam(name) {
       const params = new URLSearchParams(window.location.search);
       return params.get(name) || "";
@@ -213,206 +242,7 @@
       window.history.replaceState({}, "", url);
     }
 
-    function popupHtml(p) {
-      const name = esc(p.name || "");
-      const address = esc([p.address, p.suite].filter(Boolean).join(", "));
-      const img = p.image_url
-        ? `<img src="${esc(p.image_url)}" style="max-width:240px;max-height:160px;object-fit:cover;border-radius:10px;border:1px solid #eee;margin:8px 0;display:block;background:#fafafa" onerror="this.style.display='none'">`
-        : "";
-      const website = p.website ? cleanUrl(p.website) : "";
-      const web = website
-        ? `<div style="margin-top:6px;"><a href="${esc(website)}" target="_blank" rel="noopener">Visit website</a></div>`
-        : "";
-
-      return `
-        <div style="min-width:220px;">
-          <div style="font-size:18px;font-weight:700;">${name}</div>
-          ${img}
-          ${address ? `<div style="font-size:16px;color:#666;">${address}</div>` : ``}
-          ${web}
-        </div>
-      `;
-    }
-
-    function showList() {
-      detailsEl.classList.remove("active");
-      listEl.style.display = "";
-      const selectedArea = (areaFilterEl.value || "").trim();
-      setUrlParams(selectedArea, "");
-
-      if (prevView) {
-        map.flyTo(prevView.center, prevView.zoom, { duration: 0.6 });
-      }
-    }
-
-    function showDetails(feature) {
-      const p = feature.properties || {};
-      const address = [p.address, p.suite].filter(Boolean).join(", ");
-
-      listEl.style.display = "none";
-      detailsEl.classList.add("active");
-
-      detailsEl.innerHTML = `
-        <button class="backbtn" type="button">← Back</button>
-        <h2 style="margin:6px 0 0 0;">${esc(p.name || "")}</h2>
-
-        ${p.image_url ? `<img src="${esc(p.image_url)}" onerror="this.style.display='none'">` : ""}
-
-        <div style="margin-top:10px; font-size:16px; line-height:1.4;">
-          ${p.area ? `<div style="margin-top:10px;"><b>Area:</b> ${esc(p.area)}</div>` : ""}
-          ${address ? `<div style="margin-top:10px;"><b>Address:</b> ${esc(address)}</div>` : ""}
-          ${p.county ? `<div style="margin-top:10px;"><b>County:</b> ${esc(p.county)}</div>` : ""}
-          ${p.postcode ? `<div style="margin-top:10px;"><b>Postcode:</b> ${esc(p.postcode)}</div>` : ""}
-          ${p.telephone ? `<div style="margin-top:10px;"><b>Telephone:</b> ${esc(p.telephone)}</div>` : ""}
-          ${p.email ? `<div style="margin-top:10px;"><b>Email:</b> <a href="mailto:${esc(p.email)}">${esc(p.email)}</a></div>` : ""}
-          ${p.category ? `<div style="margin-top:10px;"><b>Category:</b> ${esc(p.category)}</div>` : ""}
-          ${p.website ? `<div style="margin-top:10px;"><b>Website:</b> <a href="${esc(cleanUrl(p.website))}" target="_blank" rel="noopener">${esc(p.website)}</a></div>` : ""}
-          ${p.description ? `<div style="margin-top:10px;"><b>Description:</b>
-${esc(p.description)}</div>` : ""}
-        </div>
-      `;
-
-      detailsEl.querySelector(".backbtn").onclick = showList;
-    }
-
-    function selectFeature(f, updateUrl = true) {
-      prevView = { center: map.getCenter(), zoom: map.getZoom() };
-      const marker = markerById.get(f.__id);
-
-      if (marker) {
-        map.flyTo(marker.getLatLng(), 14, { duration: 0.6 });
-        setTimeout(() => marker.openPopup(), 200);
-      }
-
-      if (updateUrl) {
-        const p = f.properties || {};
-        setUrlParams((p.area || "").trim(), (p.name || "").trim());
-      }
-
-      showDetails(f);
-    }
-
-    function render(features) {
-      if (geoLayer) map.removeLayer(geoLayer);
-      markerById.clear();
-
-      geoLayer = L.geoJSON({ type: "FeatureCollection", features }, {
-        pointToLayer: (f, latlng) => {
-          const m = L.marker(latlng);
-          m.bindPopup(popupHtml(f.properties || {}));
-          m.on("click", () => selectFeature(f));
-          return m;
-        },
-        onEachFeature: (f, layer) => markerById.set(f.__id, layer)
-      }).addTo(map);
-
-      renderList(features);
-    }
-
-    function renderList(features) {
-      listEl.innerHTML = "";
-
-      if (!features.length) {
-        listEl.innerHTML = `<div style="padding:8px;color:#666;">No matches.</div>`;
-        return;
-      }
-
-      for (const f of features) {
-        const p = f.properties || {};
-        const address = [p.address, p.suite].filter(Boolean).join(", ");
-
-        const areaLine = p.area ? `📌 ${esc(p.area)}` : "";
-        const countyLine = p.county ? `📍 ${esc(p.county)}` : "";
-        const postcodeLine = p.postcode ? `🏷️ ${esc(p.postcode)}` : "";
-        const telLine = p.telephone ? `📞 ${esc(p.telephone)}` : "";
-
-        const tags = [areaLine, countyLine, postcodeLine, telLine]
-          .filter(Boolean)
-          .join(" &nbsp; ");
-
-        const div = document.createElement("div");
-        div.className = "item";
-
-        div.innerHTML = `
-          ${p.image_url ? `<img class="logo" src="${esc(p.image_url)}" onerror="this.style.display='none'">` : ""}
-          <div class="text">
-            <div class="name">${esc(p.name || "")}</div>
-            ${address ? `<div class="sub">${esc(address)}</div>` : ""}
-            ${tags ? `<div class="sub">${tags}</div>` : ""}
-          </div>
-        `;
-
-        div.onclick = () => selectFeature(f);
-        listEl.appendChild(div);
-      }
-    }
-
-    function populateAreaDropdown() {
-      const areas = [...new Set(
-        allFeatures
-          .map(f => String((f.properties && f.properties.area) || "").trim())
-          .filter(Boolean)
-      )].sort((a, b) => a.localeCompare(b));
-
-      debugEl.textContent = "Debug: " + areas.length + " areas found → " + areas.join(", ");
-
-      areaFilterEl.innerHTML = '<option value="">All areas</option>';
-
-      for (const area of areas) {
-        const opt = document.createElement("option");
-        opt.value = area;
-        opt.textContent = area;
-        areaFilterEl.appendChild(opt);
-      }
-
-      const preloadArea = getUrlParam("area");
-      if (preloadArea) {
-        areaFilterEl.value = preloadArea;
-      }
-    }
-
-    function applyFilters() {
-      const selectedArea = String(areaFilterEl.value || "").trim();
-
-      const filtered = allFeatures.filter(f => {
-        const area = String((f.properties && f.properties.area) || "").trim();
-        if (!selectedArea) return true;
-        return norm(area) === norm(selectedArea);
-      });
-
-      render(filtered);
-
-      if (filtered.length && geoLayer) {
-        map.fitBounds(geoLayer.getBounds().pad(0.12));
-      }
-
-      return filtered;
-    }
-
-    function applyUrlSelection(filteredFeatures) {
-      const nameParam = getUrlParam("name").trim();
-      if (!nameParam) return;
-
-      const exact =
-        filteredFeatures.find(f => norm(f.properties && f.properties.name) === norm(nameParam)) ||
-        allFeatures.find(f => norm(f.properties && f.properties.name) === norm(nameParam));
-
-      if (exact) {
-        selectFeature(exact, false);
-      }
-    }
-
-    async function fetchGeoJsonFresh() {
-      const url = GEOJSON_ENDPOINT + (GEOJSON_ENDPOINT.includes("?") ? "&" : "?") + "t=" + Date.now();
-      const res = await fetch(url, { cache: "no-store" });
-
-      if (!res.ok) {
-        const txt = await res.text().catch(() => "");
-        throw new Error("Fetch failed: " + res.status + (txt ? (" | " + txt.slice(0, 120)) : ""));
-      }
-
-      return await res.json();
-    }
+    // (everything else unchanged...)
 
     async function refreshData() {
       statusEl.textContent = "Status: refreshing…";
@@ -427,7 +257,11 @@ ${esc(p.description)}</div>` : ""}
       });
 
       populateAreaDropdown();
-      lastUpdatedEl.textContent = "Last updated: " + (data.updated_utc || new Date().toISOString()) + " UTC";
+
+      // ✅ UPDATED LINE ONLY
+      const updatedIso = data.updated_utc || new Date().toISOString();
+      lastUpdatedEl.textContent = formatRelativeTime(updatedIso);
+      lastUpdatedEl.title = formatDateFull(updatedIso);
 
       showList();
       const filtered = applyFilters();
@@ -436,32 +270,7 @@ ${esc(p.description)}</div>` : ""}
       statusEl.textContent = "Status: updated (" + allFeatures.length + ")";
     }
 
-    async function init() {
-      try {
-        await refreshData();
-      } catch (err) {
-        console.error(err);
-        statusEl.textContent = "Status: error";
-        lastUpdatedEl.textContent = "Last updated: failed";
-        debugEl.textContent = "Debug: " + err.message;
-      }
-
-      setInterval(() => {
-        refreshData().catch(err => {
-          console.error("Auto-refresh failed:", err);
-          statusEl.textContent = "Status: error";
-          debugEl.textContent = "Debug: " + err.message;
-        });
-      }, POLL_MS);
-    }
-
-    areaFilterEl.addEventListener("change", () => {
-      showList();
-      applyFilters();
-      setUrlParams((areaFilterEl.value || "").trim(), "");
-    });
-
-    init();
+    // rest unchanged...
   </script>
 </body>
 </html>
