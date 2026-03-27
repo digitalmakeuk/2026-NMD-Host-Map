@@ -3,125 +3,174 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Participation Map</title>
+  <title>Open Day Hosts</title>
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 
   <style>
     :root { --sidebar-w: 460px; }
-    * { box-sizing: border-box; }
-    body { margin:0; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
-    .app { display:flex; height:100vh; width:100vw; }
 
-    .sidebar{
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    }
+
+    .app {
+      display: flex;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .sidebar {
       width: var(--sidebar-w);
       min-width: 280px;
       border-right: 1px solid #e6e6e6;
-      background:#fff;
-      display:flex;
-      flex-direction:column;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
     }
 
-    .topbar{ padding:14px; border-bottom:1px solid #eee; }
-    .title{ font-weight:800; margin-bottom:16px; font-size:22px; }
-
-    .controls select{
-      width:100%;
-      padding:10px;
-      border:1px solid #ddd;
-      border-radius:10px;
-      font-size:14px;
-      background:#fff;
+    .topbar {
+      padding: 14px;
+      border-bottom: 1px solid #eee;
     }
 
-    .meta{
-      margin-top:8px;
-      font-size:12px;
-      color:#666;
-      display:flex;
-      justify-content:space-between;
-      gap:10px;
+    .title {
+      font-weight: 800;
+      margin-bottom: 16px;
+      font-size: 22px;
     }
 
-    .list{ overflow:auto; padding:12px; }
-    .item{
-      display:flex;
-      gap:10px;
-      padding:12px;
-      border:1px solid #eee;
-      border-radius:12px;
-      margin-bottom:10px;
-      cursor:pointer;
+    .controls select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      font-size: 14px;
+      background: #fff;
     }
 
-    .item .text{
-      display:flex;
-      flex-direction:column;
-      gap:6px;
-      min-width:0;
+    .meta {
+      margin-top: 8px;
+      font-size: 12px;
+      color: #666;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
     }
 
-    .item .sub{
-      margin-top:0;
+    .list {
+      overflow: auto;
+      padding: 12px;
     }
 
-    .logo{
-      width:44px;
-      height:44px;
-      border-radius:10px;
-      object-fit:cover;
-      border:1px solid #eee;
-      background:#fafafa;
-      flex:0 0 auto;
+    .item {
+      display: flex;
+      gap: 10px;
+      padding: 12px;
+      border: 1px solid #eee;
+      border-radius: 12px;
+      margin-bottom: 10px;
+      cursor: pointer;
     }
 
-    .name{ font-weight:700; font-size:16px; }
-    .sub{ font-size:14px; color:#666; line-height:1.35rem; }
-
-    .map{ flex:1; }
-    #map{ height:100%; width:100%; }
-
-    .details{ overflow:auto; padding:12px; display:none; }
-    .details.active{ display:block; }
-
-    .backbtn{
-      border:1px solid #ddd;
-      padding:8px 10px;
-      font-size:18px;
-      font-weight:800;
-      color:#fff;
-      border-radius:10px;
-      background:rgb(12, 12, 136);
-      cursor:pointer;
-      margin-bottom:10px;
+    .item .text {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      min-width: 0;
     }
 
-    .details img{
-      width:100%;
-      max-height:180px;
-      object-fit:cover;
-      border-radius:12px;
-      border:1px solid #eee;
-      margin-top:10px;
-      background:#fafafa;
+    .item .sub {
+      margin-top: 0;
+    }
+
+    .logo {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      object-fit: cover;
+      border: 1px solid #eee;
+      background: #fafafa;
+      flex: 0 0 auto;
+    }
+
+    .name {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.25;
+    }
+
+    .sub {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.35rem;
+    }
+
+    .map {
+      flex: 1;
+    }
+
+    #map {
+      height: 100%;
+      width: 100%;
+    }
+
+    .details {
+      overflow: auto;
+      padding: 12px;
+      display: none;
+    }
+
+    .details.active {
+      display: block;
+    }
+
+    .backbtn {
+      border: 1px solid #ddd;
+      padding: 8px 10px;
+      font-size: 18px;
+      font-weight: 800;
+      color: #fff;
+      border-radius: 10px;
+      background: rgb(12, 12, 136);
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+
+    .details img {
+      width: 100%;
+      max-height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+      border: 1px solid #eee;
+      margin-top: 10px;
+      background: #fafafa;
     }
 
     @media (max-width: 900px) {
-      .app { flex-direction:column; }
-      .sidebar{
-        width:100%;
-        height:50%;
-        border-right:none;
-        border-bottom:1px solid #e6e6e6;
+      .app {
+        flex-direction: column;
       }
-      .map{ height:50%; }
+
+      .sidebar {
+        width: 100%;
+        height: 50%;
+        border-right: none;
+        border-bottom: 1px solid #e6e6e6;
+      }
+
+      .map {
+        height: 50%;
+      }
     }
   </style>
 </head>
 
 <body>
   <div class="app">
-
     <aside class="sidebar">
       <div class="topbar">
         <div class="title">Open Day Hosts</div>
@@ -145,7 +194,6 @@
     <main class="map">
       <div id="map"></div>
     </main>
-
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -174,7 +222,11 @@
 
     function esc(s) {
       return String(s || "").replace(/[&<>"']/g, c => ({
-        "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;"
       }[c]));
     }
 
@@ -229,6 +281,7 @@
     function showList() {
       detailsEl.classList.remove("active");
       listEl.style.display = "";
+
       const selectedArea = (areaFilterEl.value || "").trim();
       setUrlParams(selectedArea, "");
 
@@ -290,7 +343,7 @@ ${esc(p.description)}</div>` : ""}
       if (geoLayer) map.removeLayer(geoLayer);
       markerById.clear();
 
-      geoLayer = L.geoJSON({ type:"FeatureCollection", features: features }, {
+      geoLayer = L.geoJSON({ type: "FeatureCollection", features: features }, {
         pointToLayer: (f, latlng) => {
           const m = L.marker(latlng);
           m.bindPopup(popupHtml(f.properties || {}));
@@ -320,7 +373,9 @@ ${esc(p.description)}</div>` : ""}
         const postcodeLine = p.postcode ? `🏷️ ${esc(p.postcode)}` : "";
         const telLine = p.telephone ? `📞 ${esc(p.telephone)}` : "";
 
-        const tags = [areaLine, countyLine, postcodeLine, telLine].filter(Boolean).join(" &nbsp; ");
+        const tags = [areaLine, countyLine, postcodeLine, telLine]
+          .filter(Boolean)
+          .join(" &nbsp; ");
 
         const div = document.createElement("div");
         div.className = "item";
@@ -384,8 +439,9 @@ ${esc(p.description)}</div>` : ""}
       const nameParam = getUrlParam("name").trim();
       if (!nameParam) return;
 
-      const exact = filteredFeatures.find(f => norm(f.properties?.name) === norm(nameParam))
-        || allFeatures.find(f => norm(f.properties?.name) === norm(nameParam));
+      const exact =
+        filteredFeatures.find(f => norm(f.properties && f.properties.name) === norm(nameParam)) ||
+        allFeatures.find(f => norm(f.properties && f.properties.name) === norm(nameParam));
 
       if (exact) {
         selectFeature(exact, false);
@@ -398,7 +454,7 @@ ${esc(p.description)}</div>` : ""}
 
       if (!res.ok) {
         const txt = await res.text().catch(() => "");
-        throw new Error("Fetch failed: " + res.status + (txt ? (" | " + txt.slice(0,120)) : ""));
+        throw new Error("Fetch failed: " + res.status + (txt ? (" | " + txt.slice(0, 120)) : ""));
       }
 
       return await res.json();
@@ -406,13 +462,18 @@ ${esc(p.description)}</div>` : ""}
 
     function signatureOf(features) {
       if (!features || !features.length) return "0";
-      const first = features[0];
-      const last = features[features.length - 1];
-      const fName = (first.properties && first.properties.name) ? first.properties.name : "";
-      const lName = (last.properties && last.properties.name) ? last.properties.name : "";
-      const fC = first.geometry && first.geometry.coordinates ? first.geometry.coordinates.join(",") : "";
-      const lC = last.geometry && last.geometry.coordinates ? last.geometry.coordinates.join(",") : "";
-      return features.length + "|" + fName + "|" + lName + "|" + fC + "|" + lC;
+
+      return features.map(f => {
+        const p = f.properties || {};
+        const coords = f.geometry && f.geometry.coordinates ? f.geometry.coordinates.join(",") : "";
+        return [
+          p.name || "",
+          p.area || "",
+          p.county || "",
+          p.postcode || "",
+          coords
+        ].join("|");
+      }).join("||");
     }
 
     async function refreshData() {
@@ -463,7 +524,7 @@ ${esc(p.description)}</div>` : ""}
 
     areaFilterEl.addEventListener("change", () => {
       showList();
-      const filtered = applyFilters();
+      applyFilters();
       const selectedArea = (areaFilterEl.value || "").trim();
       setUrlParams(selectedArea, "");
     });
