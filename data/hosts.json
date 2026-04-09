@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-04-09T09:14:10.468Z",
+  "updated_utc": "2026-04-09T09:19:11.076Z",
   "features": [
     {
       "type": "Feature",
@@ -95,6 +95,30 @@
         "coordinates": [
           -0.75806192,
           52.0560206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elring Klinger (GB) Ltd.",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_99682da27d914d6589c79d326706b6af~mv2.jpg/v1/fill/w_735,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/dc0ae0_99682da27d914d6589c79d326706b6af~mv2.jpg",
+        "address": "Troisdorf Way, Redcar TS10 5RX",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/elring-klinger-gb-ltd",
+        "description": "As an independent and globally positioned supplier, the ElringKlinger Group is a powerful and reliable partner to the automotive industry. Be it car or commercial vehicle, be it electric motor, hybrid technology, or optimized combustion engine – we offer innovative solutions for all types of drive system in passenger cars and commercial vehicles. In doing so, we are making a committed contribution to sustainable mobility. We will be inviting pupils from local schools to visit our Redcar site to take part in a plant tour, learn about the manufacturing and automotive industries, and take part in interactive robot activities.",
+        "email": "joanna.whysall@elringklinger.com",
+        "category": "",
+        "county": "",
+        "postcode": "TS10 5RX",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.08853188921776,
+          54.5904275353253
         ]
       }
     },
