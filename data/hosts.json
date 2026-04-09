@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-04-09T09:49:11.238Z",
+  "updated_utc": "2026-04-09T09:54:11.233Z",
   "features": [
     {
       "type": "Feature",
@@ -671,6 +671,30 @@
         "coordinates": [
           -1.40810414331997,
           52.5401640549852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Labone Castleside",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_4299115448124cbd9cf2430f233384cc~mv2.png/v1/fill/w_735,h_350,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/dc0ae0_4299115448124cbd9cf2430f233384cc~mv2.png",
+        "address": "Consett, County Durham, England, DH8 8HF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/labone-castleside",
+        "description": "We operate a well-equipped injection moulding facility able to manufacture high quality, high volume product to exacting standards.",
+        "email": "rjohnson@labone-castleside.co.uk",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.86428976036702,
+          54.8369655911355
         ]
       }
     }
