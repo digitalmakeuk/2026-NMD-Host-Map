@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-04-09T16:29:12.019Z",
+  "updated_utc": "2026-04-09T16:34:11.370Z",
   "features": [
     {
       "type": "Feature",
@@ -126,7 +126,7 @@
       "type": "Feature",
       "properties": {
         "name": "Elring Klinger (GB) Ltd.",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_99682da27d914d6589c79d326706b6af~mv2.jpg/v1/fill/w_735,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/dc0ae0_99682da27d914d6589c79d326706b6af~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-04/nmd-elringklinger.png.webp",
         "address": "Troisdorf Way, Redcar TS10 5RX",
         "suite": "",
         "telephone": "",
