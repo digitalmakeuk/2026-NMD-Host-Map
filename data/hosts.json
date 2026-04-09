@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-04-09T09:44:10.644Z",
+  "updated_utc": "2026-04-09T09:49:11.238Z",
   "features": [
     {
       "type": "Feature",
@@ -23,6 +23,30 @@
         "coordinates": [
           -4.04175002,
           50.39600999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alwayse",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_d8e80e4320084a57b599a8a4af7c826b~mv2.jpg/v1/fill/w_735,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/dc0ae0_d8e80e4320084a57b599a8a4af7c826b~mv2.jpg",
+        "address": "Miller Street, Birmingham B6 4NF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/alwayse",
+        "description": "Alwayse are globally recognised as the leading Ball Transfer Unit brand in the world, exporting to over 60 countries. For over 80 years, we have been designing and manufacturing innovative movement solutions for virtually every application imaginable.",
+        "email": "Claire.umney@alwayse.co.uk",
+        "category": "",
+        "county": "",
+        "postcode": "B6 4NF",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.89260286051147,
+          52.493072389467
         ]
       }
     },
@@ -197,6 +221,30 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Guttridge Limited",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_4af08993f3854311a5bc1ba56043b013~mv2.jpg/v1/fill/w_735,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/dc0ae0_4af08993f3854311a5bc1ba56043b013~mv2.jpg",
+        "address": "Wardentree Park Spalding Lincs PE11 3UU",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/guttridge-limited",
+        "description": "Specialists in providing Bulk Material Handling solutions to Animal feed, pharmaceutical, food & beverage, waste management and other industries. We have been established over 60 years and on our site in South Lincolnshire, we sell, design and manufacture all machines on site.",
+        "email": "hr@guttridge.co.uk",
+        "category": "",
+        "county": "",
+        "postcode": "PE11 3UU",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.142554273986235,
+          52.8093507067931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Husco",
         "image_url": "https://static.wixstatic.com/media/dc0ae0_c1f2bf0b0c1741fbba8a2b4994b2d11f~mv2.jpg",
         "address": "6 Rivington Rd, Preston Brook, Runcorn WA7 3DT",
@@ -215,6 +263,30 @@
         "coordinates": [
           -2.65395002,
           53.31128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hymid",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_c97cab60a10a404b832c5e7cf765a022~mv2.jpg/v1/fill/w_735,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/dc0ae0_c97cab60a10a404b832c5e7cf765a022~mv2.jpg",
+        "address": "Woodland Close, Woodland Rd, Torquay TQ2 7BD",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/hymid",
+        "description": "Hymid is a technical injection moulding specialist that provides design consultancy and manufacturing expertise for clients that demand a top-end service at every stage of their product development life cycle.",
+        "email": "pheobe.davidson@hymid.co.uk",
+        "category": "",
+        "county": "",
+        "postcode": "TQ2 7BD",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.54602171645525,
+          50.4815469209557
         ]
       }
     },
@@ -575,6 +647,30 @@
         "coordinates": [
           0.4157263,
           52.76934529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flexeserve - The Alan Nuttall Partnership",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_98cacb4d3f4e40ffbd3a3ceefbc4bc59~mv2.jpg/v1/fill/w_735,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/dc0ae0_98cacb4d3f4e40ffbd3a3ceefbc4bc59~mv2.jpg",
+        "address": "Orchard House Dodwells Road Hinckley LE10 3BZ",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/flexeserve-the-alan-nuttall-partnership",
+        "description": "Flexeserve is the world’s leading hot-holding manufacturer and hot food-to-go specialist, partnering with and supporting global retailers and independent outlets. With their unique equipment and expertise. Flexeserve has been part of the Leicestershire community, manufacturing our range of hot-holding units since the 1990s. Our equipment has been adopted by major retail, fast-food and hospitality brands across the globe, including Greggs, Starbucks and Papa Johns. Queen’s Award winner, Flexeserve Zone, was the first heated display of its kind, delivering the power of multi-temperature hot-holding all in one unit, helping businesses sell more and waste less.",
+        "email": "anne-marie.richardson@flexeserve.com",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.40810414331997,
+          52.5401640549852
         ]
       }
     }
