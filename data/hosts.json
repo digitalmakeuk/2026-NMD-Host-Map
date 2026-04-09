@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-04-09T15:49:11.199Z",
+  "updated_utc": "2026-04-09T15:54:11.206Z",
   "features": [
     {
       "type": "Feature",
@@ -246,7 +246,7 @@
       "type": "Feature",
       "properties": {
         "name": "Husco",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_c1f2bf0b0c1741fbba8a2b4994b2d11f~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-04/nmd-husco.png.webp",
         "address": "6 Rivington Rd, Preston Brook, Runcorn WA7 3DT",
         "suite": "",
         "telephone": "",
