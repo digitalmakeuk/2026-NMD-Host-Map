@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-04-09T08:49:10.552Z",
+  "updated_utc": "2026-04-09T08:54:13.370Z",
   "features": [
     {
       "type": "Feature",
@@ -160,7 +160,7 @@
         "category": "",
         "county": "",
         "postcode": "",
-        "area": "North East Yorkshire & Humberside"
+        "area": "North East, Yorkshire & Humberside"
       },
       "geometry": {
         "type": "Point",
@@ -448,7 +448,7 @@
         "category": "",
         "county": "",
         "postcode": "",
-        "area": "North East Yorkshire & Humberside"
+        "area": "North East, Yorkshire & Humberside"
       },
       "geometry": {
         "type": "Point",
@@ -479,6 +479,30 @@
         "coordinates": [
           -1.51099018,
           51.21394489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Acres Engineering Limited",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_db4830d1da8541699ea58345eb8f5ced~mv2.jpg/v1/fill/w_735,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/dc0ae0_db4830d1da8541699ea58345eb8f5ced~mv2.jpg",
+        "address": "Castle Lane, Melbourne, Derby DE73 8JB",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/acres-engineering-limited",
+        "description": "Acres Engineering are the Winners of the Make UK National Award for Manufacturing Impact 2025. Founded in 1947, Acres Engineering Ltd, based in Melbourne, Derbyshire, is a leading British manufacturer of precision-engineered solutions for the automotive, aerospace, rail, defence, and energy sectors.\nSpecialising in metal fabrication, systems integration, and bespoke production support equipment, Acres combines traditional craftsmanship with cutting-edge technology to deliver innovation, reliability, and quality at every stage.\nOver recent years, Acres has achieved continued growth, expanded its manufacturing capacity, and proudly earned the Ministry of Defence Gold Award in recognition of its outstanding commitment to supporting veterans, reservists, and the Armed Forces community.\nDriven by a People First culture, Acres continues to invest in its workforce, pioneering apprenticeships and STEM engagement, while exploring new frontiers in hydrogen, defence, and space engineering — reinforcing its position as a trusted partner in the UK’s advanced manufacturing landscape. From its relationships built on quality and communication to its impressive in-house manufacturing capability and equipment, Acres continues to go from strength to strength.",
+        "email": "lp@acres.engineering",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.42159457398533,
+          52.8246179637543
         ]
       }
     },
