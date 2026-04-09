@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-04-09T08:39:12.779Z",
+  "updated_utc": "2026-04-09T08:44:11.203Z",
   "features": [
     {
       "type": "Feature",
@@ -383,6 +383,30 @@
         "coordinates": [
           -1.09712432,
           51.2479297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spiral UK",
+        "image_url": "https://static.wixstatic.com/media/dc0ae0_0b7dfbdd892a43bfbccb556df747bf68~mv2.jpg/v1/fill/w_735,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/dc0ae0_0b7dfbdd892a43bfbccb556df747bf68~mv2.jpg",
+        "address": "Unit 5 Water-Ma-Trout Industrial Estate, Helston TR13 0LW",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.nationalmanufacturingday.org/event-details/spiral-uk",
+        "description": "Spiral UK are one of the nations leading manufacturers of bespoke staircases, specialising in spiral stairs. The company was founded in 1985 and has, over it's 38 years, grown from strength to strength to go from a humble small staircase manufacturer in Cornwall to a nationwide provider of incredible staircase structures, producing stairs for places such as the London Palladium, The Gherkin and the Swansea Arena. Come along and visit the guys to see how these amazing staircases get made.",
+        "email": "marketing@spiral.uk.com",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.26884745880618,
+          50.1142208310727
         ]
       }
     },
