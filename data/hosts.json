@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-04-13T09:04:10.694Z",
+  "updated_utc": "2026-04-13T09:09:10.768Z",
   "features": [
     {
       "type": "Feature",
@@ -366,7 +366,7 @@
       "type": "Feature",
       "properties": {
         "name": "Make UK",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_406ac4500dd64ef2905c25fc445ed922~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-03/nmd-make-uk.png.webp",
         "address": "Saint. James's, Westminster, London, England, SW1H 9NQ",
         "suite": "",
         "telephone": "",
@@ -390,7 +390,7 @@
       "type": "Feature",
       "properties": {
         "name": "Make UK Technology Hub",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_406ac4500dd64ef2905c25fc445ed922~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-03/nmd-make-uk.png.webp",
         "address": "6 Nobel Way, Birmingham B6 7EU",
         "suite": "",
         "telephone": "",
