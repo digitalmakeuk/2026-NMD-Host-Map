@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-04-13T08:54:10.816Z",
+  "updated_utc": "2026-04-13T08:59:11.913Z",
   "features": [
     {
       "type": "Feature",
       "properties": {
         "name": "Alderman Tooling Ltd",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_53b5adfb8b5949b2824d46ae5044b359~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-04/nmd-aldermans.png.webp",
         "address": "Bell Close, Newnham Industrial Estate, Plymouth, PL7 4JH",
         "suite": "",
         "telephone": "",
@@ -30,7 +30,7 @@
       "type": "Feature",
       "properties": {
         "name": "Alwayse",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_d8e80e4320084a57b599a8a4af7c826b~mv2.jpg/v1/fill/w_735,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/dc0ae0_d8e80e4320084a57b599a8a4af7c826b~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-04/nmd-alwayse.png.webp",
         "address": "Miller Street, Birmingham B6 4NF",
         "suite": "",
         "telephone": "",
@@ -54,7 +54,7 @@
       "type": "Feature",
       "properties": {
         "name": "A&M EDM",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_83f8af6d52304d9898be1d5886cb4e05~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-04/nmd-a%26m.png.webp",
         "address": "Middlemore Road, Saint. Pauls, Smethwick, West Bromwich, Birmingham, West Midlands, England, B66 2DZ",
         "suite": "",
         "telephone": "",
@@ -78,7 +78,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boneham & Turner Ltd",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_348c6949e0b349bb8d9c2054b64142f1~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-04/nmd-boneham.png.webp",
         "address": "Sutton in Ashfield, Sutton-in-Ashfield, Nottinghamshire, England, NG17 5FB",
         "suite": "",
         "telephone": "",
@@ -102,7 +102,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cerulean",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_694e15cc55f5406bbe0f1ac542b89530~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-04/nmd-cerulean.png.webp",
         "address": "Rockingham Drive, Milton Keynes. MK14 6LY",
         "suite": "",
         "telephone": "",
