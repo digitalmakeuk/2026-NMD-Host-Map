@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-04-13T08:59:11.913Z",
+  "updated_utc": "2026-04-13T09:04:10.694Z",
   "features": [
     {
       "type": "Feature",
@@ -174,7 +174,7 @@
       "type": "Feature",
       "properties": {
         "name": "Flann Microwave Ltd",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_daa4366839d543efbd121be1fcdc1e6f~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-04/nmd-flann.png.webp",
         "address": "Dunmere Road, Bodmin, Cornwall, PL31 2QL",
         "suite": "",
         "telephone": "",
@@ -222,7 +222,7 @@
       "type": "Feature",
       "properties": {
         "name": "Guttridge Limited",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_4af08993f3854311a5bc1ba56043b013~mv2.jpg/v1/fill/w_735,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/dc0ae0_4af08993f3854311a5bc1ba56043b013~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-04/nmd-guttridge.png.webp",
         "address": "Wardentree Park Spalding Lincs PE11 3UU",
         "suite": "",
         "telephone": "",
@@ -270,7 +270,7 @@
       "type": "Feature",
       "properties": {
         "name": "Hymid",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_c97cab60a10a404b832c5e7cf765a022~mv2.jpg/v1/fill/w_735,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/dc0ae0_c97cab60a10a404b832c5e7cf765a022~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-04/nmd-hymid.png.webp",
         "address": "Woodland Close, Woodland Rd, Torquay TQ2 7BD",
         "suite": "",
         "telephone": "",
@@ -294,7 +294,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jointine Products (Lincoln) Ltd",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_e4c679710f334f3fb822eab7eddc994d~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-04/nmd-jointine-products.png.webp",
         "address": "Lindum Business Park, Station Rd, North Hykeham Lincoln. LN6 9AU",
         "suite": "",
         "telephone": "",
@@ -342,7 +342,7 @@
       "type": "Feature",
       "properties": {
         "name": "Lisi Aerospace",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_22180f37c9244462b099974b0dd93b79~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-04/nmd-lisi-aerospace.png.webp",
         "address": "38 Butlers Leap, Rugby CV21 3RQ",
         "suite": "",
         "telephone": "",
