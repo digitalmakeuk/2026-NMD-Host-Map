@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-04-13T09:09:10.768Z",
+  "updated_utc": "2026-04-13T09:14:10.405Z",
   "features": [
     {
       "type": "Feature",
@@ -414,7 +414,7 @@
       "type": "Feature",
       "properties": {
         "name": "Motion Control Products Ltd",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_397a3dd83d6b4a41aa4ff4e3a5f85e48~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-04/nmd-motion-control-products.png.webp",
         "address": "11-15 Francis Avenue, Bournemouth, Dorset, BH11 8NX",
         "suite": "",
         "telephone": "",
@@ -438,7 +438,7 @@
       "type": "Feature",
       "properties": {
         "name": "NAAME",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_c5722c0a6bb943aab1277671c242a7e4~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-04/nmd-naame.png.webp",
         "address": "Centrum, Colney Ln, Norwich NR4 7UG",
         "suite": "",
         "telephone": "",
@@ -462,7 +462,7 @@
       "type": "Feature",
       "properties": {
         "name": "Petra Jewellery",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_c5722c0a6bb943aab1277671c242a7e4~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-04/nmd-petra-jewellery.png.webp",
         "address": "The Cottage, Unit 19, Viables Craft Centre, The Harrow Way, Basingstoke, Hampshire, RG22 4BJ",
         "suite": "",
         "telephone": "",
@@ -486,7 +486,7 @@
       "type": "Feature",
       "properties": {
         "name": "Spiral UK",
-        "image_url": "https://static.wixstatic.com/media/dc0ae0_0b7dfbdd892a43bfbccb556df747bf68~mv2.jpg/v1/fill/w_735,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/dc0ae0_0b7dfbdd892a43bfbccb556df747bf68~mv2.jpg",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-04/nmd-spiral-uk.png.webp",
         "address": "Unit 5 Water-Ma-Trout Industrial Estate, Helston TR13 0LW",
         "suite": "",
         "telephone": "",
