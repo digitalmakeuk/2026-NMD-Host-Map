@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-01T13:29:10.680Z",
+  "updated_utc": "2026-05-01T13:34:11.095Z",
   "features": [
     {
       "type": "Feature",
@@ -754,7 +754,7 @@
         "address": "Waterloo Road Industrial Estate, Waterloo Road, Bidford-On-Avon, Warwickshire. B50 4JH",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/tornado-wire-ltd",
         "description": "Tornado Wire manufactures premium, high-tensile wire fencing for agriculture, forestry, infrastructure, and wildlife protection. Renowned for strength and longevity, our products perform in the toughest conditions. As a UK leader in fencing solutions, we’re equally committed to innovation, customer partnerships, and supporting the people who power our success.",
         "email": "manjinder.karwal@tornadowire.com",
         "category": "",
