@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-01T11:19:10.447Z",
+  "updated_utc": "2026-05-01T11:24:10.236Z",
   "features": [
     {
       "type": "Feature",
@@ -702,7 +702,7 @@
       "type": "Feature",
       "properties": {
         "name": "WDS Components Ltd",
-        "image_url": "https://www.makeuk.org/system/files/webform/nmd_hosting_form/1548/wds-components-logo.png",
+        "image_url": "",
         "address": "Richardshaw Road, Grangefield Industrial Estate, Pudsey, West Yorkshire, LS28 6LE",
         "suite": "",
         "telephone": "",
@@ -726,7 +726,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brown & Holmes (Derby)",
-        "image_url": "https://www.makeuk.org/system/files/webform/nmd_hosting_form/1549/brown--holmes-derby-logo.png",
+        "image_url": "",
         "address": "Unit 3, Gresham Road Industrial Estate, Derby, Derbyshire. DE24 8AW",
         "suite": "",
         "telephone": "",
