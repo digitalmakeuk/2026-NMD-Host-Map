@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-01T11:14:10.412Z",
+  "updated_utc": "2026-05-01T11:19:10.447Z",
   "features": [
     {
       "type": "Feature",
@@ -706,7 +706,7 @@
         "address": "Richardshaw Road, Grangefield Industrial Estate, Pudsey, West Yorkshire, LS28 6LE",
         "suite": "",
         "telephone": "",
-        "website": "https://www.wdscomponents.com",
+        "website": "",
         "description": "WDS is a leading European manufacturer and global supplier of Standard Parts, Machine Accessories and Work Holding Components, with a long history and an impressive pedigree.",
         "email": "mmoody@wdscomponents.com",
         "category": "",
@@ -730,7 +730,7 @@
         "address": "Unit 3, Gresham Road Industrial Estate, Derby, Derbyshire. DE24 8AW",
         "suite": "",
         "telephone": "",
-        "website": "https://www.brownandholmesderby.co.uk/",
+        "website": "",
         "description": "Brown & Holmes (Derby) specialises in complex electrical, electronic, and electro-mechanical systems. We support defence, aerospace, and advanced engineering programmes, delivering high-integrity solutions from concept through to production, with a focus on reliability, precision, and real-world performance",
         "email": "mschofield@brownandholmesderby.co.uk",
         "category": "",
