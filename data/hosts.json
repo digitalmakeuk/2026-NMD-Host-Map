@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-01T11:49:10.689Z",
+  "updated_utc": "2026-05-01T11:54:10.496Z",
   "features": [
     {
       "type": "Feature",
@@ -743,6 +743,54 @@
         "coordinates": [
           -1.461266,
           52.900543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tornado Wire",
+        "image_url": "",
+        "address": "Waterloo Road Industrial Estate, Waterloo Road, Bidford-On-Avon, Warwickshire. B50 4JH",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "Tornado Wire manufactures premium, high-tensile wire fencing for agriculture, forestry, infrastructure, and wildlife protection. Renowned for strength and longevity, our products perform in the toughest conditions. As a UK leader in fencing solutions, we’re equally committed to innovation, customer partnerships, and supporting the people who power our success.",
+        "email": "manjinder.karwal@tornadowire.com",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.850248,
+          52.173252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rowan Precision Ltd",
+        "image_url": "",
+        "address": "Unit 2-3 The Poplars Industrial Estate, Moor Lane, Birmingham, West Midlands. B6 7AD",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "Rowan Precision Ltd manufactures high-quality precision machined components and turned parts using 13-axis CNC sliding head machines and twin-spindle fixed head mill-turn centers.",
+        "email": "sales@rowanprecision.co.uk",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8838,
+          52.527665
         ]
       }
     }
