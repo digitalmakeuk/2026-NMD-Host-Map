@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-01T10:14:11.174Z",
+  "updated_utc": "2026-05-01T10:19:10.776Z",
   "features": [
     {
       "type": "Feature",
@@ -695,6 +695,30 @@
         "coordinates": [
           -1.86428976036702,
           54.8369655911355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WDS Components Ltd",
+        "image_url": "https://www.makeuk.org/system/files/webform/nmd_hosting_form/1548/wds-components-logo.png",
+        "address": "Richardshaw Road, Grangefield Industrial Estate, Pudsey, West Yorkshire, LS28 6LE",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.wdscomponents.com",
+        "description": "WDS is a leading European manufacturer and global supplier of Standard Parts, Machine Accessories and Work Holding Components, with a long history and an impressive pedigree.",
+        "email": "mmoody@wdscomponents.com",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6577842,
+          53.803116
         ]
       }
     }
