@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-05T16:54:10.391Z",
+  "updated_utc": "2026-05-05T16:59:10.671Z",
   "features": [
     {
       "type": "Feature",
@@ -14,7 +14,7 @@
         "description": "",
         "email": "karen.friendship@aldermantooling.co.uk",
         "category": "",
-        "county": "",
+        "county": "Devon",
         "postcode": "PL7 4JH",
         "area": "South"
       },
@@ -38,7 +38,7 @@
         "description": "",
         "email": "Claire.umney@alwayse.co.uk",
         "category": "",
-        "county": "",
+        "county": "West Midlands",
         "postcode": "B6 4NF",
         "area": "Midlands & East"
       },
@@ -62,7 +62,7 @@
         "description": "",
         "email": "philcalcutt@amedm.co.uk",
         "category": "",
-        "county": "",
+        "county": "West Midlands",
         "postcode": "B66 2DZ",
         "area": "Midlands & East"
       },
@@ -86,8 +86,8 @@
         "description": "",
         "email": "Stacy.db@boneham.co.uk",
         "category": "",
-        "county": "Surrey",
-        "postcode": "",
+        "county": "Nottinghamshire",
+        "postcode": "NG17 5FB",
         "area": "Midlands & East"
       },
       "geometry": {
