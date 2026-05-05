@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-05T14:59:11.094Z",
+  "updated_utc": "2026-05-05T15:04:10.650Z",
   "features": [
     {
       "type": "Feature",
@@ -791,6 +791,30 @@
         "coordinates": [
           -1.8838,
           52.527665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Capabilities Beyond Engineering (CBE+)",
+        "image_url": "",
+        "address": "Enterprise Drive, Williamthorpe Industrial Estate, Holmewood, Chesterfield, Derbyshire",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "Operating from a 100,000 sq ft Chesterfield facility, CBE+ delivers integrated supply chain solutions through expertise, investment in people, technology and quality. Serving sectors including aerospace, rail and energy, capabilities include CNC machining, plating, gear manufacture, assembly and testing, supported by ISO9001 and AS9100D accreditation.",
+        "email": "katie@cbeplus.com",
+        "category": "",
+        "county": "",
+        "postcode": "S42 5UZ",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.362633,
+          53.193892
         ]
       }
     }
