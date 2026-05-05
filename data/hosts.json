@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-05T15:59:11.339Z",
+  "updated_utc": "2026-05-05T16:04:10.883Z",
   "features": [
     {
       "type": "Feature",
@@ -815,6 +815,78 @@
         "coordinates": [
           -1.362633,
           53.193892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dudley Associates Ltd",
+        "image_url": "",
+        "address": "Units 3-5 Elizabethan Way, Lutterworth, Leicestershire. LE17 4ND",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "",
+        "email": "sales@dudleyassociates.com",
+        "category": "",
+        "county": "",
+        "postcode": "LE17 4ND",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.196507,
+          52.463286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ITP Aero",
+        "image_url": "",
+        "address": "Dorey Way, Harrier Park, Hucknall, Nottingham, NG15 6EU",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "",
+        "email": "sarah.kinrade@itpaero.com",
+        "category": "",
+        "county": "",
+        "postcode": "NG15 6EU",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.215916,
+          53.019671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Midlands Aerospace LTD",
+        "image_url": "",
+        "address": "Castlewood Business Park, Farmwell Lane, Sutton In Ashfield, Nottinghamshire. Ng17 1bx",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.midlandaerospace.com/",
+        "description": "",
+        "email": "abbey.eames@midlandaerospace.com",
+        "category": "",
+        "county": "",
+        "postcode": "Ng17 1bx",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.299026,
+          53.109297
         ]
       }
     }
