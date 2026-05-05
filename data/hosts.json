@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-05T16:04:10.883Z",
+  "updated_utc": "2026-05-05T16:09:10.687Z",
   "features": [
     {
       "type": "Feature",
@@ -887,6 +887,54 @@
         "coordinates": [
           -1.299026,
           53.109297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philtronics Limited",
+        "image_url": "",
+        "address": "Unit 11 Hirwaun Industrial Estate, Aberdare CF44 9UP",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "",
+        "email": "anne.pritchard@philtronicsltd.co.uk",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "Wales"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.534926,
+          51.743011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Playdale Playgrounds",
+        "image_url": "",
+        "address": "Haverthwaite, Ulverston, Cumbria. LA12 8AE",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "",
+        "email": "karla.thomas@playdale.co.uk",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.013648,
+          54.244475
         ]
       }
     }
