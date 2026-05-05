@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-05T17:24:10.873Z",
+  "updated_utc": "2026-05-05T17:29:11.012Z",
   "features": [
     {
       "type": "Feature",
@@ -869,7 +869,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Midlands Aerospace LTD",
+        "name": "Midland Aerospace LTD",
         "image_url": "",
         "address": "Castlewood Business Park, Farmwell Lane, Sutton In Ashfield, Nottinghamshire. Ng17 1bx",
         "suite": "",
