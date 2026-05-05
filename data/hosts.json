@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-05T16:59:10.671Z",
+  "updated_utc": "2026-05-05T17:04:11.136Z",
   "features": [
     {
       "type": "Feature",
@@ -110,8 +110,8 @@
         "description": "",
         "email": "Claire.millsop@coesia.com",
         "category": "",
-        "county": "",
-        "postcode": "",
+        "county": "Buckinghamshire",
+        "postcode": "MK14 6LY",
         "area": "Midlands & East"
       },
       "geometry": {
@@ -134,7 +134,7 @@
         "description": "",
         "email": "joanna.whysall@elringklinger.com",
         "category": "",
-        "county": "",
+        "county": "North Yorkshire",
         "postcode": "TS10 5RX",
         "area": "North East, Yorkshire & Humberside"
       },
@@ -158,8 +158,8 @@
         "description": "",
         "email": "rachelclark-raee@expoworldwide.com",
         "category": "",
-        "county": "",
-        "postcode": "",
+        "county": "Surrey",
+        "postcode": "TW16 5DB",
         "area": "South"
       },
       "geometry": {
@@ -182,8 +182,8 @@
         "description": "",
         "email": "sarah.deacon@flann.com",
         "category": "",
-        "county": "",
-        "postcode": "",
+        "county": "Cornwall",
+        "postcode": "PL31 2QL",
         "area": "South"
       },
       "geometry": {
@@ -206,8 +206,8 @@
         "description": "",
         "email": "John.Cook@groupe-atlantic.co.uk",
         "category": "",
-        "county": "",
-        "postcode": "",
+        "county": "Yorkshire & the Humber",
+        "postcode": "HU5 4JB",
         "area": "North East, Yorkshire & Humberside"
       },
       "geometry": {
@@ -230,7 +230,7 @@
         "description": "",
         "email": "hr@guttridge.co.uk",
         "category": "",
-        "county": "",
+        "county": "Lincolnshire",
         "postcode": "PE11 3UU",
         "area": "Midlands & East"
       },
@@ -254,8 +254,8 @@
         "description": "",
         "email": "vicky.dunbar@husco.com",
         "category": "",
-        "county": "",
-        "postcode": "",
+        "county": "Cheshire",
+        "postcode": "WA7 3DT",
         "area": "North West"
       },
       "geometry": {
@@ -278,7 +278,7 @@
         "description": "",
         "email": "pheobe.davidson@hymid.co.uk",
         "category": "",
-        "county": "",
+        "county": "Devon",
         "postcode": "TQ2 7BD",
         "area": "South"
       },
@@ -302,8 +302,8 @@
         "description": "",
         "email": "jane@jointine.co.uk",
         "category": "",
-        "county": "",
-        "postcode": "",
+        "county": "Lincolnshire",
+        "postcode": "LN6 9AU",
         "area": "Midlands & East"
       },
       "geometry": {
@@ -326,8 +326,8 @@
         "description": "",
         "email": "emma.livingstone@knds.co.uk",
         "category": "",
-        "county": "",
-        "postcode": "",
+        "county": "Greater Manchester",
+        "postcode": "SK4 5DY",
         "area": "North West"
       },
       "geometry": {
@@ -350,8 +350,8 @@
         "description": "",
         "email": "kirstie.kennedy@lisi-group.com",
         "category": "",
-        "county": "",
-        "postcode": "",
+        "county": "Warwickshire",
+        "postcode": "CV21 3RQ",
         "area": "Midlands & East"
       },
       "geometry": {
@@ -374,8 +374,8 @@
         "description": "",
         "email": "",
         "category": "",
-        "county": "",
-        "postcode": "",
+        "county": "Westminster",
+        "postcode": "SW1H 9NQ",
         "area": "South"
       },
       "geometry": {
@@ -398,8 +398,8 @@
         "description": "",
         "email": "enquiries@makeuk.org",
         "category": "",
-        "county": "",
-        "postcode": "",
+        "county": "West Midlands",
+        "postcode": "B6 7EU",
         "area": "Midlands & East"
       },
       "geometry": {
