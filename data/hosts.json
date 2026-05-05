@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-05T16:49:12.083Z",
+  "updated_utc": "2026-05-05T16:54:10.391Z",
   "features": [
     {
       "type": "Feature",
@@ -959,6 +959,30 @@
         "coordinates": [
           -3.013648,
           54.244475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cullum Detuners Limited",
+        "image_url": "",
+        "address": "Adams Close, Heanor Gate Industrial Park, Heanor, Derbyshire, DE75 7SW",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "",
+        "email": "tammy.watson@cullum.co.uk",
+        "category": "",
+        "county": "",
+        "postcode": "",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.360428,
+          53.006619
         ]
       }
     }
