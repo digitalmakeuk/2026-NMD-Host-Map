@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-05T15:14:11.468Z",
+  "updated_utc": "2026-05-05T15:19:11.403Z",
   "features": [
     {
       "type": "Feature",
@@ -799,7 +799,7 @@
       "properties": {
         "name": "Capabilities Beyond Engineering (CBE+)",
         "image_url": "",
-        "address": "Enterprise Drive, Williamthorpe Industrial Estate, Holmewood, Chesterfield, Derbyshire",
+        "address": "Enterprise Drive, Williamthorpe Industrial Estate, Holmewood, Chesterfield, Derbyshire. S42 5UZ",
         "suite": "",
         "telephone": "",
         "website": "",
