@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-06T13:14:11.220Z",
+  "updated_utc": "2026-05-06T13:19:10.594Z",
   "features": [
     {
       "type": "Feature",
@@ -983,6 +983,30 @@
         "coordinates": [
           -1.360428,
           53.006619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Preformed Windings Ltd",
+        "image_url": "",
+        "address": "Unit C, Vector 31, Waleswood Way, Sheffield S26 5NU",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "",
+        "email": "dmcclelland@preformedwindings.com",
+        "category": "",
+        "county": "South Yorkshire",
+        "postcode": "S26 5NU",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.295069,
+          53.345731
         ]
       }
     }
