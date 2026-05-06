@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-06T10:49:11.005Z",
+  "updated_utc": "2026-05-06T10:54:10.459Z",
   "features": [
     {
       "type": "Feature",
@@ -702,7 +702,7 @@
       "type": "Feature",
       "properties": {
         "name": "WDS Components Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-05/nmd-wds-components_0.png.webp",
         "address": "Richardshaw Road, Grangefield Industrial Estate, Pudsey, West Yorkshire, LS28 6LE",
         "suite": "",
         "telephone": "",
