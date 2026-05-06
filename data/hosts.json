@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-06T13:44:11.232Z",
+  "updated_utc": "2026-05-06T13:49:10.657Z",
   "features": [
     {
       "type": "Feature",
@@ -1007,6 +1007,30 @@
         "coordinates": [
           -1.295069,
           53.345731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Peerless Plastics and Coatings Ltd",
+        "image_url": "",
+        "address": "16 – 20 Howlett Way, Thetford, Norfolk IP24 1HZ",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "",
+        "email": "pstamp@peerless-coatings.co.uk",
+        "category": "",
+        "county": "Norfolk",
+        "postcode": "IP24 1HZ",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.743924,
+          52.427251
         ]
       }
     }
