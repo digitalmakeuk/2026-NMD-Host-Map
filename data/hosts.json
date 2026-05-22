@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-22T14:59:10.789Z",
+  "updated_utc": "2026-05-22T15:04:12.358Z",
   "features": [
     {
       "type": "Feature",
@@ -1031,6 +1031,30 @@
         "coordinates": [
           0.743924,
           52.427251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TRT Lighting Ltd",
+        "image_url": "",
+        "address": "Heming Point, Claybrook Drive, Washford Industrial Estate, Redditch, England B98 0FH",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "",
+        "email": "Kirsty.conley@trtlighting.co.uk",
+        "category": "",
+        "county": "West Midlands",
+        "postcode": "B98 0FH",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.892986,
+          52.286258
         ]
       }
     }
