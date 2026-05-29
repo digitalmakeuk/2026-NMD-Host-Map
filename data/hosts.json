@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-05-29T12:34:10.776Z",
+  "updated_utc": "2026-05-29T12:39:13.079Z",
   "features": [
     {
       "type": "Feature",
@@ -250,7 +250,7 @@
         "address": "6 Rivington Rd, Preston Brook, Runcorn WA7 3DT",
         "suite": "",
         "telephone": "",
-        "website": "https://www.nationalmanufacturingday.org/event-details/husco-1",
+        "website": "",
         "description": "Husco is a privately-owned company specializing in hydraulic and electro-mechanical control systems. We have over 70 years of experience designing and manufacturing components for Automotive and Off-Highway equipment. Our collaborative customer relationships are driven by three essential values: intelligent risk-taking, high performance, and practical innovation.",
         "email": "vicky.dunbar@husco.com",
         "category": "",
@@ -322,7 +322,7 @@
         "address": "Sir Richard Fairey Road, Heaton Chapel, Stockport SK4 5DY",
         "suite": "",
         "telephone": "",
-        "website": "https://www.nationalmanufacturingday.org/event-details/knds-uk",
+        "website": "https://www.makeuk.org/national-manufacturing-day/host-employers/knds",
         "description": "With over a century of engineering expertise and innovation, KNDS UK is a renowned world leader in rapidly deployable bridging systems providing infrastructure relief for military and humanitarian purposes and a key partner in the UK MoD’s Boxer programme. Together, we pioneer and support engineering excellence, made in Manchester, trusted around the world.",
         "email": "emma.livingstone@knds.co.uk",
         "category": "",
@@ -634,7 +634,7 @@
         "address": "9 Bryggen Road, North Lynn Industrial Estate King's Lynn, Norfolk PE30 2HZ",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/host-employers/williams-refrigeration",
         "description": "Williams Refrigeration is a world-leading manufacturer of commercial refrigeration, driven from our headquarters in King's Lynn. We manufacture an extensive range of refrigeration including cabinets and counters, blast chillers, coldrooms, bottle and wine coolers to specialist bakery and meat ageing units. Our products are trusted in some of the most iconic destinations across the globe - from Michelin-starred restaurants and luxury hotels to Premier League football clubs, NHS hospitals and major supermarkets. For over 40 years, we’ve set the standard in refrigeration, supporting various industries and people worldwide with equipment that combines reliability, innovation and high performance.",
         "email": "hcroft@williams-refrigeration.co.uk",
         "category": "",
