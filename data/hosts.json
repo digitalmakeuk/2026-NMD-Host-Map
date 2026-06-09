@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-09T08:14:10.183Z",
+  "updated_utc": "2026-06-09T08:19:10.876Z",
   "features": [
     {
       "type": "Feature",
@@ -726,11 +726,11 @@
       "type": "Feature",
       "properties": {
         "name": "Brown & Holmes (Derby)",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-06/nmd-brown-and-holmes.png.webp",
         "address": "Unit 3, Gresham Road Industrial Estate, Derby, Derbyshire. DE24 8AW",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/brown-holmes-derby",
         "description": "Brown & Holmes (Derby) specialises in complex electrical, electronic, and electro-mechanical systems. We support defence, aerospace, and advanced engineering programmes, delivering high-integrity solutions from concept through to production, with a focus on reliability, precision, and real-world performance",
         "email": "mschofield@brownandholmesderby.co.uk",
         "category": "",
