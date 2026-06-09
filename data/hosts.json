@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-09T10:39:10.468Z",
+  "updated_utc": "2026-06-09T10:44:11.529Z",
   "features": [
     {
       "type": "Feature",
@@ -774,11 +774,11 @@
       "type": "Feature",
       "properties": {
         "name": "Rowan Precision Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-06/nmd-rowan-precision.png.webp",
         "address": "Unit 2-3 The Poplars Industrial Estate, Moor Lane, Birmingham, West Midlands. B6 7AD",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/rowan-precision-ltd",
         "description": "Rowan Precision Ltd manufactures high-quality precision machined components and turned parts using 13-axis CNC sliding head machines and twin-spindle fixed head mill-turn centers.",
         "email": "sales@rowanprecision.co.uk",
         "category": "",
