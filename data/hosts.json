@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-11T12:09:10.603Z",
+  "updated_utc": "2026-06-11T12:14:10.810Z",
   "features": [
     {
       "type": "Feature",
@@ -1127,6 +1127,54 @@
         "coordinates": [
           -3.482859,
           55.876323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FT (Facultatieve Technologies)",
+        "image_url": "",
+        "address": "Moor Rd, Hunslet, Leeds . LS10 2DD",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "FT designs and services high-performance cremators that are trusted in over 35 countries. With over 140 years of engineering expertise and a commitment to continuous improvement, the company sets the standard in world class cremators.",
+        "email": "grace.walsh@facultatieve-technologies.com",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "LS10 2DD",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.537376,
+          53.772654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pragmatic Semiconductors",
+        "image_url": "",
+        "address": "Pragmatic Park, John's Road, Meadowfield, Durham. DH7 8RJ",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "Pragmatic Semiconductor is a global semiconductor company pioneering flexible integrated circuit technology, manufactured sustainably at speed and scale. With advanced manufacturing facilities in the United Kingdom, Pragmatic serves the consumer, industrial and healthcare sectors, empowering innovators with design miniaturisation and delivering intelligence at edge and item-level.",
+        "email": "stephanie.kane@pragmaticsemi.com",
+        "category": "",
+        "county": "County Durham",
+        "postcode": "DH7 8RJ",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.612205,
+          54.749158
         ]
       }
     }
