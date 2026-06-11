@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-11T12:04:11.798Z",
+  "updated_utc": "2026-06-11T12:09:10.603Z",
   "features": [
     {
       "type": "Feature",
@@ -1055,6 +1055,78 @@
         "coordinates": [
           -1.892986,
           52.286258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Domino Printing Sciences",
+        "image_url": "",
+        "address": "Trafalgar Way, Bar Hill, Cambridgeshire. CB23 8TU",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "TBC",
+        "email": "jess.murray@domino-uk.com",
+        "category": "",
+        "county": "Cambridgeshire",
+        "postcode": "CB23 8TU",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.018291,
+          52.258524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salt Separation Services",
+        "image_url": "",
+        "address": "Grosvenor House, Gorrel Street, Rochdale, Select. OL11 1AE",
+        "suite": "",
+        "telephone": "",
+        "website": "https://saltsep.co.uk/",
+        "description": "Salt Separation Services Limited is an independent water treatment company specialising in the design, manufacture, installation, and commissioning of membrane-based systems. Serving offshore oil and gas, marine, and industrial sectors, the company focuses on Reverse Osmosis (RO) and Nanofiltration technologies for drinking, process, and industrial water treatment.",
+        "email": "cerys.shackleton-waller@saltsep.co.uk",
+        "category": "",
+        "county": "Greater Manchester",
+        "postcode": "OL11 1AE",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.148844,
+          53.606272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NextPharma Edinburgh",
+        "image_url": "",
+        "address": "8 Oakbank Park Way, Livingston EH53 0TH",
+        "suite": "",
+        "telephone": "",
+        "website": "https://nextpharma.com/",
+        "description": "NextPharma Edinburgh is a specialist pharmaceutical manufacturing and analytical site focused on the development, manufacture, and release of oral dosage forms.\r\nThe site is particularly known for its expertise in liquid-filled hard capsules, offering advanced formulation and manufacturing capabilities for complex and poorly soluble drugs. This enables improved bioavailability and flexible dosing solutions for a wide range of products.\r\nKey activities include:\r\n•\tManufacture of liquid-filled hard capsules for clinical and commercial supply\r\n•\tAnalytical testing from method development to full batch release ensuring products meet strict GMP and regulatory standards\r\n•\tStability study testing and design to support product shelf life and regulatory submissions\r\nLooking ahead, the site is expanding its technology offering with the introduction of Hot Melt Extrusion (HME) capability in 2026, further strengthening its ability to support enhanced drug solubility and advanced formulation development.\r\nOverall, NextPharma Edinburgh plays a critical role in delivering high-quality, innovative medicines safely and reliably to patients worldwide.",
+        "email": "Hayley.Marshall@nextpharma.com",
+        "category": "",
+        "county": "West Lothian",
+        "postcode": "EH53 0TH",
+        "area": "Scotland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.482859,
+          55.876323
         ]
       }
     }
