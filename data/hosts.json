@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-12T11:14:11.677Z",
+  "updated_utc": "2026-06-12T11:19:11.420Z",
   "features": [
     {
       "type": "Feature",
@@ -822,7 +822,7 @@
       "type": "Feature",
       "properties": {
         "name": "Dudley Associates Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-06/nmd-dudley-associates.png.webp",
         "address": "Units 3-5 Elizabethan Way, Lutterworth, Leicestershire. LE17 4ND",
         "suite": "",
         "telephone": "",
