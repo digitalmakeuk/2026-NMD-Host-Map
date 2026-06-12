@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-12T15:59:10.811Z",
+  "updated_utc": "2026-06-12T16:04:11.952Z",
   "features": [
     {
       "type": "Feature",
@@ -922,7 +922,7 @@
         "address": "Unit 11 Hirwaun Industrial Estate, Aberdare CF44 9UP",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/philtronics-limited",
         "description": "Philtronics is a Contract Electronic Manufacturer (CEM), offering outsource electronic manufacturing services to customers demanding fast turnaround with a high level of product reliability. We have been in the contract electronic manufacturing business for over 20 years, becoming a key partner in the semiconductor supply chain in Wales.",
         "email": "anne.pritchard@philtronicsltd.co.uk",
         "category": "",
