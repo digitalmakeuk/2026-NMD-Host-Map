@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-12T15:34:11.103Z",
+  "updated_utc": "2026-06-12T15:39:10.409Z",
   "features": [
     {
       "type": "Feature",
@@ -894,7 +894,7 @@
       "type": "Feature",
       "properties": {
         "name": "Warren Services",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-06/nmd-warren-services.png.webp",
         "address": "2 Brickfields Way, Thetford, Norfolk, IP24 1HX",
         "suite": "",
         "telephone": "",
