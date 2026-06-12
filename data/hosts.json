@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-12T11:29:10.578Z",
+  "updated_utc": "2026-06-12T11:34:11.215Z",
   "features": [
     {
       "type": "Feature",
@@ -846,7 +846,7 @@
       "type": "Feature",
       "properties": {
         "name": "ITP Aero",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-06/nmd-itp-aero.png.webp",
         "address": "Dorey Way, Harrier Park, Hucknall, Nottingham, NG15 6EU",
         "suite": "",
         "telephone": "",
