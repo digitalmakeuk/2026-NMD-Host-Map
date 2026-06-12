@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-12T15:29:10.662Z",
+  "updated_utc": "2026-06-12T15:34:11.103Z",
   "features": [
     {
       "type": "Feature",
@@ -874,7 +874,7 @@
         "address": "Castlewood Business Park, Farmwell Lane, Sutton In Ashfield, Nottinghamshire. Ng17 1bx",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/midland-aerospace-ltd",
         "description": "Midland Aerospace is a manufacturer producing precision engineered components and assemblies for the aerospace and advanced manufacturing sectors, delivering high quality, reliable solutions through skilled people and robust processes. The company invests in employee development, apprenticeships, and local skills initiatives, supporting future engineering talent through strong links with schools and colleges.",
         "email": "abbey.eames@midlandaerospace.com",
         "category": "",
