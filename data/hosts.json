@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-12T14:29:11.308Z",
+  "updated_utc": "2026-06-12T14:34:10.555Z",
   "features": [
     {
       "type": "Feature",
@@ -802,7 +802,7 @@
         "address": "Enterprise Drive, Williamthorpe Industrial Estate, Holmewood, Chesterfield, Derbyshire. S42 5UZ",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/capabilities-beyond-engineering-cbe",
         "description": "Operating from a 100,000 sq ft Chesterfield facility, CBE+ delivers integrated supply chain solutions through expertise, investment in people, technology and quality. Serving sectors including aerospace, rail and energy, capabilities include CNC machining, plating, gear manufacture, assembly and testing, supported by ISO9001 and AS9100D accreditation.",
         "email": "katie@cbeplus.com",
         "category": "",
@@ -826,7 +826,7 @@
         "address": "Units 3-5 Elizabethan Way, Lutterworth, Leicestershire. LE17 4ND",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/dudley-associates-ltd",
         "description": "At Dudley, teamwork is something we value. Everyone takes responsibility for quality, supports each other, and looks for better ways of doing things. Our machines are impressive but it’s the team behind them that sets us apart. Services include; Plastic Injection Moulding, Toolmaking, Design & Development, Prototype Development, Assembly Services.",
         "email": "sales@dudleyassociates.com",
         "category": "",
@@ -850,7 +850,7 @@
         "address": "Dorey Way, Harrier Park, Hucknall, Nottingham, NG15 6EU",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/itp-aero",
         "description": "As a world-leading partner in future flight technologies, ITP Aero is specialised in designing, developing, manufacturing and providing lifecycle propulsion services for aeroengines that drive innovation, efficiency and sustainability. With a 35-year track record of innovation and a growing workforce of almost 6,000 professionals across 14 sites in 5 countries, ITP Aero plays a pivotal role in 40% of all commercial aircraft engine deliveries annually. With more than 5,000 engines in service, ITP Aero powers 8 aircraft take-offs every minute, partnering with all major engine OEMs to advance aviation globally. By bringing the best of our innovative spirit and generating shared value along the entire aeroengine’s lifecycle, we raise the bar in aviation.",
         "email": "sarah.kinrade@itpaero.com",
         "category": "",
