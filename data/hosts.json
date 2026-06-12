@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-12T10:59:10.922Z",
+  "updated_utc": "2026-06-12T11:04:11.300Z",
   "features": [
     {
       "type": "Feature",
@@ -798,7 +798,7 @@
       "type": "Feature",
       "properties": {
         "name": "Capabilities Beyond Engineering (CBE+)",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-06/nmd-cbe.png.webp",
         "address": "Enterprise Drive, Williamthorpe Industrial Estate, Holmewood, Chesterfield, Derbyshire. S42 5UZ",
         "suite": "",
         "telephone": "",
