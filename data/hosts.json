@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-12T15:24:11.585Z",
+  "updated_utc": "2026-06-12T15:29:10.662Z",
   "features": [
     {
       "type": "Feature",
@@ -870,7 +870,7 @@
       "type": "Feature",
       "properties": {
         "name": "Midland Aerospace LTD",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-06/nmd-midland-aerospace.png.webp",
         "address": "Castlewood Business Park, Farmwell Lane, Sutton In Ashfield, Nottinghamshire. Ng17 1bx",
         "suite": "",
         "telephone": "",
