@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-16T15:34:10.481Z",
+  "updated_utc": "2026-06-16T15:39:10.571Z",
   "features": [
     {
       "type": "Feature",
@@ -1014,11 +1014,11 @@
       "type": "Feature",
       "properties": {
         "name": "Peerless Plastics and Coatings Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/peerless-plastics-%26-coatings-resized.png.webp?h=d2973ebb&itok=fnhqXYyy",
         "address": "16 – 20 Howlett Way, Thetford, Norfolk IP24 1HZ",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/peerless-plastics-and-coatings-ltd",
         "description": "We specialise in applying hard coatings to plastic substrates, improving scratch and chemical resistance while adding properties like anti-fog, anti-glare and anti-microbial. We also offer CNC machining, printing, moulding and assembly. By expanding services under one roof and investing in energy efficiency, we support sustainability and reduce customer carbon footprints.",
         "email": "pstamp@peerless-coatings.co.uk",
         "category": "",
