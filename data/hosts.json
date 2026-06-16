@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-16T16:24:11.070Z",
+  "updated_utc": "2026-06-16T16:29:11.377Z",
   "features": [
     {
       "type": "Feature",
@@ -1134,7 +1134,7 @@
       "type": "Feature",
       "properties": {
         "name": "FT (Facultatieve Technologies)",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/ft-logo-resize.png.webp?h=d2973ebb&itok=2_j0Byal",
         "address": "Moor Rd, Hunslet, Leeds . LS10 2DD",
         "suite": "",
         "telephone": "",
