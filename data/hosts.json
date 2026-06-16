@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-16T14:49:10.431Z",
+  "updated_utc": "2026-06-16T14:54:11.321Z",
   "features": [
     {
       "type": "Feature",
@@ -990,11 +990,11 @@
       "type": "Feature",
       "properties": {
         "name": "Preformed Windings Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/preformed-windings-logo.png.webp?h=d2973ebb&itok=C15LFzTd",
         "address": "Unit C, Vector 31, Waleswood Way, Sheffield S26 5NU",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/preformed-windings-ltd",
         "description": "Preformed Windings is a specialist manufacturer of high-voltage coils and bars for critical rotating electrical equipment. With over 55 years of experience, PFW supports the performance, reliability, and extended life of power generation and industrial assets worldwide.",
         "email": "dmcclelland@preformedwindings.com",
         "category": "",
