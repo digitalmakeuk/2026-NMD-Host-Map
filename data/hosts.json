@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-16T16:59:10.773Z",
+  "updated_utc": "2026-06-16T17:04:10.945Z",
   "features": [
     {
       "type": "Feature",
@@ -1230,11 +1230,11 @@
       "type": "Feature",
       "properties": {
         "name": "GO LEAN Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/go-lean-logo-resized.png.webp?h=fe5c85da&itok=fVN2Da2O",
         "address": "Cherwell Business Village, Southam Road, Door 4, Banbury, Oxfordshire. OX16 2SP",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/go-lean-ltd",
         "description": "GO LEAN is an Oxfordshire engineering & technology and manufacturing organisation dedicated to driving productivity through digital transformation. We specialise in standard and turnkey automation, robotics, and material handling solutions.\nWe don't just build systems; we de-risk investments and eliminate millions in operational costs.",
         "email": "oliver.b@igo-lean.com",
         "category": "",
