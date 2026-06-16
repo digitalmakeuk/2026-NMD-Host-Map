@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-16T15:59:11.399Z",
+  "updated_utc": "2026-06-16T16:04:11.055Z",
   "features": [
     {
       "type": "Feature",
@@ -1086,11 +1086,11 @@
       "type": "Feature",
       "properties": {
         "name": "Salt Separation Services",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/saltsep-logo.jpg.webp?h=6fe41407&itok=Yg-ofbqt",
         "address": "Grosvenor House, Gorrel Street, Rochdale, Select. OL11 1AE",
         "suite": "",
         "telephone": "",
-        "website": "https://saltsep.co.uk/",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/salt-separation-services",
         "description": "Salt Separation Services Limited is an independent water treatment company specialising in the design, manufacture, installation, and commissioning of membrane-based systems. Serving offshore oil and gas, marine, and industrial sectors, the company focuses on Reverse Osmosis (RO) and Nanofiltration technologies for drinking, process, and industrial water treatment.",
         "email": "cerys.shackleton-waller@saltsep.co.uk",
         "category": "",
