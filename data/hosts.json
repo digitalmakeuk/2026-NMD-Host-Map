@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-16T14:14:10.479Z",
+  "updated_utc": "2026-06-16T14:19:10.472Z",
   "features": [
     {
       "type": "Feature",
@@ -1223,6 +1223,30 @@
         "coordinates": [
           -4.191343,
           50.423175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GO LEAN Ltd",
+        "image_url": "",
+        "address": "Cherwell Business Village, Southam Road, Door 4, Banbury, Oxfordshire. OX16 2SP",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "GO LEAN is an Oxfordshire engineering & technology and manufacturing organisation dedicated to driving productivity through digital transformation. We specialise in standard and turnkey automation, robotics, and material handling solutions.\nWe don't just build systems; we de-risk investments and eliminate millions in operational costs.",
+        "email": "oliver.b@igo-lean.com",
+        "category": "",
+        "county": "Oxfordshire",
+        "postcode": "OX16 2SP",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.337334,
+          52.080273
         ]
       }
     }
