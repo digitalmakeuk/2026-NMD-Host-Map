@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-16T16:04:11.055Z",
+  "updated_utc": "2026-06-16T16:09:19.771Z",
   "features": [
     {
       "type": "Feature",
@@ -1086,7 +1086,7 @@
       "type": "Feature",
       "properties": {
         "name": "Salt Separation Services",
-        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/saltsep-logo.jpg.webp?h=6fe41407&itok=Yg-ofbqt",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/salt-sep-logo.png.webp?h=d2973ebb&itok=pgzAerUI",
         "address": "Grosvenor House, Gorrel Street, Rochdale, Select. OL11 1AE",
         "suite": "",
         "telephone": "",
@@ -1096,7 +1096,7 @@
         "category": "",
         "county": "Greater Manchester",
         "postcode": "OL11 1AE",
-        "area": "Midlands & East"
+        "area": "North West"
       },
       "geometry": {
         "type": "Point",
