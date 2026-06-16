@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-16T17:09:12.495Z",
+  "updated_utc": "2026-06-16T17:14:10.610Z",
   "features": [
     {
       "type": "Feature",
@@ -1247,6 +1247,30 @@
         "coordinates": [
           -1.337334,
           52.080273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stainless Metalcraft (Chatteris) Ltd",
+        "image_url": "",
+        "address": "Stainless Metalcraft (Chatteris) ltd, Chatteris Business Park, Chatteris Cambs, Cambridgeshire. PE16 6SA",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "Metalcraft have been established since 1968 with a manufacturing facility on the Chatteris site since early 1900s. The Company has established itself as a leading manufacturer of product for safety critical environments with experience in a wide range materials including exotic materials, manufacturing to a range of internationally recognized standards.",
+        "email": "",
+        "category": "",
+        "county": "Cambridgeshire",
+        "postcode": "PE16 6SA",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.039276,
+          52.45339
         ]
       }
     }
