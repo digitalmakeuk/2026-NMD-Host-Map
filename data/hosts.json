@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-16T15:54:10.872Z",
+  "updated_utc": "2026-06-16T15:59:11.399Z",
   "features": [
     {
       "type": "Feature",
@@ -1062,11 +1062,11 @@
       "type": "Feature",
       "properties": {
         "name": "Domino Printing Sciences",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/domino-printing-sciences-resized.png.webp?h=d2973ebb&itok=B4NKPcRI",
         "address": "Trafalgar Way, Bar Hill, Cambridgeshire. CB23 8TU",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/domino-printing-sciences",
         "description": "Domino Printing UK (Domino UK Ltd) is the UK division of Domino Printing Sciences a Coding and Marking company - a global expert in industrial printers. Specialising in digital printing and traceability solutions (such as industrial coders) for sectors as diverse as food, beverage, life sciences, packaging, cleaning, personal care, building and construction.",
         "email": "jess.murray@domino-uk.com",
         "category": "",
