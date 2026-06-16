@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-16T14:39:11.557Z",
+  "updated_utc": "2026-06-16T14:44:10.718Z",
   "features": [
     {
       "type": "Feature",
@@ -942,11 +942,11 @@
       "type": "Feature",
       "properties": {
         "name": "Playdale Playgrounds",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/playdale-playgrounds.jpg.webp?h=5d81f52d&itok=Brwgx94O",
         "address": "Haverthwaite, Ulverston, Cumbria. LA12 8AE",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/playdale-playgrounds",
         "description": "Playdale is a leading global playground equipment manufacturer that designs, manufactures, and installs innovative and exciting outdoor play areas for children of all ages. With 40+ years of experience, Playdale has become a trusted name in the industry, creating safe, fun, and engaging play environments that inspire creativity and imagination.",
         "email": "karla.thomas@playdale.co.uk",
         "category": "",
