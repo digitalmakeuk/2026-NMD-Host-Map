@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-16T16:34:10.804Z",
+  "updated_utc": "2026-06-16T16:39:10.569Z",
   "features": [
     {
       "type": "Feature",
@@ -1182,11 +1182,11 @@
       "type": "Feature",
       "properties": {
         "name": "3M Buckley Innovation Centre",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/3m-buckley-innovation-centre_0.png.webp?h=fe5c85da&itok=hCWj3L9j",
         "address": "3M Buckley Innovation Centre, Firth Street, Huddersfield, West Yorkshire. HD1 3BD",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/3m-buckley-innovation-centre",
         "description": "3M BIC supports companies with access to advanced technology, helping innovate, analyse and develop products/prototypes.\nOur mission - bridge the gap between industry/academia/technology.\nOur services - product design/prototyping/proof of concept/access to AM/3D printing equipment.\nOur opportunities - funding/networking/collaborating.\nOur community - office/labs/co-working/memberships/networking.",
         "email": "J.Downs2@hud.ac.uk",
         "category": "",
