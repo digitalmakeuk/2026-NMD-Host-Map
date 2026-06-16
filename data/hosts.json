@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-16T15:44:10.626Z",
+  "updated_utc": "2026-06-16T15:49:10.414Z",
   "features": [
     {
       "type": "Feature",
@@ -1038,11 +1038,11 @@
       "type": "Feature",
       "properties": {
         "name": "TRT Lighting Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/trt-lighting-logo-resize_0.png.webp?h=d2973ebb&itok=k6Jc-egx",
         "address": "Heming Point, Claybrook Drive, Washford Industrial Estate, Redditch, England B98 0FH",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/trt-lighting-ltd",
         "description": "TRT Lighting Ltd (Thorlux Road and Tunnel Lighting) is part of the FW Thorpe Group and specialises in lighting for roads, tunnels and exterior environments.\n\nBuilt on over 90 years of lighting expertise, TRT focuses on the practical demands of critical infrastructure. From busy road networks to complex tunnel environments and public spaces, its lighting is engineered to perform consistently, minimise disruption and stand up to the conditions it operates in.\n\nFor TRT, it’s not just about efficiency gains, but about how spaces are seen, used and experienced after dark.\n\nAlongside performance, environmental responsibility is a core part of how the business operates. TRT works to minimise obtrusive light and reduce sky glow, helping to protect dark skies and support both wildlife and local communities. A number of its products are approved by DarkSky International for use in sensitive environments.\n\nThis commitment extends beyond product design into day-to-day operations, including the use of electric delivery vehicles and ongoing efforts to reduce the environmental impact of manufacturing and logistics.\n\nAll products are designed and manufactured in the UK, with in-house testing to ensure compliance with relevant standards and consistent, long-term performance.",
         "email": "Kirsty.conley@trtlighting.co.uk",
         "category": "",
