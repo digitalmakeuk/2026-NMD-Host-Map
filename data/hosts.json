@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-16T14:34:10.520Z",
+  "updated_utc": "2026-06-16T14:39:11.557Z",
   "features": [
     {
       "type": "Feature",
@@ -966,11 +966,11 @@
       "type": "Feature",
       "properties": {
         "name": "Cullum Detuners Limited",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/cullum-logo-resized.png.webp?h=d2973ebb&itok=BQUgsq5b",
         "address": "Adams Close, Heanor Gate Industrial Park, Heanor, Derbyshire, DE75 7SW",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/cullum-detuners-limited",
         "description": "Mission Statement - To make our industry quieter, safer and greener. Engineering Success: We believe in working closely with our customers, collaborating to resolve their challenges and Engineering Solutions that last.",
         "email": "tammy.watson@cullum.co.uk",
         "category": "",
