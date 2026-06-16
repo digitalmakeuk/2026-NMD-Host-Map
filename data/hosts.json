@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-16T16:29:11.377Z",
+  "updated_utc": "2026-06-16T16:34:10.804Z",
   "features": [
     {
       "type": "Feature",
@@ -1158,11 +1158,11 @@
       "type": "Feature",
       "properties": {
         "name": "Pragmatic Semiconductors",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/pragmatic-semiconductors-logo.png.webp?h=1845a4f8&itok=RqWXbJ-k",
         "address": "Pragmatic Park, John's Road, Meadowfield, Durham. DH7 8RJ",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/pragmatic-semiconductors",
         "description": "Pragmatic Semiconductor is a global semiconductor company pioneering flexible integrated circuit technology, manufactured sustainably at speed and scale. With advanced manufacturing facilities in the United Kingdom, Pragmatic serves the consumer, industrial and healthcare sectors, empowering innovators with design miniaturisation and delivering intelligence at edge and item-level.",
         "email": "stephanie.kane@pragmaticsemi.com",
         "category": "",
