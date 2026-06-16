@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-16T14:09:10.983Z",
+  "updated_utc": "2026-06-16T14:14:10.479Z",
   "features": [
     {
       "type": "Feature",
@@ -1199,6 +1199,30 @@
         "coordinates": [
           -1.77693896148018,
           53.6417367806002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kawasaki Precision Machinery UK Ltd",
+        "image_url": "",
+        "address": "Kawasaki Precision Machinery, Ernesettle Lane, Plymouth, Devon. PL5 2SA",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "KPM UK Ltd is a total engineering solutions provider, leading the way in smart Hydraulic solutions with an extensive range of motors, pumps, hydraulic valves and controllers. We offer the highest quality hydraulic products and comprehensive engineering support to ensure customers maximize the benefits of our products in their applications.",
+        "email": "tmacpherson@kawasakihydraulics.com",
+        "category": "",
+        "county": "Devon",
+        "postcode": "PL5 2SA",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.191343,
+          50.423175
         ]
       }
     }
