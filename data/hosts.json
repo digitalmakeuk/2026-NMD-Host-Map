@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-17T15:54:11.026Z",
+  "updated_utc": "2026-06-17T15:59:15.259Z",
   "features": [
     {
       "type": "Feature",
@@ -1110,7 +1110,7 @@
       "type": "Feature",
       "properties": {
         "name": "NextPharma Edinburgh",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/next-pharma-logo-edit.png.webp?h=12c27f02&itok=XTG-Xbld",
         "address": "8 Oakbank Park Way, Livingston EH53 0TH",
         "suite": "",
         "telephone": "",
