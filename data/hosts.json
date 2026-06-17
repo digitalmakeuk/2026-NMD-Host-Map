@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-17T14:54:10.908Z",
+  "updated_utc": "2026-06-17T14:59:10.693Z",
   "features": [
     {
       "type": "Feature",
@@ -1302,11 +1302,11 @@
       "type": "Feature",
       "properties": {
         "name": "International Export Packers",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/iep-logo-resize.png.webp?h=47b79e2e&itok=8MP059_I",
         "address": "International Avenue, Off Farndon Roundabout, Newark, Nottingham. NG24 4SP",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/international-export-packers",
         "description": "International Export Packers designs and manufactures bespoke export packaging solutions, including cases, crates and specialist packing systems for industries worldwide. Based in Newark, we combine skilled craftsmanship with innovative logistics expertise to protect everything from delicate equipment to oversized industrial machinery, ensuring goods arrive safely across the globe.",
         "email": "emma@exportpackers.co.uk",
         "category": "",
