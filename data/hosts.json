@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-17T14:39:11.013Z",
+  "updated_utc": "2026-06-17T14:44:10.635Z",
   "features": [
     {
       "type": "Feature",
@@ -1278,11 +1278,11 @@
       "type": "Feature",
       "properties": {
         "name": "West Yorkshire Manufacturing Services",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/wyms-logo-resize.png.webp?h=470e7332&itok=x2EZ-aiH",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services",
         "description": "WYMS is a charity dedicated to supporting growth in manufacturing and engineering across West Yorkshire and beyond. Whether you require training, business support or the use of our facilities, our team of dedicated professionals and expert trainers are here to respond to your business needs.",
         "email": "marketing@wyms.co.uk",
         "category": "",
