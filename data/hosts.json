@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-17T11:44:11.752Z",
+  "updated_utc": "2026-06-17T11:49:10.483Z",
   "features": [
     {
       "type": "Feature",
@@ -751,22 +751,22 @@
       "properties": {
         "name": "Tornado Wire",
         "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-05/nmd-tornado.png.webp",
-        "address": "Waterloo Road Industrial Estate, Waterloo Road, Bidford-On-Avon, Warwickshire. B50 4JH",
+        "address": "Devonshire Road Estate, Millom, Cumbria, LA18 4JS",
         "suite": "",
         "telephone": "",
         "website": "https://www.makeuk.org/national-manufacturing-day/hosts/tornado-wire-ltd",
         "description": "Tornado Wire manufactures premium, high-tensile wire fencing for agriculture, forestry, infrastructure, and wildlife protection. Renowned for strength and longevity, our products perform in the toughest conditions. As a UK leader in fencing solutions, we’re equally committed to innovation, customer partnerships, and supporting the people who power our success.",
         "email": "manjinder.karwal@tornadowire.com",
         "category": "",
-        "county": "Warwickshire",
-        "postcode": "B50 4JH",
-        "area": "Midlands & East"
+        "county": "Cumbria",
+        "postcode": "LA18 4JS",
+        "area": "North West"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.850248,
-          52.173252
+          -3.253414,
+          54.206873
         ]
       }
     },
