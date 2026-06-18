@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-18T11:09:10.772Z",
+  "updated_utc": "2026-06-18T11:14:10.508Z",
   "features": [
     {
       "type": "Feature",
@@ -1319,6 +1319,30 @@
         "coordinates": [
           -0.833822,
           53.064007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R&B Switchgear Group",
+        "image_url": "",
+        "address": "Switchgear House, Green Lane, Heywood, Greater Manchester. OL10 2EX",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "Established in 1985, R&B Switchgear Group is a UK manufacturer of low-voltage switchgear and provider of specialist power engineering services. From our Greater Manchester headquarters, we support critical infrastructure nationwide. Through the R&B Switchgear Academy, apprenticeships and education partnerships, we are committed to developing the next generation of engineering talent.",
+        "email": "ryan.westcott@rbswitch.com",
+        "category": "",
+        "county": "Greater Manchester",
+        "postcode": "OL10 2EX",
+        "area": "North West"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.207099,
+          53.586484
         ]
       }
     }
