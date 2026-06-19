@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-19T10:24:11.140Z",
+  "updated_utc": "2026-06-19T10:29:10.797Z",
   "features": [
     {
       "type": "Feature",
@@ -1111,7 +1111,7 @@
       "properties": {
         "name": "NextPharma Edinburgh",
         "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/next-pharma-logo-edit-2.png.webp?h=64200477&itok=RrnKwPVn",
-        "address": "8 Oakbank Park Way, Livingston EH53 0TH",
+        "address": "Unit 1-8, Oakbank Parkway, Livingston, Scotland EH53 0TH",
         "suite": "",
         "telephone": "",
         "website": "https://www.makeuk.org/national-manufacturing-day/hosts/nextpharma-edinburgh",
