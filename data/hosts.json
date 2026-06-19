@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-19T10:19:10.796Z",
+  "updated_utc": "2026-06-19T10:24:11.140Z",
   "features": [
     {
       "type": "Feature",
@@ -1110,13 +1110,13 @@
       "type": "Feature",
       "properties": {
         "name": "NextPharma Edinburgh",
-        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/next-pharma-logo-edit.png.webp?h=12c27f02&itok=XTG-Xbld",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/next-pharma-logo-edit-2.png.webp?h=64200477&itok=RrnKwPVn",
         "address": "8 Oakbank Park Way, Livingston EH53 0TH",
         "suite": "",
         "telephone": "",
-        "website": "https://nextpharma.com/",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/nextpharma-edinburgh",
         "description": "NextPharma Edinburgh is a specialist pharmaceutical manufacturing and analytical site focused on the development, manufacture, and release of oral dosage forms.\nThe site is particularly known for its expertise in liquid-filled hard capsules, offering advanced formulation and manufacturing capabilities for complex and poorly soluble drugs. This enables improved bioavailability and flexible dosing solutions for a wide range of products.\nKey activities include:\n•        Manufacture of liquid-filled hard capsules for clinical and commercial supply\n•        Analytical testing from method development to full batch release ensuring products meet strict GMP and regulatory standards\n•        Stability study testing and design to support product shelf life and regulatory submissions\nLooking ahead, the site is expanding its technology offering with the introduction of Hot Melt Extrusion (HME) capability in 2026, further strengthening its ability to support enhanced drug solubility and advanced formulation development.\nOverall, NextPharma Edinburgh plays a critical role in delivering high-quality, innovative medicines safely and reliably to patients worldwide.",
-        "email": "Hayley.Marshall@nextpharma.com",
+        "email": "communications.edi@nextpharma.com",
         "category": "",
         "county": "West Lothian",
         "postcode": "EH53 0TH",
