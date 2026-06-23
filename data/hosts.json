@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-23T10:34:10.749Z",
+  "updated_utc": "2026-06-23T10:39:11.320Z",
   "features": [
     {
       "type": "Feature",
@@ -1367,6 +1367,30 @@
         "coordinates": [
           -4.236725,
           50.415251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amtico Flooring",
+        "image_url": "",
+        "address": "Amtico Flooring, Kingfield Road, Coventry, West Midlands. CV6 5AA",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/amtico-flooring",
+        "description": "Amtico, founded in 1964, is a global flooring leader combining British heritage, innovation, and craftsmanship. Based in Coventry, UK, we create sustainable, durable luxury vinyl flooring for commercial and residential spaces worldwide. Our 600+ specialists deliver inspiring flooring solutions across 160+ countries with a focus on quality and innovation.",
+        "email": "",
+        "category": "",
+        "county": "West Midlands",
+        "postcode": "CV6 5AA",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.508209,
+          52.426332
         ]
       }
     }
