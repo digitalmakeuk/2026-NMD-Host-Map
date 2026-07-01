@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-06-25T21:04:10.784Z",
+  "updated_utc": "2026-07-01T16:33:15.098Z",
   "features": [
     {
       "type": "Feature",
@@ -197,14 +197,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Groupe Atlantic (Ideal Heating)",
-        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-03/nmd-groupe-atlantic.png.webp",
-        "address": "National Avenue Hull HU5 4JB",
+        "name": "Ideal Heating",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-07/ideal-heating-resized-logo.png.webp?h=76216075&itok=UWTQwGx2",
+        "address": "Ideal Heating Head Office, National Avenue, Hull, HU5 4JB",
         "suite": "",
-        "telephone": "07884 340271",
-        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/groupe-atlantic-ideal-heating",
-        "description": "Our goal at GROUPE ATLANTIC is the advancement of thermal comfort.\n\nWe achieve this by always responding positively to the vital well-being, health and hygiene needs of our millions of customers in the housing and wide variety of other markets we serve.\n\nWhile striving to satisfy demands for well-being, we also do our utmost to reconcile the economic and ecological challenges that the world faces.",
-        "email": "John.Cook@groupe-atlantic.co.uk",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/ideal-heating",
+        "description": "Since 1906, Ideal Heating has been at the heart of Hull's manufacturing heritage and a driving force behind the UK's heating industry. From pioneering gas boilers to developing the latest heat pump technology and intelligent heating controls, we've been helping shape the future of heating for over a century.",
+        "email": "katie.coulson@idealheating.com",
         "category": "",
         "county": "Yorkshire & the Humber",
         "postcode": "HU5 4JB",
@@ -213,8 +213,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.38232174,
-          53.75704491
+          -0.38253,
+          53.753862
         ]
       }
     },
@@ -1037,7 +1037,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "TRT Lighting Ltd",
+        "name": "TRT Lighting",
         "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/trt-lighting-logo-resize_0.png.webp?h=d2973ebb&itok=k6Jc-egx",
         "address": "Heming Point, Claybrook Drive, Washford Industrial Estate, Redditch, England B98 0FH",
         "suite": "",
@@ -1391,6 +1391,30 @@
         "coordinates": [
           -1.508209,
           52.426332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Andover College",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/andover-college-logo-resize_0.png.webp?h=76216075&itok=jX-IX7ZU",
+        "address": "Andover College, Charlton Rd, Andover SP10 1EJ",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/andover-college",
+        "description": "We pride ourselves on giving our students all the knowledge, skills and support needed to flourish while at college. We have found that our approach of developing the whole person delivers the best academic results, making us one of the best performing colleges in Hampshire, measured by our consistently high pass rates and value added scores over recent years.",
+        "email": "helen.perry@sparsholt.ac.uk",
+        "category": "",
+        "county": "Hampshire",
+        "postcode": "SP10 1EJ",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.483656,
+          51.211035
         ]
       }
     }
