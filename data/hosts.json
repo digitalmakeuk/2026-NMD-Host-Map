@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-07-02T08:14:11.403Z",
+  "updated_utc": "2026-07-02T08:19:10.438Z",
   "features": [
     {
       "type": "Feature",
@@ -1037,7 +1037,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "TRT Lighting",
+        "name": "TRT Lighting Ltd",
         "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/trt-lighting-logo-resize_0.png.webp?h=d2973ebb&itok=k6Jc-egx",
         "address": "Heming Point, Claybrook Drive, Washford Industrial Estate, Redditch, England B98 0FH",
         "suite": "",
