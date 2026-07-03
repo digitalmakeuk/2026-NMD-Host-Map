@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-07-03T12:14:10.936Z",
+  "updated_utc": "2026-07-03T12:19:11.413Z",
   "features": [
     {
       "type": "Feature",
@@ -1422,11 +1422,11 @@
       "type": "Feature",
       "properties": {
         "name": "Fenner Precision Polymers",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-07/fenner-precision-polymers-resize_0.png.webp?h=64200477&itok=p-yiQw8G",
         "address": "Tritton Road, Lincoln, Lincolnshire . LN6 7AF",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/fenner-precision-polymers",
         "description": "Fenner Precision Polymers specializes in manufacturing critical components that power and propel industries forward. With over a century of experience as a global manufacturer and access to Michelin’s pioneering resources, our family of brands deliver solutions across Industrial Motion, High-Tech Coated Fabrics, and Air and Fluid Handling industries.",
         "email": "sdowning@fennerppd.com",
         "category": "",
