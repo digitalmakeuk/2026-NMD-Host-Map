@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-07-03T11:59:10.848Z",
+  "updated_utc": "2026-07-03T12:04:10.897Z",
   "features": [
     {
       "type": "Feature",
@@ -1415,6 +1415,30 @@
         "coordinates": [
           -1.483656,
           51.211035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fenner Precision Polymers",
+        "image_url": "",
+        "address": "Tritton Road, Lincoln, Lincolnshire . LN6 7AF",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "Fenner Precision Polymers specializes in manufacturing critical components that power and propel industries forward. With over a century of experience as a global manufacturer and access to Michelin’s pioneering resources, our family of brands deliver solutions across Industrial Motion, High-Tech Coated Fabrics, and Air and Fluid Handling industries.",
+        "email": "",
+        "category": "",
+        "county": "Lincolnshire",
+        "postcode": "LN6 7AF",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.551751,
+          53.225555
         ]
       }
     }
