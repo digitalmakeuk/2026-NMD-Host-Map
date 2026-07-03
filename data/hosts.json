@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-07-03T14:44:10.669Z",
+  "updated_utc": "2026-07-03T14:49:10.748Z",
   "features": [
     {
       "type": "Feature",
@@ -1086,7 +1086,7 @@
       "type": "Feature",
       "properties": {
         "name": "Salt Separation Services",
-        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-06/salt-sep-logo.png.webp?h=d2973ebb&itok=pgzAerUI",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-07/salt-sep-logo_0.png.webp?h=64200477&itok=l6uebxnz",
         "address": "Grosvenor House, Gorrel Street, Rochdale, Select. OL11 1AE",
         "suite": "",
         "telephone": "",
