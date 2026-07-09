@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-07-09T16:09:11.956Z",
+  "updated_utc": "2026-07-09T16:14:11.283Z",
   "features": [
     {
       "type": "Feature",
@@ -1446,11 +1446,11 @@
       "type": "Feature",
       "properties": {
         "name": "Recticel Insulation UK",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-07/recticel-resize-logo.png.webp?h=12c27f02&itok=hxLdkau8",
         "address": "Recticel Insulation, Enterprise Way, Whittle Road, Stoke on Trent, Staffordshire. ST3 7UN",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/recticel-insulation-uk",
         "description": "Based at our state-of-the-art facility in Stoke-on-Trent, we are part of the Belgium-based International Recticel Group, one of the world’s largest producers of PIR products. Our PIR rigid insulation products are composed of a polyisocyanurate foam core with a closed cell structure.",
         "email": "hodson.gemma@recticel.com",
         "category": "",
