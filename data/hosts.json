@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-07-15T08:04:12.317Z",
+  "updated_utc": "2026-07-15T08:09:10.843Z",
   "features": [
     {
       "type": "Feature",
@@ -1487,6 +1487,30 @@
         "coordinates": [
           -1.781037,
           53.600008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ellis Briggs Limited",
+        "image_url": "",
+        "address": "20 Commercial Street, Shipley, West Yorkshire, BD18 3SP",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "",
+        "email": "paul@ellisbriggscycles.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "BD18 3SP",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.777894,
+          53.834781
         ]
       }
     }
