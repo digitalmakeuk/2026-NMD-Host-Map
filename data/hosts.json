@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-07-15T08:19:12.191Z",
+  "updated_utc": "2026-07-15T08:24:10.314Z",
   "features": [
     {
       "type": "Feature",
@@ -1498,7 +1498,7 @@
         "address": "20 Commercial Street, Shipley, West Yorkshire, BD18 3SP",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/ellis-briggs-limited",
         "description": "Ellis Briggs is a traditional bicycle manufacturer and framebuilding workshop in Shipley. Founded in 1936, we still build, repair and restore steel bicycle frames using specialist fabrication and brazing skills. Framebuilder Paul Gibson also teaches practical framebuilding and campaigns for the preservation of endangered manufacturing skills.",
         "email": "paul@ellisbriggscycles.co.uk",
         "category": "",
