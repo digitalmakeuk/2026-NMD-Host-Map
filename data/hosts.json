@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-07-21T17:14:10.756Z",
+  "updated_utc": "2026-07-21T17:19:10.285Z",
   "features": [
     {
       "type": "Feature",
@@ -1566,11 +1566,11 @@
       "type": "Feature",
       "properties": {
         "name": "Specialised Canvas",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-07/specialised-canvas.png.webp?h=0d10496d&itok=s-Wo3Lnx",
         "address": "Adelphi Way, Ireland Ind Est, Staveley, Derbys. S43 3LA",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/specialised-canvas-banner-box-print-solutions",
         "description": "Established in the 1970s, Specialised Canvas Services began as a single product company servicing the coal industry of Derbyshire. Throughout our history, we’ve advanced and grown our business to support the unique needs and requirements of almost any commercial and domestic canvas project.\nNow working from our dedicated production facility in Chesterfield, our 24,000 sq ft premises allows us to design, manufacture, and repair a wide variety of products including transport covers, made-to-measure gazebo panels, and protective plastic that has been used in both the Ebola epidemic and the Coronavirus Pandemic.\n\nSpecialised Canvas is part of the Specialised Canvas Group which also includes Banner Box Print Solutions, offering Large Format Printing, and Flagmakers, bespoke flag and flagpole products.",
         "email": "paul.noble@specialisedcanvas.co.uk",
         "category": "",
