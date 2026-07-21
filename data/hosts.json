@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-07-21T16:49:11.346Z",
+  "updated_utc": "2026-07-21T16:54:11.753Z",
   "features": [
     {
       "type": "Feature",
@@ -1518,11 +1518,11 @@
       "type": "Feature",
       "properties": {
         "name": "Trizo Limited",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-07/trizo-logo-resize.png.webp?h=0d10496d&itok=yZlbpTQ0",
         "address": "Woodlands Business Park, Bristol Road, Bridgwater, Somerset. TA6 4FJ",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/trizo-limited",
         "description": "Trizo Ltd is an AS9100 Rev D accredited electronics manufacturing company based in Bridgwater, Somerset, UK, delivering high-quality electronic and electrical manufacturing solutions to customers across a range of industries.\n\nWe provide customer-focused manufacturing services, combining robust quality management systems, industry-leading methodologies and state-of-the-art equipment to deliver reliable, high-performance solutions.",
         "email": "sophia.gott@trizo.com",
         "category": "",
@@ -1535,6 +1535,30 @@
         "coordinates": [
           -2.985862,
           51.154383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Specialised Canvas & Banner Box Print Solutions",
+        "image_url": "",
+        "address": "Adelphi Way, Ireland Ind Est, Staveley, Derbys. S43 3LA",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "",
+        "email": "",
+        "category": "",
+        "county": "Derbyshire",
+        "postcode": "S43 3LA",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.350846,
+          53.259202
         ]
       }
     }
