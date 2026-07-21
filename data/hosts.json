@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-07-21T16:44:10.436Z",
+  "updated_utc": "2026-07-21T16:49:11.346Z",
   "features": [
     {
       "type": "Feature",
@@ -1511,6 +1511,30 @@
         "coordinates": [
           -1.777894,
           53.834781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trizo Limited",
+        "image_url": "",
+        "address": "Woodlands Business Park, Bristol Road, Bridgwater, Somerset. TA6 4FJ",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "Trizo Ltd is an AS9100 Rev D accredited electronics manufacturing company based in Bridgwater, Somerset, UK, delivering high-quality electronic and electrical manufacturing solutions to customers across a range of industries.\n\nWe provide customer-focused manufacturing services, combining robust quality management systems, industry-leading methodologies and state-of-the-art equipment to deliver reliable, high-performance solutions.",
+        "email": "sophia.gott@trizo.com",
+        "category": "",
+        "county": "Somerset",
+        "postcode": "TA6 4FJ",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.985862,
+          51.154383
         ]
       }
     }
