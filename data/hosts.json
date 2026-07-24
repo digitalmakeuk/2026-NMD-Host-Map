@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-07-24T16:44:10.805Z",
+  "updated_utc": "2026-07-24T16:49:10.644Z",
   "features": [
     {
       "type": "Feature",
@@ -1589,7 +1589,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Panorama Antennas LTD",
+        "name": "Panorama Antennas Ltd",
         "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-07/panorama-antennas.png.webp?h=70054c7c&itok=g6wNmlPT",
         "address": "61 Frogmore, SW18 1HF, London, United Kingdom. SW18 1HF",
         "suite": "",
