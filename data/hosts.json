@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-07-24T16:54:10.246Z",
+  "updated_utc": "2026-07-24T16:59:10.332Z",
   "features": [
     {
       "type": "Feature",
@@ -1607,6 +1607,30 @@
         "coordinates": [
           -0.195387,
           51.459184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wozair Limited",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-07/wozair-ltd_0.png.webp?h=0cb79553&itok=QMOwU6Ih",
+        "address": "Wozair Limited, Grosvenor Road, Gillingham Business Park, Gillingham, Kent. ME8 0SA",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/wozair-limited",
+        "description": "Wozair specialises in the design and manufacture of high integrity heating, ventilating and air conditioning (HVAC) equipmen",
+        "email": "nathan.nicholson@wozair.com",
+        "category": "",
+        "county": "Kent",
+        "postcode": "ME8 0SA",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.568344,
+          51.367335
         ]
       }
     }
