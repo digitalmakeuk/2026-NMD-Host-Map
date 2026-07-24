@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-07-24T16:39:10.714Z",
+  "updated_utc": "2026-07-24T16:44:10.805Z",
   "features": [
     {
       "type": "Feature",
@@ -1583,6 +1583,30 @@
         "coordinates": [
           -1.350846,
           53.259202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Panorama Antennas LTD",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-07/panorama-antennas.png.webp?h=70054c7c&itok=g6wNmlPT",
+        "address": "61 Frogmore, SW18 1HF, London, United Kingdom. SW18 1HF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/panorama-antennas-ltd",
+        "description": "At Panorama Antennas Ltd, we design and manufacture RF (radio frequency) antenna products ranging from large volume products for global companies to small volume custom work for highly specific applications. Our products are for a diverse range of industries including public safety, defence, transportation, utilities, manufacturing, construction and consumer goods.",
+        "email": "lowais@panorama-antennas.com",
+        "category": "",
+        "county": "London",
+        "postcode": "SW18 1HF",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.195387,
+          51.459184
         ]
       }
     }
