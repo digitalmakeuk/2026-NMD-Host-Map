@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-07-28T13:54:11.259Z",
+  "updated_utc": "2026-07-28T13:59:10.511Z",
   "features": [
     {
       "type": "Feature",
@@ -1646,7 +1646,7 @@
         "description": "AMPI exists to rapidly grow the UK’s advanced machinery sector.\n\nWe are building an ecosystem that combines industrial innovation with world-class academic capabilities to help UK manufacturers develop and commercialise the machinery of the future.",
         "email": "emma.green@npl.co.uk",
         "category": "",
-        "county": "Yorkshire & the Humber",
+        "county": "West Yorkshire",
         "postcode": "HD1 3BD",
         "area": "North East, Yorkshire & Humberside"
       },
@@ -1655,6 +1655,30 @@
         "coordinates": [
           -1.776918,
           53.641662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Collier Webb Ltd",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-07/collier-webb-logo.png.webp?h=70054c7c&itok=hwmPEn9-",
+        "address": "Unit 2-4 Redward Business Park, Hammonds Drive, Eastbourne, East Sussex. BN23 6PW",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/collier-webb-ltd",
+        "description": "A third-generation British family business since 1977, Collier Webb are designers and makers of lighting, furniture and hardware for the world’s most beautiful interior spaces. Our in-house designers work closely with their talented craftspeople to produce one-of-a-kind pieces, all handcrafted at our Sussex Foundry for both residential and commercial projects.",
+        "email": "emilymason@collierwebb.com",
+        "category": "",
+        "county": "East Sussex",
+        "postcode": "BN23 6PW",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.296886,
+          50.788843
         ]
       }
     }
