@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-07-28T14:09:10.581Z",
+  "updated_utc": "2026-07-28T14:14:12.818Z",
   "features": [
     {
       "type": "Feature",
@@ -1679,6 +1679,30 @@
         "coordinates": [
           0.296886,
           50.788843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bott Ltd",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-07/bott-ltd.png.webp?h=70054c7c&itok=QzDZ9lwF",
+        "address": "Bott Ltd, Bude Stratton Bus. Park. Bude, Cornwall and Isles of Scilly. EX23 8LY",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/bott-ltd",
+        "description": "The Bott company group develops in-vehicle equipment, working and operating equipment and workplace systems in three European locations. bott delivers its products to customers in industry and craft worldwide. Its efficient work in manufacturing, service and installation are at the forefront here.",
+        "email": "nickyk@bottltd.co.uk",
+        "category": "",
+        "county": "Cornwall",
+        "postcode": "EX23 8LY",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.527563,
+          50.820118
         ]
       }
     }
