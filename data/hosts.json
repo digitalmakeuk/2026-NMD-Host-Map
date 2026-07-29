@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-07-29T15:29:55.959Z",
+  "updated_utc": "2026-07-29T15:34:10.764Z",
   "features": [
     {
       "type": "Feature",
@@ -1639,16 +1639,16 @@
       "properties": {
         "name": "Advanced Machinery Productivity Institute (AMPI)",
         "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-07/ampi-logo.png.webp?h=70054c7c&itok=ZJb19gPL",
-        "address": "National Physical Laboratory, 3M Buckley Innovation Centre, Firth Street, Huddersfield, West Yorkshire. HD1 3BD",
+        "address": "Sister - Renold Building, 32a Altrincham Street, Manchester, M1 7JR.",
         "suite": "",
         "telephone": "",
         "website": "https://www.makeuk.org/national-manufacturing-day/hosts/advanced-machinery-productivity-institute-ampi",
         "description": "AMPI exists to rapidly grow the UK’s advanced machinery sector.\n\nWe are building an ecosystem that combines industrial innovation with world-class academic capabilities to help UK manufacturers develop and commercialise the machinery of the future.",
         "email": "emma.green@npl.co.uk",
         "category": "",
-        "county": "West Yorkshire",
-        "postcode": "HD1 3BD",
-        "area": "North East, Yorkshire & Humberside"
+        "county": "Greater Manchester",
+        "postcode": "M1 7JR",
+        "area": "North"
       },
       "geometry": {
         "type": "Point",
