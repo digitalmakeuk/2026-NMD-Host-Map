@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-04T15:19:11.532Z",
+  "updated_utc": "2026-08-04T15:24:10.657Z",
   "features": [
     {
       "type": "Feature",
@@ -1703,6 +1703,30 @@
         "coordinates": [
           -4.527563,
           50.820118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kewell Converters",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/kewell-converters-logo.png.webp?h=70054c7c&itok=tA5IPR2q",
+        "address": "KCL House, Station Road, Edenbridge, Kent. TN8 6HL",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/kewell-converters",
+        "description": "Kewell Converters is a family-owned British manufacturer with more than 50 years’ experience in specialist foam conversion. From our facility in Edenbridge, we design and manufacture bespoke foam components for sectors including defence, aerospace, medical, electronics and industrial engineering.",
+        "email": "andrea@kewell-converters.co.uk",
+        "category": "",
+        "county": "Kent",
+        "postcode": "TN8 6HL",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.061468,
+          51.206695
         ]
       }
     }
