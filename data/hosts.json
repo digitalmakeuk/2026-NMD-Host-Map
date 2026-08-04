@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-04T15:24:10.657Z",
+  "updated_utc": "2026-08-04T15:29:11.274Z",
   "features": [
     {
       "type": "Feature",
@@ -1727,6 +1727,30 @@
         "coordinates": [
           0.061468,
           51.206695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RHF Fans Ltd",
+        "image_url": "",
+        "address": "RHF Fans Ltd, Unit 2, Ferrous Way, Irlam, Greater Manchetser. M44 5FS",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "RHF Fans are leading manufacturers of Centrifugal and Axial fans for multiple industrial applications. We specialise in custom solutions for your businesses and offer expert service and maintenance solutions.",
+        "email": "rachel.fehily@rhf-fans.com",
+        "category": "",
+        "county": "Greater Manchester",
+        "postcode": "M44 5FS",
+        "area": "North West"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.429044,
+          53.431509
         ]
       }
     }
