@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-04T15:49:12.592Z",
+  "updated_utc": "2026-08-04T15:54:11.122Z",
   "features": [
     {
       "type": "Feature",
@@ -1751,6 +1751,30 @@
         "coordinates": [
           -2.429044,
           53.431509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mitsubishi Air Conditioning Systems Europe",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/mitsubishi_electric_logo-2_0.png.webp?h=0cb79553&itok=In6UQzsM",
+        "address": "Nettlehill Rd, Livingston, West Lothian. EH54 5EQ",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/mitsubishi-air-conditioning-systems-europe",
+        "description": "Mitsubishi Electric employs 1,150. The company currently operates six factories in West Lothian, with five located in Livingston and one in Linlithgow. Across these sites, Mitsubishi Electric manufactures five different product ranges, covering indoor units, outdoor units, and air-to-water heat pump systems, supplying both the UK and wider European markets.",
+        "email": "Morag.Neilson@m-ace.mee.com",
+        "category": "",
+        "county": "West Lothian",
+        "postcode": "EH54 5EQ",
+        "area": "Scotland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.50713,
+          55.909575
         ]
       }
     }
