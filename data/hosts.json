@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-04T15:29:11.274Z",
+  "updated_utc": "2026-08-04T15:34:11.074Z",
   "features": [
     {
       "type": "Feature",
@@ -1734,11 +1734,11 @@
       "type": "Feature",
       "properties": {
         "name": "RHF Fans Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/rhf-fans-logo.png.webp?h=70054c7c&itok=2qxVOxij",
         "address": "RHF Fans Ltd, Unit 2, Ferrous Way, Irlam, Greater Manchetser. M44 5FS",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/rhf-fans-ltd",
         "description": "RHF Fans are leading manufacturers of Centrifugal and Axial fans for multiple industrial applications. We specialise in custom solutions for your businesses and offer expert service and maintenance solutions.",
         "email": "rachel.fehily@rhf-fans.com",
         "category": "",
