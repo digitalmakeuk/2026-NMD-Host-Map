@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-10T16:19:13.823Z",
+  "updated_utc": "2026-08-10T16:24:11.256Z",
   "features": [
     {
       "type": "Feature",
@@ -1847,6 +1847,30 @@
         "coordinates": [
           -2.95083,
           50.870489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Analox Ltd",
+        "image_url": "",
+        "address": "15 Ellerbeck Court, Stokesley, North Yorkshire. TS9 5PT",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "At Analox, we combine over four decades of engineering expertise with a passion for innovation. Our team designs and manufactures advanced gas sensing solutions that keep people safe, support critical industries and help tackle environmental challenges, proudly manufacturing in the UK for customers around the world.",
+        "email": "michelle.wilson@analoxgroup.com",
+        "category": "",
+        "county": "North Yorkshire",
+        "postcode": "TS9 5PT",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.175654,
+          54.462411
         ]
       }
     }
