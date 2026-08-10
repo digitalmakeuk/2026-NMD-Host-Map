@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-10T16:14:11.301Z",
+  "updated_utc": "2026-08-10T16:19:13.823Z",
   "features": [
     {
       "type": "Feature",
@@ -1823,6 +1823,30 @@
         "coordinates": [
           -0.06558,
           52.968032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Numatic International Ltd",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/numatic-logo-resize.png.webp?h=70054c7c&itok=504unzIF",
+        "address": "Millfield Industrial Estate, Chard, Somerset. TA20 2GB",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "We are a large manufacturing site in Somerset. Our site is 42 Acre in size and employ over 1100 people. We manufacturer Henry Vacuums and many more Commercial cleaning products. We are proud to manufacture in Chard and export to over 86 countries supported by our own 8 international companies.",
+        "email": "becky.coombes@numatic.co.uk",
+        "category": "",
+        "county": "Somerset",
+        "postcode": "TA20 2GB",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.95083,
+          50.870489
         ]
       }
     }
