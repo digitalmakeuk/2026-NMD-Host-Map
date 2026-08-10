@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-10T16:04:11.232Z",
+  "updated_utc": "2026-08-10T16:09:11.584Z",
   "features": [
     {
       "type": "Feature",
@@ -1799,6 +1799,30 @@
         "coordinates": [
           -1.460221,
           52.947695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mastenbroek Ltd",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/mastenbroek-logo-resize.png.webp?h=70054c7c&itok=1AJ2WXMw",
+        "address": "83 Swineshead Road, Wyberton Fen, Boston, Lincolnshire. PE21 7JG",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/mastenbroek-ltd",
+        "description": "At our factory in Boston, we design and manufacture powerful machines for subsurface burial of pipes and cables on land and sub-sea. We built our first machine in 1977 and continue to sell and support trenching machines throughout the World.",
+        "email": "christopher.pett@mastenbroek.com",
+        "category": "",
+        "county": "Lincolnshire",
+        "postcode": "PE21 7JG",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.06558,
+          52.968032
         ]
       }
     }
