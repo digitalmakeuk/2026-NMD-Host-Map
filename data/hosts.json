@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-10T15:59:11.084Z",
+  "updated_utc": "2026-08-10T16:04:11.232Z",
   "features": [
     {
       "type": "Feature",
@@ -1775,6 +1775,30 @@
         "coordinates": [
           -3.50713,
           55.909575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pektron",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/pektron-resized-logo_0.png.webp?h=0cb79553&itok=-3ZNX6lj",
+        "address": "PEKTRON , ALFRETON ROAD, DERBY, Derbyshire. DE21 4AP",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/pektron",
+        "description": "With over 60 years of experience, Pektron has evolved into a significant global partner in electronics design, development, and manufacturing for some of the world's most recognisable brands. We offer a range of highly skilled jobs, apprenticeships, placements, and amazing opportunities for reskilling and career development.",
+        "email": "smarshallpower@pektron.co.uk",
+        "category": "",
+        "county": "Derbyshire",
+        "postcode": "DE21 4AP",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.460221,
+          52.947695
         ]
       }
     }
