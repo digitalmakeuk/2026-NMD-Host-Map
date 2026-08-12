@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-12T17:04:12.007Z",
+  "updated_utc": "2026-08-12T17:09:10.775Z",
   "features": [
     {
       "type": "Feature",
@@ -1878,7 +1878,7 @@
       "type": "Feature",
       "properties": {
         "name": "Electroparts Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/electroparts-electronic-solutions-logo-resize.png?itok=D0R0dAS2",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -1902,7 +1902,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crompton Controls",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/crompton-controls-logo-resize.png?itok=ql_g82G3",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -1926,7 +1926,7 @@
       "type": "Feature",
       "properties": {
         "name": "Lean Control Innovations Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/lean-control-innovations-resize-logo.png?itok=2Y0JBzaR",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -1950,7 +1950,7 @@
       "type": "Feature",
       "properties": {
         "name": "Hako Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/hako-logo-resize.png?itok=T2-ZWAnx",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -1974,7 +1974,7 @@
       "type": "Feature",
       "properties": {
         "name": "MPM Group",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/mpm-logo-resize.png?itok=0Ax-4GKD",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -1998,7 +1998,7 @@
       "type": "Feature",
       "properties": {
         "name": "KOSO Kent Introl Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/koso-kentinrol-logo-resize.png?itok=X9u3Qlz-",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2022,7 +2022,7 @@
       "type": "Feature",
       "properties": {
         "name": "Colchester Machine Tool Solutions",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/colchester-machine-tool-solutions-logo-resize.png?itok=tfDGPKUm",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2046,7 +2046,7 @@
       "type": "Feature",
       "properties": {
         "name": "Additive-X Limited",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/additive-x-logo-resize.png?itok=CBfcWziX",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2070,7 +2070,7 @@
       "type": "Feature",
       "properties": {
         "name": "3M Buckley Innovation Centre (WYMS)",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/3mbuckelyic-logo-resize.png?itok=iybKNBqe",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2094,7 +2094,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calrec",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/calrec-logo-resize.png?itok=fuCViHXE",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2118,7 +2118,7 @@
       "type": "Feature",
       "properties": {
         "name": "E3 Recruitment",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/e3r-logo-resize.png?itok=ctRGtdmx",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2142,7 +2142,7 @@
       "type": "Feature",
       "properties": {
         "name": "Matrix TSL",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/matrix-tsl-logo.png?itok=A7sAuhDT",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2166,7 +2166,7 @@
       "type": "Feature",
       "properties": {
         "name": "Adelphi Masterfil",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/adelphi-logo-resize.png?itok=rInRIzev",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2190,7 +2190,7 @@
       "type": "Feature",
       "properties": {
         "name": "A Fawcett Precision Engineering Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/a-fawcett-precision-engineering-logo-resize.png?itok=Ca5p6BoD",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2214,7 +2214,7 @@
       "type": "Feature",
       "properties": {
         "name": "Habasit UK Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/habasit-logo-resize.png?itok=7EGNanvu",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2238,7 +2238,7 @@
       "type": "Feature",
       "properties": {
         "name": "HRS Precision Components Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/hrs-precision-components.png?itok=_x54T9FB",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2262,7 +2262,7 @@
       "type": "Feature",
       "properties": {
         "name": "Bespoke Stairlifts Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/bespoke-stairlifts-logo-resize.png?itok=eOSlOKee",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2286,7 +2286,7 @@
       "type": "Feature",
       "properties": {
         "name": "BCA Leisure Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/bca-leisure-logo-resize.png?itok=c25jNuOB",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2310,7 +2310,7 @@
       "type": "Feature",
       "properties": {
         "name": "ValvePro Limited",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/valvepro-limited-logo-resize.png?itok=mKkimaJN",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2334,7 +2334,7 @@
       "type": "Feature",
       "properties": {
         "name": "Teconnex Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/teconnex-logo-resize.png?itok=rlnSoLlH",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2358,7 +2358,7 @@
       "type": "Feature",
       "properties": {
         "name": "OE Electrics Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/oe-logo-resize.png?itok=poyoJxDQ",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2382,7 +2382,7 @@
       "type": "Feature",
       "properties": {
         "name": "Projex Solutions",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/projex-solutions-resize-logo.png?itok=wHbbnIfq",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2406,7 +2406,7 @@
       "type": "Feature",
       "properties": {
         "name": "Safety Systems Technology UK Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/safety-systems-technology-resize-logo.png?itok=RVaD7Ri2",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2430,7 +2430,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brook Crompton",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/brook-crompton-logo-resize.png?itok=kBlbICR0",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
@@ -2454,7 +2454,7 @@
       "type": "Feature",
       "properties": {
         "name": "Dust Control Environmental Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/dce-logo-resize.png?itok=G0Myqmbw",
         "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
         "suite": "",
         "telephone": "",
