@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-12T16:59:10.878Z",
+  "updated_utc": "2026-08-12T17:04:12.007Z",
   "features": [
     {
       "type": "Feature",
@@ -1871,6 +1871,726 @@
         "coordinates": [
           -1.175654,
           54.462411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Electroparts Ltd",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Electroparts Ltd manufactures electronic products and components for customers across a wide range of industries. At West Yorkshire Manufacturing Services' National Manufacturing Day event, students can test their skills with an interactive electronic game, explore a range of electronic products and discover how electronics move from prototype ideas to finished products. It's a hands-on opportunity to learn about the technology inside devices we use every day.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crompton Controls",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Crompton Controls designs and manufactures the electrical control systems that help industrial machinery operate safely and efficiently. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can watch a live demonstration of a DC brake motor controller and explore the different engineering disciplines involved in creating industrial control equipment used in factories around the world.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lean Control Innovations Ltd",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Lean Control Innovations develops smart manufacturing technology that helps factories collect and analyse production data in real time. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can take part in an interactive Industrial Internet of Things (IIoT) demonstration and discover how connected technology is helping manufacturers build smarter, more efficient factories.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hako Ltd",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Hako designs and manufactures industrial cleaning machines used across towns, cities and manufacturing sites. At West Yorkshire Manufacturing Services' National Manufacturing Day event, students can take on the Quick-Change Challenge, racing against the clock to swap attachments on a road sweeper while learning how engineers design equipment to tackle a variety of tasks.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MPM Group",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "MPM Group produces patterns, moulds, tooling and composite components for industries including aerospace, automotive and renewable energy. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can get hands-on with composite moulds and finished parts, discovering how advanced manufacturing techniques help create everything from aircraft components to high-performance engineering products.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KOSO Kent Introl Ltd",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "KOSO Kent Introl designs and manufactures specialist control valves used in demanding industrial environments. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can explore interactive displays and real engineering products while learning how valves and flow control systems help industries safely manage liquids, gases and energy.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Colchester Machine Tool Solutions",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Colchester Machine Tool Solutions supplies CNC machine tools, software and engineering support used to manufacture precision components. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can explore CAD/CAM demonstrations, watch machining videos and examine real machined parts to discover how modern manufacturers transform digital designs into physical products.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Additive-X Limited",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Additive-X helps businesses adopt industrial 3D printing and additive manufacturing technology. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can see industrial 3D printers in action, watch parts being produced layer by layer and discover how this technology is changing the future of product design and manufacturing.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "3M Buckley Innovation Centre (WYMS)",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "The 3M Buckley Innovation Centre supports businesses with innovation, advanced manufacturing and digital technologies. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can explore interactive displays featuring 3D printing, augmented reality and virtual reality, experiencing some of the cutting-edge technologies shaping the future of industry.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Calrec",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Calrec designs and manufactures professional audio equipment used by broadcasters across the world. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can take part in an interactive sound demonstration and explore the technology behind the audio systems that help deliver live sporting events, news and entertainment programmes.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "E3 Recruitment",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "E3 Recruitment connects talented people with careers across manufacturing, engineering and technology sectors. At West Yorkshire Manufacturing Services' National Manufacturing Day event, students can discover the wide variety of career pathways available in industry, speak to recruitment specialists and explore opportunities ranging from apprenticeships to highly skilled engineering roles.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Matrix TSL",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Matrix TSL designs and manufactures engineering education equipment used in schools, colleges, universities and industry. At West Yorkshire Manufacturing Services' National Manufacturing Day event, students can get hands-on with interactive engineering systems and explore the technologies used to teach electronics, automation, pneumatics and control systems.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Adelphi Masterfil",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Adelphi Masterfil designs and manufactures liquid filling, capping and packaging machinery used across the food, drink, cosmetics, pharmaceutical and chemical industries. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can watch the live assembly of a tabletop filling machine and see containers being filled, offering a fascinating insight into the precision engineering behind modern production lines.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A Fawcett Precision Engineering Ltd",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "A Fawcett Precision Engineering specialises in high-precision CNC machining, producing complex components for customers across a range of industries. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can explore precision-machined parts, engineering drawings and manufacturing tooling while learning how accuracy and quality are achieved in modern engineering.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Habasit UK Ltd",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Habasit UK manufactures and supplies conveyor belts, power transmission belts and conveying solutions used across manufacturing, logistics and food production. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can take part in an interactive assembly activity and explore the technology that keeps products moving through production lines worldwide.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HRS Precision Components Ltd",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "HRS Precision Components manufactures specialist fasteners, screws, studs and precision-engineered components for industrial customers. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can explore a range of sample components and discover how precision manufacturing supports industries across the UK and beyond.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bespoke Stairlifts Ltd",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Bespoke Stairlifts designs and manufactures customised stairlift solutions that improve accessibility and independence for users with mobility needs. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can explore interactive displays and discover how engineering, manufacturing and electronics come together to create bespoke mobility products.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BCA Leisure Ltd",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "BCA Leisure designs and manufactures electrical and electronic systems used in caravans and motorhomes. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can get hands-on with circuits, wiring looms, fuses and control panels while exploring the technology behind modern leisure vehicles.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ValvePro Limited",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "ValvePro supplies industrial valves, actuators and flow control solutions for process and manufacturing industries. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can explore product displays and learn how flow control technology plays a vital role in sectors such as energy, water and manufacturing.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Teconnex Ltd",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Teconnex designs and manufactures advanced engineering components for the automotive, aerospace, industrial and energy sectors. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can explore high-performance clamps, bellows and energy storage technologies while discovering the innovation behind modern engineering solutions.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "OE Electrics Ltd",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "OE Electrics designs and manufactures innovative workplace power, charging and connectivity solutions used in offices, education settings and public spaces. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can explore a range of finished products and learn how design and manufacturing combine to create practical everyday technologies.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Projex Solutions",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Projex Solutions delivers automation, robotics, control systems and digital engineering projects for manufacturers. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can take part in STEM activities and discover how automation and digital technologies are transforming modern factories.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safety Systems Technology UK Ltd",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Safety Systems Technology UK designs and supports machine safety systems that help manufacturers create safer workplaces. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can interact with a demonstration unit featuring interlocks, light curtains and machine safety technologies while learning how engineers reduce risk in industrial environments.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brook Crompton",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Brook Crompton designs and manufactures electric motors used in industries around the world. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can explore displays showcasing energy-efficient motor technology and discover how innovation is helping manufacturers reduce energy consumption.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dust Control Environmental Ltd",
+        "image_url": "",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Dust Control Environmental designs, manufactures and installs dust extraction, fume extraction and air filtration systems for industrial and manufacturing environments. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can discover how engineering solutions help create cleaner, safer workplaces.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Emballator UK Ltd",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/emballator-logo-resize.png?itok=oHePIxUQ",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Emballator UK manufactures metal and plastic packaging for customers in sectors including paints, coatings, automotive and food production. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can discover how innovative packaging products are designed and manufactured for industries across the UK.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Widd Group",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/widd-logo-resize.png?itok=d64ZN1eT",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Widd Group designs, manufactures and installs signage, graphics and branded environments for organisations across multiple sectors. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can explore product samples and discover how design, digital printing and manufacturing combine to create impactful visual communications.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A-SAFE Group",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/a-safe-logo-resize.png?itok=3_ucPsIH",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "A-SAFE designs and manufactures polymer safety barriers and workplace protection systems used worldwide. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can explore innovative safety products and discover the engineering that helps protect people, equipment and facilities from impact damage.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Denford",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/denford-logo-resize.png?itok=0MtbRrSG",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "Denford supplies CNC routers, lathes and milling machines, along with CAD/CAM software and manufacturing equipment used in education and industry. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can watch a CNC machine in action and discover how digital designs are transformed into precision-engineered products through modern manufacturing technology.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "STEM Racing",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/large/public/2026-08/stem-racing-logo-resize.png?itok=gHSYy4bo",
+        "address": "West Yorkshire Manufacturing Services, Kirkdale House, Armytage Road, Brighouse, West Yorkshire. HD6 1QF",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/west-yorkshire-manufacturing-services-showcase-event",
+        "description": "STEM Racing is a global STEM education initiative where students design, manufacture, brand and race miniature racing cars while developing engineering, project management and marketing skills. At West Yorkshire Manufacturing Services' National Manufacturing Day event, visitors can experience a STEM Racing track and discover how young people apply real-world engineering principles in an international competition.",
+        "email": "marketing@wyms.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HD6 1QF",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76641,
+          53.698753
         ]
       }
     }
