@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-13T15:19:10.876Z",
+  "updated_utc": "2026-08-13T15:24:11.366Z",
   "features": [
     {
       "type": "Feature",
@@ -2622,11 +2622,11 @@
       "type": "Feature",
       "properties": {
         "name": "Crompton Mouldings Limited",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/crompton-mouldings-ltd.png.webp?h=70054c7c&itok=Xr72JrPM",
         "address": "Units 5&6 Rosemount Ind Est, Huddersfield Road, Elland, West Yorkshire. HX5 0EE",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/crompton-mouldings-limited",
         "description": "Crompton Mouldings is a speciaist rotational moulding manufacturer providing a wide raange of products to industries such as Defence, Aerospace, Construction, Medical, Marine. From concept to delivery we provide a world class range of products do the UK's most demanding industries. Precision Moulded Built to Last.",
         "email": "tony.douglas@cromptonmouldings.co.uk",
         "category": "",
