@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-13T14:49:10.825Z",
+  "updated_utc": "2026-08-13T14:54:11.794Z",
   "features": [
     {
       "type": "Feature",
@@ -2591,6 +2591,30 @@
         "coordinates": [
           -1.76641,
           53.698753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Avica Aerospace Ducting Limited",
+        "image_url": "",
+        "address": "10 Humphrys Road, Dunstable, Bedfordshire. LU5 4TP",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "We design, test and manufacture high performance ducting solutions for the Aerospace industry.",
+        "email": "carolyne.daykin@aeroflowtechnologies.com",
+        "category": "",
+        "county": "Bedfordshire",
+        "postcode": "LU5 4TP",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.504911,
+          51.897339
         ]
       }
     }
