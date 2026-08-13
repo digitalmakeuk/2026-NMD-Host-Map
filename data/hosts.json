@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-13T15:14:11.006Z",
+  "updated_utc": "2026-08-13T15:19:10.876Z",
   "features": [
     {
       "type": "Feature",
@@ -2598,11 +2598,11 @@
       "type": "Feature",
       "properties": {
         "name": "Avica Aerospace Ducting Limited",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/avica-aerospace-ducting-limited-logos.png.webp?h=70054c7c&itok=_5qEluPT",
         "address": "10 Humphrys Road, Dunstable, Bedfordshire. LU5 4TP",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/avica-aerospace-ducting-limited",
         "description": "We design, test and manufacture high performance ducting solutions for the Aerospace industry.",
         "email": "carolyne.daykin@aeroflowtechnologies.com",
         "category": "",
@@ -2615,6 +2615,30 @@
         "coordinates": [
           -0.504911,
           51.897339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crompton Mouldings Limited",
+        "image_url": "",
+        "address": "Units 5&6 Rosemount Ind Est, Huddersfield Road, Elland, West Yorkshire. HX5 0EE",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "Crompton Mouldings is a speciaist rotational moulding manufacturer providing a wide raange of products to industries such as Defence, Aerospace, Construction, Medical, Marine. From concept to delivery we provide a world class range of products do the UK's most demanding industries. Precision Moulded Built to Last.",
+        "email": "tony.douglas@cromptonmouldings.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "HX5 0EE",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.830349,
+          53.679838
         ]
       }
     }
