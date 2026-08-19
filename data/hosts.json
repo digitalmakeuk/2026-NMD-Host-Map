@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-19T10:59:10.991Z",
+  "updated_utc": "2026-08-19T11:04:10.695Z",
   "features": [
     {
       "type": "Feature",
@@ -2670,11 +2670,11 @@
       "type": "Feature",
       "properties": {
         "name": "FOX-VPS",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/fox-vps-logo-edit_0.png.webp?h=0cb79553&itok=urOhezqh",
         "address": "10 Doman Road, Camberley, Surrey. GU15 3DF",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/fox-vps",
         "description": "FOXVPS, based in Camberley, Surrey, specialises in the manufacture of precision machined castings, components and finished assemblies for the defence, aerospace, automotive, nuclear, and other specialised industrial markets.\n\nWe also manufacture hydraulic actuators, valves, fire protection, bearings and associated equipment for the aerospace, automotive and specialised industrial markets worldwide.",
         "email": "c.mcdermott@foxvps.co.uk",
         "category": "",
@@ -2687,6 +2687,30 @@
         "coordinates": [
           -0.767321,
           51.329784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RGH Rubber and Plastics Ltd",
+        "image_url": "",
+        "address": "Acorn House, Oak Industrial Park, Chelmsford Road, Dunmow, Essex. CM6 1XN",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "Established in 1986, RGH Converting is a family-run business with a reputation for technical reliability, problem-solving, and precision converting.\n\nWe’ve grown to become one of the UK’s most trusted partners for custom material solutions — working with manufacturers to solve real engineering challenges.",
+        "email": "HR@rghrubber.co.uk",
+        "category": "",
+        "county": "Essex",
+        "postcode": "CM6 1XN",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.37473,
+          51.863233
         ]
       }
     }
