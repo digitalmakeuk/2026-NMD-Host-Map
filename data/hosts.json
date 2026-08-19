@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-19T11:04:10.695Z",
+  "updated_utc": "2026-08-19T11:09:11.049Z",
   "features": [
     {
       "type": "Feature",
@@ -2694,11 +2694,11 @@
       "type": "Feature",
       "properties": {
         "name": "RGH Rubber and Plastics Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/rgh-converting.png.webp?h=70054c7c&itok=HLqOA8GH",
         "address": "Acorn House, Oak Industrial Park, Chelmsford Road, Dunmow, Essex. CM6 1XN",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/rgh-rubber-and-plastics-ltd",
         "description": "Established in 1986, RGH Converting is a family-run business with a reputation for technical reliability, problem-solving, and precision converting.\n\nWe’ve grown to become one of the UK’s most trusted partners for custom material solutions — working with manufacturers to solve real engineering challenges.",
         "email": "HR@rghrubber.co.uk",
         "category": "",
