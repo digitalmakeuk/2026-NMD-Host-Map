@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-19T10:49:11.139Z",
+  "updated_utc": "2026-08-19T10:54:10.851Z",
   "features": [
     {
       "type": "Feature",
@@ -2646,11 +2646,11 @@
       "type": "Feature",
       "properties": {
         "name": "TAIT",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/tait-logo_0.png.webp?h=0cb79553&itok=T1a597cy",
         "address": "TAIT Technologies UK Ltd, Unit 5, Langthwaite Road, Grange Industrial Estate, South Kirkby Pontefract,. WF9 3AP",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/tait",
         "description": "TAIT partners with artists, brands and organisations to create world-leading live events and experiences. With over 45 years of innovation, TAIT combines cutting-edge technology, engineering and creative design to deliver iconic productions globally for clients including Taylor Swift, Cirque du Soleil, Nike, NASA, Beyoncé and the Olympics.",
         "email": "Cynthia.Ojera@taittowers.com",
         "category": "",
