@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-19T10:39:11.130Z",
+  "updated_utc": "2026-08-19T10:44:10.742Z",
   "features": [
     {
       "type": "Feature",
@@ -2639,6 +2639,30 @@
         "coordinates": [
           -1.830349,
           53.679838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TAIT",
+        "image_url": "",
+        "address": "TAIT Technologies UK Ltd, Unit 5, Langthwaite Road, Grange Industrial Estate, South Kirkby Pontefract,. WF9 3AP",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "TAIT partners with artists, brands and organisations to create world-leading live events and experiences. With over 45 years of innovation, TAIT combines cutting-edge technology, engineering and creative design to deliver iconic productions globally for clients including Taylor Swift, Cirque du Soleil, Nike, NASA, Beyoncé and the Olympics.",
+        "email": "Cynthia.Ojera@taittowers.com",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "WF9 3AP",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.310656,
+          53.5914
         ]
       }
     }
