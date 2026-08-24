@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-24T16:19:10.571Z",
+  "updated_utc": "2026-08-24T16:24:11.590Z",
   "features": [
     {
       "type": "Feature",
@@ -2735,6 +2735,30 @@
         "coordinates": [
           -3.76426,
           51.684762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pland Stainless",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/pland-stainless-steel-logo-resize.png.webp?h=70054c7c&itok=9Mo2Q652",
+        "address": "Pland Stainless Ltd, Ring Road Lower Wortley, Leeds, West Yorkshire. LS12 6AA",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/pland-stainless",
+        "description": "Pland Stainless Ltd specialises in the supply and fabrication of high-quality stainless steel products for industrial, commercial and manufacturing applications. Based in Leeds, we work closely with customers to provide reliable solutions, expert technical support and exceptional service, delivering quality, value and performance across a wide range of projects.",
+        "email": "cleadbeater@plandstainless.co.uk",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "LS12 6AA",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.591523,
+          53.7807
         ]
       }
     }
