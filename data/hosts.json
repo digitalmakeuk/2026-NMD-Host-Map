@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-24T15:39:10.616Z",
+  "updated_utc": "2026-08-24T15:44:14.307Z",
   "features": [
     {
       "type": "Feature",
@@ -2711,6 +2711,30 @@
         "coordinates": [
           0.37473,
           51.863233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Groundhog UK",
+        "image_url": "",
+        "address": "Groundhog (UK) Ltd, Ynysygerwn Avenue, Aberdulais, Neath. SA10 8HH",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "Focused on the development of sustainable products and helping you achieve realistic carbon reduction goals.\n\nGroundhog is a long established privately owned manufacturing and Sales company with a modern facility based in South Wales.\n\nWe specialise in the manufacture of site welfare accommodation units, including static, mobile and toilet offerings",
+        "email": "peterb@groundhog.co.uk",
+        "category": "",
+        "county": "Neath",
+        "postcode": "SA10 8HH",
+        "area": "Wales"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.76426,
+          51.684762
         ]
       }
     }
