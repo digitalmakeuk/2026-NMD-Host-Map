@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-24T15:59:11.397Z",
+  "updated_utc": "2026-08-24T16:04:12.142Z",
   "features": [
     {
       "type": "Feature",
@@ -2718,11 +2718,11 @@
       "type": "Feature",
       "properties": {
         "name": "Groundhog UK",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/groundhog-logo-resize.png.webp?h=70054c7c&itok=WfiEfivI",
         "address": "Groundhog (UK) Ltd, Ynysygerwn Avenue, Aberdulais, Neath. SA10 8HH",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/groundhog-uk",
         "description": "Focused on the development of sustainable products and helping you achieve realistic carbon reduction goals.\n\nGroundhog is a long established privately owned manufacturing and Sales company with a modern facility based in South Wales.\n\nWe specialise in the manufacture of site welfare accommodation units, including static, mobile and toilet offerings",
         "email": "peterb@groundhog.co.uk",
         "category": "",
