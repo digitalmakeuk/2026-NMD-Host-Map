@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-27T13:34:10.759Z",
+  "updated_utc": "2026-08-27T13:39:11.374Z",
   "features": [
     {
       "type": "Feature",
@@ -2766,7 +2766,7 @@
       "type": "Feature",
       "properties": {
         "name": "Moontown Ltd",
-        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/moontown-logo-resize.png.webp?h=8110a504&itok=CzZeF7vm",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/moontown-logo-resize_0.png.webp?h=03b88dfa&itok=z_FrLWbw",
         "address": "11 Baker Brook Close, Hucknall, Nottingham, Hucknall. NG15 7WE",
         "suite": "",
         "telephone": "",
@@ -2790,11 +2790,11 @@
       "type": "Feature",
       "properties": {
         "name": "The Lean Dad",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/the-lean-dad-logo-resize_0.png.webp?h=03b88dfa&itok=gAsFVbaF",
         "address": "1 Brook Close, Great Totham, Maldon, England. CM9 8PE",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/lean-dad",
         "description": "Teach the next generation how to solve problems. Children growing up with the mindset: There must be a better way.\n\nThe Lean Dad is all about bringing Lean into everyday life, helping create the problem solvers, thinkers and leaders of tomorrow. From the home, to classroom, to manufacturing and beyond.",
         "email": "theleandad@outlook.com",
         "category": "",
