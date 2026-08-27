@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-27T13:24:11.332Z",
+  "updated_utc": "2026-08-27T13:29:10.428Z",
   "features": [
     {
       "type": "Feature",
@@ -2783,6 +2783,30 @@
         "coordinates": [
           -1.18617,
           53.028209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Lean Dad",
+        "image_url": "",
+        "address": "1 Brook Close, Great Totham, Maldon, England. CM9 8PE",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "Teach the next generation how to solve problems. Children growing up with the mindset: There must be a better way.\n\nThe Lean Dad is all about bringing Lean into everyday life, helping create the problem solvers, thinkers and leaders of tomorrow. From the home, to classroom, to manufacturing and beyond.",
+        "email": "theleandad@outlook.com",
+        "category": "",
+        "county": "Essex",
+        "postcode": "CM9 8PE",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.685774,
+          51.771472
         ]
       }
     }
