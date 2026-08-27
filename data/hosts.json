@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-27T13:14:10.892Z",
+  "updated_utc": "2026-08-27T13:19:10.772Z",
   "features": [
     {
       "type": "Feature",
@@ -2759,6 +2759,30 @@
         "coordinates": [
           -1.591523,
           53.7807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moontown Ltd",
+        "image_url": "",
+        "address": "11 Baker Brook Close, Hucknall, Nottingham, Hucknall. NG15 7WE",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "Moontown Ltd celebrate our 30th anniversary in 2026 and over those three decades we have built a solid reputation worldwide and have been acknowledged as a seal manufacturer who recognises the demanding sealing requirements the valve industry need – quality, reliability, value & service",
+        "email": "steven.ratcliffe@moontown.co.uk",
+        "category": "",
+        "county": "Nottinghamshire",
+        "postcode": "NG15 7WE",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.18617,
+          53.028209
         ]
       }
     }
