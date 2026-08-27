@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-08-27T13:19:10.772Z",
+  "updated_utc": "2026-08-27T13:24:11.332Z",
   "features": [
     {
       "type": "Feature",
@@ -2766,11 +2766,11 @@
       "type": "Feature",
       "properties": {
         "name": "Moontown Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/moontown-logo-resize.png.webp?h=8110a504&itok=CzZeF7vm",
         "address": "11 Baker Brook Close, Hucknall, Nottingham, Hucknall. NG15 7WE",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/moontown-ltd",
         "description": "Moontown Ltd celebrate our 30th anniversary in 2026 and over those three decades we have built a solid reputation worldwide and have been acknowledged as a seal manufacturer who recognises the demanding sealing requirements the valve industry need – quality, reliability, value & service",
         "email": "steven.ratcliffe@moontown.co.uk",
         "category": "",
