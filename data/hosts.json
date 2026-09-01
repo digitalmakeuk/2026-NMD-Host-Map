@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-01T16:34:11.229Z",
+  "updated_utc": "2026-09-01T16:39:10.748Z",
   "features": [
     {
       "type": "Feature",
@@ -2838,11 +2838,11 @@
       "type": "Feature",
       "properties": {
         "name": "Foundry Homes Ltd",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/foundry-education-logo-resize.png.webp?h=03b88dfa&itok=dDGl7HZ0",
         "address": "Unit 1, Sanders Lodge Industrial Estate, Rushden, Northamptonshire. NN10 6BQ",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/foundry-homes-ltd",
         "description": "We manufacture high-quality modular buildings for schools. We specialise in Inclusion Bases for children with SEND. We are a small, family-run business in our first year of trading.",
         "email": "carlywaterman@foundry-education.co.uk",
         "category": "",
