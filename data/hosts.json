@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-01T16:39:10.748Z",
+  "updated_utc": "2026-09-01T16:44:10.955Z",
   "features": [
     {
       "type": "Feature",
@@ -2814,11 +2814,11 @@
       "type": "Feature",
       "properties": {
         "name": "Texcel Technology",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/texcel-logo-resize.png.webp?h=db5f999f&itok=RDsEWN0p",
         "address": "Texcel Technology PLC, Thames Road, Crayford, Kent. DA1 4SB",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/texcel-technology",
         "description": "We're a contract electronics manufacturer based in Kent",
         "email": "miranda.shawyer@texceltechnology.com",
         "category": "",
