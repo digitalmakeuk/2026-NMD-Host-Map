@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-01T16:29:11.170Z",
+  "updated_utc": "2026-09-01T16:34:11.229Z",
   "features": [
     {
       "type": "Feature",
@@ -2807,6 +2807,54 @@
         "coordinates": [
           0.685774,
           51.771472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Texcel Technology",
+        "image_url": "",
+        "address": "Texcel Technology PLC, Thames Road, Crayford, Kent. DA1 4SB",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "We're a contract electronics manufacturer based in Kent",
+        "email": "miranda.shawyer@texceltechnology.com",
+        "category": "",
+        "county": "Kent",
+        "postcode": "DA1 4SB",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.18501,
+          51.463744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Foundry Homes Ltd",
+        "image_url": "",
+        "address": "Unit 1, Sanders Lodge Industrial Estate, Rushden, Northamptonshire. NN10 6BQ",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "We manufacture high-quality modular buildings for schools. We specialise in Inclusion Bases for children with SEND. We are a small, family-run business in our first year of trading.",
+        "email": "carlywaterman@foundry-education.co.uk",
+        "category": "",
+        "county": "Northamptonshire",
+        "postcode": "NN10 6BQ",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.624371,
+          52.296329
         ]
       }
     }
