@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-02T17:09:11.272Z",
+  "updated_utc": "2026-09-02T17:14:10.773Z",
   "features": [
     {
       "type": "Feature",
@@ -191,30 +191,6 @@
         "coordinates": [
           -4.74631998,
           50.47219001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ideal Heating",
-        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-07/ideal-heating-resized-logo.png.webp?h=76216075&itok=UWTQwGx2",
-        "address": "Ideal Heating Head Office, National Avenue, Hull, HU5 4JB",
-        "suite": "",
-        "telephone": "",
-        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/ideal-heating",
-        "description": "Since 1906, Ideal Heating has been at the heart of Hull's manufacturing heritage and a driving force behind the UK's heating industry. From pioneering gas boilers to developing the latest heat pump technology and intelligent heating controls, we've been helping shape the future of heating for over a century.",
-        "email": "katie.coulson@idealheating.com",
-        "category": "",
-        "county": "Yorkshire & the Humber",
-        "postcode": "HU5 4JB",
-        "area": "North East, Yorkshire & Humberside"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.38253,
-          53.753862
         ]
       }
     },
