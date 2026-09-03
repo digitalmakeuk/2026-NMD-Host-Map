@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-03T15:54:10.887Z",
+  "updated_utc": "2026-09-03T15:59:11.100Z",
   "features": [
     {
       "type": "Feature",
@@ -2855,6 +2855,30 @@
         "coordinates": [
           -0.197688466806517,
           51.8043853694963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Duo Packaging",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/duo-logo.png.webp?h=db5f999f&itok=P-er7urv",
+        "address": "Vickers Street, Miles Platting, Manchester, Greater Manchester. M40 8PU",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/duo-packaging",
+        "description": "Duo Packaging are a manufacturer of packaging used by some of the world's largest retailers and consumer brands. If you've ordered something online, there's a good chance it arrived in Duo packaging.",
+        "email": "zoe.brimelow@duo-uk.co.uk",
+        "category": "",
+        "county": "Greater Manchester",
+        "postcode": "M40 8PU",
+        "area": "North West"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.208662,
+          53.49283
         ]
       }
     }
