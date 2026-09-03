@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-03T08:39:10.595Z",
+  "updated_utc": "2026-09-03T08:44:14.387Z",
   "features": [
     {
       "type": "Feature",
@@ -2831,6 +2831,30 @@
         "coordinates": [
           -0.624371,
           52.296329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Luvata Welwyn Garden City",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/luvata-logo-resize.png.webp?h=db5f999f&itok=OfaWr61g",
+        "address": "Grace House Centrapark, Bessemer Rd, Welwyn Garden City, AL7 1HT",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/luvata-welwyn-garden-city",
+        "description": "Luvata Welwyn Garden is a UK-based manufacturer specialising in technically demanding products, including superconducting copper components, alongside cold forming and machining copper and other metal solutions. Quality is at the heart of everything we do, with a commitment to excellence in manufacturing, innovation, and long-term customer relationships.",
+        "email": "alana.knight@luvata.com",
+        "category": "",
+        "county": "Hertfordshire",
+        "postcode": "AL7 1HT",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.197688466806517,
+          51.8043853694963
         ]
       }
     }
