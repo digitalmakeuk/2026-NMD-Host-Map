@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-03T15:29:11.625Z",
+  "updated_utc": "2026-09-03T15:34:11.294Z",
   "features": [
     {
       "type": "Feature",
@@ -79,7 +79,7 @@
       "properties": {
         "name": "Boneham & Turner Ltd",
         "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_136000_2176x1451/public/2026-04/nmd-boneham.png.webp",
-        "address": "Sutton in Ashfield, Sutton-in-Ashfield, Nottinghamshire, England, NG17 5FB",
+        "address": "Oddicroft Lane, Sutton in Ashfield, Nottinghamshire, England, NG17 5FB",
         "suite": "",
         "telephone": "",
         "website": "https://www.makeuk.org/national-manufacturing-day/hosts/boneham-turner-ltd",
@@ -93,8 +93,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.2477960723,
-          53.1174132894
+          -1.251762,
+          53.119691
         ]
       }
     },
