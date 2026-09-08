@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-08T13:39:10.597Z",
+  "updated_utc": "2026-09-08T13:44:12.928Z",
   "features": [
     {
       "type": "Feature",
@@ -2838,7 +2838,7 @@
       "type": "Feature",
       "properties": {
         "name": "Luvata Welwyn Garden City",
-        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/luvata-logo-resize.png.webp?h=db5f999f&itok=OfaWr61g",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/luvata-logo-resize_0.png.webp?h=03b88dfa&itok=4kZuhpi3",
         "address": "Grace House Centrapark, Bessemer Rd, Welwyn Garden City, AL7 1HT",
         "suite": "",
         "telephone": "",
