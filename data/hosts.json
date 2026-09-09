@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-09T21:04:10.615Z",
+  "updated_utc": "2026-09-09T21:09:10.886Z",
   "features": [
     {
       "type": "Feature",
@@ -2903,6 +2903,30 @@
         "coordinates": [
           -4.295978,
           55.871621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RTC North",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/rtc-logo-resize.png.webp?h=db5f999f&itok=x02_40Ed",
+        "address": "The Beam, Plater Way, Sunderland. SR1 3AD",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/rtc-north",
+        "description": "RTC North is one of the UK’s leading providers of business support and innovation services, helping organisations to grow, innovate, and compete on a global scale.\n\nWorking with local authorities, universities, and the private sector, RTC offers expert advice in business growth, digital transformation, commercialisation, skills development, & internationalisation.",
+        "email": "georgia.riley@rtcnorth.co.uk",
+        "category": "",
+        "county": "Tyne and Wear",
+        "postcode": "SR1 3AD",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.387467,
+          54.908782
         ]
       }
     }
