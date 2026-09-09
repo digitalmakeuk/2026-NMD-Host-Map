@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-09T20:39:11.833Z",
+  "updated_utc": "2026-09-09T20:44:11.012Z",
   "features": [
     {
       "type": "Feature",
@@ -2879,6 +2879,30 @@
         "coordinates": [
           -2.208662,
           53.49283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chemify",
+        "image_url": "",
+        "address": "Advanced Research Center, 11 Chapel Lane, Glasgow. G11 6EW",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "Chemify is a Glasgow chem-tech pioneer turning chemistry into code — fusing AI, robotics, and chemical science to make molecule-making programmable. Beyond the lab, our teams span engineering, software, design, and operations, building the future of manufacturing. Come explore where your skills could take you.",
+        "email": "natalie@chemify.io",
+        "category": "",
+        "county": "Glasgow",
+        "postcode": "G11 6EW",
+        "area": "Scotland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.295978,
+          55.871621
         ]
       }
     }
