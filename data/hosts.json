@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-10T18:39:12.223Z",
+  "updated_utc": "2026-09-10T18:44:10.788Z",
   "features": [
     {
       "type": "Feature",
@@ -2627,7 +2627,7 @@
         "suite": "",
         "telephone": "",
         "website": "https://www.makeuk.org/national-manufacturing-day/hosts/tait",
-        "description": "TAIT partners with artists, brands and organisations to create world-leading live events and experiences. With over 45 years of innovation, TAIT combines cutting-edge technology, engineering and creative design to deliver iconic productions globally for clients including Taylor Swift, Cirque du Soleil, Nike, NASA, Beyoncé and the Olympics.",
+        "description": "TAIT partners with artists, brands, IP holders and place makers to bring culture-defining, never-before-seen experiences to life. With a legacy of innovation spanning over 45 years, TAIT has grown from pioneering in rock ‘n’ roll concert staging to setting the global standard for extraordinary live events and experiences through cutting-edge technology, precision engineering, and creative design. \n\nTAIT’s 20 global offices have developed iconic productions and experiences in over 30 countries, all seven continents, and even outer space for renowned performers, theme parks, exhibits, and venues across the globe, including partnerships with Taylor Swift, Cirque Du Soleil, Royal Opera House, Nike, NASA, Bloomberg, Google, Beyoncé, and The Olympics.",
         "email": "Cynthia.Ojera@taittowers.com",
         "category": "",
         "county": "West Yorkshire",
@@ -2927,6 +2927,30 @@
         "coordinates": [
           -1.387467,
           54.908782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TAIT",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/tait-logo_0.png.webp?h=0cb79553&itok=T1a597cy",
+        "address": "TAIT Technologies UK Ltd, Unit 5, Langthwaite Road, Grange Industrial Estate, South Kirkby Pontefract,. WF9 3AP",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/tait",
+        "description": "TAIT partners with artists, brands, IP holders and place makers to bring culture-defining, never-before-seen experiences to life. With a legacy of innovation spanning over 45 years, TAIT has grown from pioneering in rock ‘n’ roll concert staging to setting the global standard for extraordinary live events and experiences through cutting-edge technology, precision engineering, and creative design. \n\nTAIT’s 20 global offices have developed iconic productions and experiences in over 30 countries, all seven continents, and even outer space for renowned performers, theme parks, exhibits, and venues across the globe, including partnerships with Taylor Swift, Cirque Du Soleil, Royal Opera House, Nike, NASA, Bloomberg, Google, Beyoncé, and The Olympics.",
+        "email": "Cynthia.Ojera@taittowers.com",
+        "category": "",
+        "county": "West Yorkshire",
+        "postcode": "WF9 3AP",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.310656,
+          53.5914
         ]
       }
     }
