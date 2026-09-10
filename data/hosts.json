@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-10T18:44:10.788Z",
+  "updated_utc": "2026-09-10T18:49:16.146Z",
   "features": [
     {
       "type": "Feature",
@@ -2933,24 +2933,24 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "TAIT",
+        "name": "TAIT Haverhill",
         "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/tait-logo_0.png.webp?h=0cb79553&itok=T1a597cy",
-        "address": "TAIT Technologies UK Ltd, Unit 5, Langthwaite Road, Grange Industrial Estate, South Kirkby Pontefract,. WF9 3AP",
+        "address": "Unit 8, Haverhill Business Park, Iceni Way, Haverhill, CB9 7FD",
         "suite": "",
         "telephone": "",
         "website": "https://www.makeuk.org/national-manufacturing-day/hosts/tait",
         "description": "TAIT partners with artists, brands, IP holders and place makers to bring culture-defining, never-before-seen experiences to life. With a legacy of innovation spanning over 45 years, TAIT has grown from pioneering in rock ‘n’ roll concert staging to setting the global standard for extraordinary live events and experiences through cutting-edge technology, precision engineering, and creative design. \n\nTAIT’s 20 global offices have developed iconic productions and experiences in over 30 countries, all seven continents, and even outer space for renowned performers, theme parks, exhibits, and venues across the globe, including partnerships with Taylor Swift, Cirque Du Soleil, Royal Opera House, Nike, NASA, Bloomberg, Google, Beyoncé, and The Olympics.",
         "email": "Cynthia.Ojera@taittowers.com",
         "category": "",
-        "county": "West Yorkshire",
-        "postcode": "WF9 3AP",
-        "area": "North East, Yorkshire & Humberside"
+        "county": "Suffolk",
+        "postcode": "CB9 7FD",
+        "area": "South"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.310656,
-          53.5914
+          0.449073,
+          52.072047
         ]
       }
     }
