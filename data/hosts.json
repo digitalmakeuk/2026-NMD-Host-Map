@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-11T11:34:10.812Z",
+  "updated_utc": "2026-09-11T11:39:10.391Z",
   "features": [
     {
       "type": "Feature",
@@ -2621,7 +2621,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "TAIT",
+        "name": "TAIT Wakefield",
         "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-08/tait-logo_0.png.webp?h=0cb79553&itok=T1a597cy",
         "address": "TAIT Technologies UK Ltd, Unit 5, Langthwaite Road, Grange Industrial Estate, South Kirkby Pontefract,. WF9 3AP",
         "suite": "",
