@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-11T11:49:11.466Z",
+  "updated_utc": "2026-09-11T11:54:10.758Z",
   "features": [
     {
       "type": "Feature",
@@ -2951,6 +2951,30 @@
         "coordinates": [
           0.449073,
           52.072047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rittal-CSM",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/rittal-logo-edit.png.webp?h=db5f999f&itok=0YpO7KqD",
+        "address": "Rittal-CSM Ltd, Broadley Industrial Park, Roborough, Plymouth, Devon. PL6 7EZ",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/rittal-csm",
+        "description": "Rittal-CSM manufactures electronic enclosures and infrastructure solutions that are supplied globally to a wide range of IT and technology companies. Alongside our manufacturing capabilities, we also design, develop and prototype bespoke solutions for major organisations, supporting projects from initial concept through to final production.",
+        "email": "rplattenhiggins@rittal-csm.co.uk",
+        "category": "",
+        "county": "Devon",
+        "postcode": "PL6 7EZ",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.121904,
+          50.44386
         ]
       }
     }
