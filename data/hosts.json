@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-14T19:24:11.015Z",
+  "updated_utc": "2026-09-14T19:29:10.913Z",
   "features": [
     {
       "type": "Feature",
@@ -2975,6 +2975,30 @@
         "coordinates": [
           -4.121904,
           50.44386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sumer",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/sumer-logo-resize.png.webp?h=db5f999f&itok=qMLZWvyF",
+        "address": "Acre House, 11-15 William Road, London. NW1 3ER",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/sumer",
+        "description": "Sumer provides specialist, manufacturing‑focused advice that helps businesses strengthen performance, manage risk and plan confidently for growth. Our experts support manufacturers with cost optimisation, sector‑specific tax incentives such as capital allowances, R&D and Patent Box, supply‑chain and working‑capital guidance, and clear financial reporting support including FRS 102 and lease accounting",
+        "email": "sharon.adey@sumer.co.uk",
+        "category": "",
+        "county": "London",
+        "postcode": "NW1 3ER",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.139414,
+          51.526982
         ]
       }
     }
