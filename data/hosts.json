@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-14T19:34:12.281Z",
+  "updated_utc": "2026-09-14T19:39:12.798Z",
   "features": [
     {
       "type": "Feature",
@@ -2999,6 +2999,30 @@
         "coordinates": [
           -0.139414,
           51.526982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sertec Aluminum Structures",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/sertec-logo.png.webp?h=db5f999f&itok=xtG8GEXr",
+        "address": "Wincaster House, Gorsey Lane, Birmingham, West midlands . B46 1JU",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/sertec-aluminum-structures",
+        "description": "Sertec has 60+ years’ experience delivering lightweight body structures and EV components for automotive OEMs and Tier-Ones. Combining engineering, R&D, tooling and advanced automated manufacturing across the UK and Europe, Sertec provides innovative, reliable solutions from concept and development through to high-volume production of battery cases and busbar assemblies.",
+        "email": "Emmanuel.Akintunde@sertec.co.uk",
+        "category": "",
+        "county": "West Midlands",
+        "postcode": "B46 1JU",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.715204,
+          52.516794
         ]
       }
     }
