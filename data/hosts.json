@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-17T08:44:10.343Z",
+  "updated_utc": "2026-09-17T08:49:10.348Z",
   "features": [
     {
       "type": "Feature",
@@ -3023,6 +3023,30 @@
         "coordinates": [
           -1.715204,
           52.516794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St Eval Candle Company",
+        "image_url": "",
+        "address": "St Eval Candle Company, Engollan, St Eval, Wadebridge, Cornwall. PL27 7UL",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "St Eval was born in the Cornish countryside. From our clifftop home in North Cornwall, we’re inspired by the landscape around us to develop wildly scented candles, diffusers and bath and body care. Come with us across a misty moor, along an ancient coastline or wherever the wildflowers grow.",
+        "email": "marketing@st-eval.com",
+        "category": "",
+        "county": "Cornwall",
+        "postcode": "PL27 7UL",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.012104,
+          50.490225
         ]
       }
     }
