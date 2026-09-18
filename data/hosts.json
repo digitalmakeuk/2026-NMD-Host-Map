@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-18T14:59:11.418Z",
+  "updated_utc": "2026-09-18T15:04:11.387Z",
   "features": [
     {
       "type": "Feature",
@@ -3071,6 +3071,30 @@
         "coordinates": [
           -5.178123,
           50.285094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BOAL UK Ltd",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/boal-ltd.png.webp?h=db5f999f&itok=OjSQY0jZ",
+        "address": "BOAL Aluminium Ltd, Ashby Road, Shepshed, Leicestershire. LE12 9BS",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/boal-uk-ltd",
+        "description": "At BOAL Extrusion UK, we design, extrude, machine and finish custom aluminium profiles with precision and care - entirely made in Britain.",
+        "email": "e.swann@boalgroup.com",
+        "category": "",
+        "county": "Leicestershire",
+        "postcode": "LE12 9BS",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.277882,
+          52.760582
         ]
       }
     }
