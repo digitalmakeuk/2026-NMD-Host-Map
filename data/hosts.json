@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-18T13:14:10.501Z",
+  "updated_utc": "2026-09-18T13:19:12.117Z",
   "features": [
     {
       "type": "Feature",
@@ -3047,6 +3047,30 @@
         "coordinates": [
           -5.012104,
           50.490225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FFE",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/ffe-detection.png.webp?h=03b88dfa&itok=VLuMUEP0",
+        "address": "9 Hunting Gate, Hitchin, Hertfordshire. SG4 0TJ",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/ffe",
+        "description": "Specialist fire detection manufacturer, helping facility managers, engineers, and specifiers achieve confident fire protection in the world's most challenging environments; from high-risk industrial sites to complex commercial locations. We understand the need for systems that are not just compliant, but completely reliable. Protecting lives. Protecting assets. Protecting property.",
+        "email": "andrew.jones@ffeuk.com",
+        "category": "",
+        "county": "Hertfordshire",
+        "postcode": "SG4 0TJ",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.263415,
+          51.966327
         ]
       }
     }
