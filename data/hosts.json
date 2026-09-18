@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-18T13:24:11.056Z",
+  "updated_utc": "2026-09-18T13:29:11.132Z",
   "features": [
     {
       "type": "Feature",
@@ -3071,6 +3071,30 @@
         "coordinates": [
           -0.263415,
           51.966327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Teagle Machinery Ltd",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/teagle-machinery.png.webp?h=03b88dfa&itok=2V9aAzkR",
+        "address": "Blackwater, St Agnes, Cornwall. TR4 8HQ",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/teagle-machinery-ltd",
+        "description": "Teagle Machinery are a family business with a global reach, exporting world class agricultural machinery to farmers in over 45 countries each year. In 2027, our team of 185 look forward to celebrating our 90th anniversary.",
+        "email": "marketing@teagle.co.uk",
+        "category": "",
+        "county": "Cornwall",
+        "postcode": "TR4 8HQ",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.178123,
+          50.285094
         ]
       }
     }
