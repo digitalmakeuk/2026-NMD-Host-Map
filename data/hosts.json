@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-21T17:34:12.504Z",
+  "updated_utc": "2026-09-21T17:39:17.389Z",
   "features": [
     {
       "type": "Feature",
@@ -3047,6 +3047,30 @@
         "coordinates": [
           -1.277882,
           52.760582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Devon Manufacturers Association",
+        "image_url": "",
+        "address": "North Devon College, Old Sticklepath Hill, Barnstaple, Devon. EX31 2BQ",
+        "suite": "",
+        "telephone": "",
+        "website": "",
+        "description": "NDMA aims to represent the interests of manufacturing and supporting service industries in the Northern Devon region. NDMA engages with local schools, colleges, and employment services to encourage the development and retention of manufacturing-related skills in the area",
+        "email": "website@ndma.org.uk",
+        "category": "",
+        "county": "Devon",
+        "postcode": "EX31 2BQ",
+        "area": "South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.069475,
+          51.072448
         ]
       }
     }
