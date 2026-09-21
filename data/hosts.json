@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-21T17:59:10.594Z",
+  "updated_utc": "2026-09-21T18:04:11.358Z",
   "features": [
     {
       "type": "Feature",
@@ -3071,6 +3071,54 @@
         "coordinates": [
           -4.069475,
           51.072448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "C&C Fabrications",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/c%26c-fabrications.png.webp?h=db5f999f&itok=dpQw5n6K",
+        "address": "Old Great North Rd, Knottingley, Yorkshire. WF11 8PG",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/cc-fabrications",
+        "description": "C&C Fabrications is a Yorkshire-based manufacturing company. Founded in 1996, C&C has grown from a two-person operation into a 32-strong team, more than 200 customers across the retail, warehousing, industrial and commercial sectors. From initial consultation and design through to fabrication, finishing, delivery and installation, everything is managed in-house.",
+        "email": "ctaylor@CandCfabrications.co.uk",
+        "category": "",
+        "county": "Yorkshire",
+        "postcode": "WF11 8PG",
+        "area": "North East, Yorkshire & Humberside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.270391,
+          53.713965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Micrometric Ltd",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/micrometic-logo.png.webp?h=db5f999f&itok=Au6q2ycR",
+        "address": "Micrometric Ltd, Doddington Road, Lincoln, Lincolnshire. LN6 3RX",
+        "suite": "",
+        "telephone": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/micrometric-ltd",
+        "description": "Micrometric Ltd is a Lincoln-based precision engineering specialist with over 40 years’ experience. We provide laser cutting, welding, drilling and marking, supported by complementary precision engineering processes, manufacturing complex components for demanding sectors including aerospace, defence, energy, medical, motorsport and advanced engineering.",
+        "email": "chriswaters@micrometric.co.uk",
+        "category": "",
+        "county": "Lincolnshire",
+        "postcode": "LN6 3RX",
+        "area": "Midlands & East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.597702,
+          53.203001
         ]
       }
     }
