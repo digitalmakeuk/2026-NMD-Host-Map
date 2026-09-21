@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-21T17:39:17.389Z",
+  "updated_utc": "2026-09-21T17:44:10.699Z",
   "features": [
     {
       "type": "Feature",
@@ -3054,11 +3054,11 @@
       "type": "Feature",
       "properties": {
         "name": "North Devon Manufacturers Association",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/ndma-logo.png.webp?h=db5f999f&itok=rZQzWhMI",
         "address": "North Devon College, Old Sticklepath Hill, Barnstaple, Devon. EX31 2BQ",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/north-devon-manufacturers-association",
         "description": "NDMA aims to represent the interests of manufacturing and supporting service industries in the Northern Devon region. NDMA engages with local schools, colleges, and employment services to encourage the development and retention of manufacturing-related skills in the area",
         "email": "website@ndma.org.uk",
         "category": "",
