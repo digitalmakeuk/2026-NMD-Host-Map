@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-24T09:44:11.244Z",
+  "updated_utc": "2026-09-24T09:49:11.291Z",
   "features": [
     {
       "type": "Feature",
@@ -2957,7 +2957,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "St Eval Candle Company",
+        "name": "St Eval",
         "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/st-eval-logo.png.webp?h=db5f999f&itok=AiZAs9Hf",
         "address": "St Eval Candle Company, Engollan, St Eval, Wadebridge, Cornwall. PL27 7UL",
         "suite": "",
