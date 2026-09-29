@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "updated_utc": "2026-09-29T10:39:10.575Z",
+  "updated_utc": "2026-09-29T10:44:10.929Z",
   "features": [
     {
       "type": "Feature",
@@ -3126,11 +3126,11 @@
       "type": "Feature",
       "properties": {
         "name": "Phillips 3D Printing Services",
-        "image_url": "",
+        "image_url": "https://www.makeuk.org/sites/default/files/styles/l10_120000_1920x1280/public/2026-09/phillips3dprintingservices.png.webp?h=ac1f5352&itok=gnVnHZXK",
         "address": "Flat 5, 1 Church Street, Helston, Cornwall. Tr13 8ta",
         "suite": "",
         "telephone": "",
-        "website": "",
+        "website": "https://www.makeuk.org/national-manufacturing-day/hosts/phillips-3d-printing-services",
         "description": "Providing on demand 3D printing for consumers and businesses.",
         "email": "stephen.phillips@phillips3dprintingservices.co.uk",
         "category": "",
